@@ -1,0 +1,41 @@
+* {
+  font-size: 1em;
+}
+
+body {
+  margin: 1em;
+  font-family: monospace;
+  width: 60ch;
+  
+}
+
+h1, h2, h3 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+h1::after {
+  content: "\a============================================================";
+  white-space: pre;
+}
+
+hr {
+  border-top: dashed;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 3ch;
+}
+
+ul li:before {
+	content: "-";
+	position: absolute;
+	left: 0;
+}
