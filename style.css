@@ -9,9 +9,15 @@ body {
   
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
   font-size: 1em;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 1em;
 }
 
 h1::after {
