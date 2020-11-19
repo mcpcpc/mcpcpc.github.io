@@ -12,6 +12,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   color: blue;
   border-bottom: 1px solid blue;
-  display: inline-block;
+  display: block;
   width 100%;
 }
