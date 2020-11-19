@@ -24,6 +24,8 @@ so desire. For patch examples (and screenshots of xwm in use), refer to the
 The acyronym `xwm` is a homage to the original and now-defunct "X Window Manager". 
 Both projects are unaffiliated and do not share any common source code.
 
+---
+
 To get started, one can simply use `git` and `make` commands to build and install
 `xwm`:
 
@@ -39,6 +41,8 @@ sudo make install
 [xbg](https://github.com/mcpcpc/xbg) is a tiny background color setter written 
 using the XCB protocol. Using this project is intended to be a straight forward
 as possible and executable through any virtual terminal.
+
+---
 
 To get started, one can simply use `git` and `make` commands to build and install 
 `xbg`:
