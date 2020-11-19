@@ -1,1 +1,2 @@
-bin/ssg5 src docs 'homepage' 'https://www.mcpcpc.com'
+rm -r docs && mkdir docs
+./bin/ssg5 src docs 'homepage' 'https://mcpcpc.com/'
