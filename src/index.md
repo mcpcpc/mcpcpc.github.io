@@ -24,10 +24,10 @@ so desire. For patch examples (and screenshots of xwm in use), refer to the
 The acyronym `xwm` is a homage to the original and now-defunct "X Window Manager". 
 Both projects are unaffiliated and do not share any common source code.
 
-To get started, one can simply use `git` and `make` commands to build install
+To get started, one can simply use `git` and `make` commands to build and install
 `xwm`:
 
-```
+```shell
 git clone https://github.com/mcpcpc/xwm
 cd xwm
 make
@@ -40,10 +40,10 @@ sudo make install
 using the XCB protocol. Using this project is intended to be a straight forward
 as possible and executable through any virtual terminal.
 
-To get started, one can simply use `git` and `make` commands to build install 
+To get started, one can simply use `git` and `make` commands to build and install 
 `xbg`:
 
-```
+```shell
 git clone https://github.com/mcpcpc/xbg
 cd xbg
 make
