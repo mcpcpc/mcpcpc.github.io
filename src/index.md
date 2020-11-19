@@ -10,9 +10,9 @@ window manager written using the XCB protocol. This project is considered a
 minimally viable solution and, therefore, provides a limited set of out-of-box
 features:
 
-* configurable window paremeters (default size, borders, colors, etc.)
-* configurable and extendable key bindings
-* configurable and extendable default utilities (beyond st, dmenu, and surf)
+* parameterized window settings (default size, borders, colors, etc.)
+* configurable and extendable key bindings and default utilities (beyond st, 
+  dmenu, and surf)
 * focus follows mouse
 * POSIX C99 and MISRA-C compliant, which  promotes portability, security and 
   safety of the source.
