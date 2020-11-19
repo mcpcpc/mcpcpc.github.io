@@ -28,6 +28,16 @@ a:hover {
   text-decoration: underline;
 }
 
+img {
+  margin: 0.2rem;
+  opacity: 0.25;
+}
+
+img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
 ::selection {
   background-color: #fff888;
 }
