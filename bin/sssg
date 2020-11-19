@@ -1,0 +1,8 @@
+#!/bin/sh
+
+while :
+do
+    find . -type f ! -path '*/.*' |
+    entr -d "$HOME/bin/ssg5" . "$1" "$(date)" '//www'
+done
+
