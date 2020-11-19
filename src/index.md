@@ -21,15 +21,21 @@ This sets the expectation for the the user to expand or patch features that they
 so desire. For patch examples (and screenshots of xwm in use), refer to the
 [xwm-patches](http://github.com/mcpcpc/xwm-patches) repository.
 
-This project is a homage to the original and now-defunct "X Window Manager". 
+The acyronym `xwm` is a homage to the original and now-defunct "X Window Manager". 
 Both projects are unaffiliated and do not share any common source code.
 
 ## xbg
 
 [xbg](https://github.com/mcpcpc/xbg) is a tiny background color setter written 
-using the XCB protocol.
+using the XCB protocol. Using this project is intended to be a straight forward
+as possible and executable through any virtual terminal.  For example, to set a
+teal-colored background, one would simply run the following:
 
-## questions?
+```
+xbg teal
+```
+
+## Questions?
 
 Feel free to reach out to me:
 
