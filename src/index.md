@@ -54,4 +54,4 @@ one of the following methods:
 
 | Freenode IRC channels [#kisslinux](https://freenode.logbot.info/kisslinux)
 and [#kirc](https://freenode.logbot.info/kirc). | reddit |
-
+|-|-|
