@@ -53,9 +53,9 @@ make
 sudo make install
 ```
 
-## tss
+## uss
 
-tss ("Tiny Static Site") is a small static-site generator tool designed for
+uss ("Micro Static Site") is a small static-site generator tool designed for
 small hosting platforms. This project is currently a work in-progress and is 
 intended to replace the current generator for this page.
 
