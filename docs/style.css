@@ -2,8 +2,11 @@ body {
   font-family: Liberation Sans, Arial, sans-serif;
   background-color: #fffaf7;
   line-height: 1.5;
-  max-width: 70ch;
-  padding: 2ch;
+}
+
+main {
+  max-width: 38rem;
+  padding: 2rem;
   margin: auto;
 }
 
