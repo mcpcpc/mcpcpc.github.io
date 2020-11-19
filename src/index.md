@@ -3,9 +3,9 @@
 Hello! My name is Michael Czigler and I create minimally viable solutions written 
 in C. The following are examples of my more recent projects.
 
-## xwm
-
 ---
+
+## xwm
 
 [xwm](https://github.com/mcpcpc/xwm) ("XCB Window Manager") is a tiny floating 
 window manager written using the XCB protocol. This project is considered a
@@ -53,6 +53,8 @@ cd xbg
 make
 sudo make install
 ```
+
+---
 
 ## Questions?
 
