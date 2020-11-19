@@ -12,8 +12,6 @@ This project differs from other window managers as the focus is entirely on crea
 * focus follows mouse
 * POSIX C99 and MISRA-C compliant
 
-
-
 ## xbg
 
 [xbg](https://github.com/mcpcpc/xbg) is a tiny background color setter written using the XCB protocol.
@@ -23,4 +21,4 @@ This project differs from other window managers as the focus is entirely on crea
 Feel free to reach out to me:
 
 * email: *info at mcpcpc dot com*
-* irc: #kisslinux ([logbot](https://freenode.logbot.info/kisslinux))
+* irc: [#kisslinux](https://freenode.logbot.info/kisslinux) or [#kirc](https://freenode.logbot.info/kirc)
