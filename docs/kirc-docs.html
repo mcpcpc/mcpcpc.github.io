@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>homepage</title>
+    <meta name="viewport" content="width=device-width"> 
+    <meta charset="UTF-8">
+	<meta name="author" content="Michael Czigler">
+	<meta name="description" content="Michael Czigler's project landing page">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css?v=1.0">
+  </head>
+  <body>
+    <main>
+<p>#kirc documentation</p>
+
+<ul>
+<li><a href="#transport-layer-security-support">Transport Layer Security Support</a></li>
+<li><a href="#sasl-plain-authentication">SASL PLAIN Authentication</a></li>
+<li><a href="#sasl-external-authentication">SASL EXTERNAL Authentication</a></li>
+<li><a href="#color-scheme-definition">Color Scheme Definition</a></li>
+<li><a href="#system-notifications">System Notifications</a></li>
+</ul>
+
+<h2 id="Transport%20Layer%20Security%20Support">Transport Layer Security Support</h2>
+
+<p>There is no native TLS&#47;SSL support. Instead, users can achieve this functionality by using third-party utilities (e.g. stunnel, <a href="https://linux.die.net/man/1/socat">socat</a>, ghosttunnel, etc).</p>
+
+<ul>
+<li>  Example using <code>socat</code>. Remember to replace items enclosed with <code>&#60;&#62;</code>.</li>
+</ul>
+
+<pre><code class="language-shell">socat tcp-listen:6667,reuseaddr,fork,bind=127.0.0.1 ssl:&#60;irc-server&#62;:6697
+kirc -s 127.0.0.1 -c &#39;channel&#39; -n &#39;name&#39; -r &#39;realname&#39;
+</code></pre>
+
+<h2 id="SASL%20PLAIN%20Authentication">SASL PLAIN Authentication</h2>
+
+<p>In order to connect using <code>SASL PLAIN</code> mechanism authentication, the user must provide the required token during the initial connection. If the authentication token is base64 encoded and, therefore, can be generated a number of ways. For example, using Python, one could use the following:</p>
+
+<pre><code class="language-shell">python -c &#39;import base64; print(base64.encodebytes(b"nick\x00nick\x00password"))&#39;
+</code></pre>
+
+<p>For example, lets assume an authentication identity of <code>jilles</code> and password <code>sesame</code>:</p>
+
+<pre><code class="language-shell">$ python -c &#39;import base64; print(base64.encodebytes(b"jilles\x00jilles\x00sesame"))&#39;
+b &#39;amlsbGVzAGppbGxlcwBzZXNhbWU=\n&#39;
+$ kirc -n jilles -a amlsbGVzAGppbGxlcwBzZXNhbWU=
+</code></pre>
+
+<h2 id="SASL%20EXTERNAL%20Authentication">SASL EXTERNAL Authentication</h2>
+
+<p>Similar to <code>SASL PLAIN</code>, the <code>SASL EXTERNAL</code> mechanism allows us to authenticate using credentials by external means. An example where this might be required is when trying to connect to an IRC host through <a href="https://www.torproject.org/">Tor</a>. To do so, we can using third-party utilities (e.g. stunnel, socat, ghosttunnel, etc).</p>
+
+<ul>
+<li>  Example using <code>socat</code>. Remember to replace items enclosed with <code>&#60;&#62;</code>.</li>
+</ul>
+
+<pre><code class="language-shell">socat TCP4-LISTEN:1110,fork,bind=0,reuseaddr SOCKS4A:127.0.0.1:&#60;onion_address.onion&#62;:&#60;onion_port&#62;,socksport=9050
+socat TCP4-LISTEN:1111,fork,bind=0,reuseaddr &#39;OPENSSL:127.0.0.1:1110,verify=0,cert=&#60;path_to_pem&#62;&#39;
+kirc -e -s 127.0.0.1 -p 1111 -n &#60;nick&#62; -x &#39;wait 5000&#39;
+</code></pre>
+
+<h2 id="Color%20Scheme%20Definition">Color Scheme Definition</h2>
+
+<p>Applying a new color scheme is easy! One of the quickest ways is to use an application, such as <a href="https://github.com/mcpcpc/kfc">kfc</a>, to apply pre-made color palettes. Alternatively, you can manually apply escape sequences to change the default terminal colors.</p>
+
+<ul>
+<li>  Example using <code>kfc</code></li>
+</ul>
+
+<pre><code class="language-shell">kfc -s gruvbox
+</code></pre>
+
+<ul>
+<li>  Example using ANSI escape sequences</li>
+</ul>
+
+<pre><code class="language-shell">printf -e "\033]4;&#60;color_number&#62;;#&#60;hex_color_code&#62;"
+
+# Replace &#60;hex_color_code&#62; with the desired Hex code (e.g. #FFFFFF is white).
+# Replace &#60;color_number&#62; with the one of the numbers below:
+# 0 -  Regular Black
+# 1 -  Regular Red
+# 2 -  Regular Green
+# 3 -  Regular Yellow
+# 4 -  Regular Blue
+# 5 -  Regular Magenta
+# 6 -  Regular Cyan
+# 7 -  Regular White
+# 8 -  Bright Black
+# 9 -  Bright Red
+# 10 - Bright Green
+# 11 - Bright Yellow
+# 12 - Bright Blue
+# 13 - Bright Magenta
+# 14 - Bright Cyan
+# 15 - Bright White
+</code></pre>
+
+<h2 id="System%20Notifications">System Notifications</h2>
+
+<p>The following is an example script that can be used or modified to send custom system notifications to a specified tool (i.e herbe, wayeherb, etc).  Also, special thanks to @soliwilos contributing this one:</p>
+
+<p>{% d40eb3ce2c01e49144ef7f75f7776c10 %}</p>
+
+<p><a href="./">back</a></p>
+    </main>
+    <footer>
+    </footer>
+  </body>  
+</html>
