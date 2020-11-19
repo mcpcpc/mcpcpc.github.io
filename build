@@ -3,3 +3,4 @@ rm -r docs && mkdir docs
 git add *
 git commit -m "update"
 git push
+firefox ./docs/index.html
