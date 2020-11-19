@@ -5,6 +5,8 @@ in C. The following are examples of my more recent projects.
 
 ## xwm
 
+---
+
 [xwm](https://github.com/mcpcpc/xwm) ("XCB Window Manager") is a tiny floating 
 window manager written using the XCB protocol. This project is considered a
 minimally viable solution and, therefore, provides a limited set of out-of-box
@@ -24,8 +26,6 @@ so desire. For patch examples (and screenshots of xwm in use), refer to the
 The acyronym `xwm` is a homage to the original and now-defunct "X Window Manager". 
 Both projects are unaffiliated and do not share any common source code.
 
----
-
 To get started, one can simply use `git` and `make` commands to build and install
 `xwm`:
 
@@ -36,13 +36,13 @@ make
 sudo make install
 ```
 
+---
+
 ## xbg
 
 [xbg](https://github.com/mcpcpc/xbg) is a tiny background color setter written 
 using the XCB protocol. Using this project is intended to be a straight forward
 as possible and executable through any virtual terminal.
-
----
 
 To get started, one can simply use `git` and `make` commands to build and install 
 `xbg`:
