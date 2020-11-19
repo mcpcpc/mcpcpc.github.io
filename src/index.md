@@ -22,8 +22,8 @@ they so desire. For patch examples (and screenshots of xwm in use), refer to the
 [xwm-patches](http://github.com/mcpcpc/xwm-patches) repository.
 
 
-The acyronym *xwm* is a homage to the original and now-defunct "X Window Manager". 
-Both projects are unaffiliated and do not share any common source code. 
+*This project is a homage to the original and now-defunct "X Window Manager". 
+Both projects are unaffiliated and do not share any common source code.*
 
 ## xbg
 
