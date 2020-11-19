@@ -10,7 +10,7 @@ window manager written using the XCB protocol. This project is considered a
 minimally viable solution and, therefore, provides a limited set of out-of-box
 features:
 
-* parameterized window settings (default size, borders, colors, etc.)
+* parameterized window settings (default sizes, borders, colors, etc.)
 * configurable and extendable key bindings and default utilities (beyond st, 
   dmenu, and surf)
 * focus follows mouse
