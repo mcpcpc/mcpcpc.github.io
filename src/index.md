@@ -11,8 +11,8 @@ minimally viable solution and, therefore, provides a limited set of out-of-box
 features:
 
 * Parameterized window settings (default sizes, borders, colors, etc.).
-* Configurable and extendable key bindings and default utilities (beyond st, 
-  dmenu, and surf).
+* Configurable and extendable key bindings and default utilities (`st`, 
+  `dmenu`, `surf`, etc.).
 * POSIX C99 and MISRA-C compliant, which  promotes portability, security and 
   safety of the source.
 
