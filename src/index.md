@@ -1,7 +1,7 @@
 # mcpcpc 
 
 Hello! My name is Michael Czigler and I create minimally viable solutions written 
-in C. The following are examples of my more recent projects.
+in C.
 
 ## xwm
 
