@@ -3,8 +3,6 @@
 Hello! My name is Michael Czigler and I create minimally viable solutions written 
 in C. The following are examples of my more recent projects.
 
----
-
 ## xwm
 
 [xwm](https://github.com/mcpcpc/xwm) ("XCB Window Manager") is a tiny floating 
@@ -36,8 +34,6 @@ make
 sudo make install
 ```
 
----
-
 ## xbg
 
 [xbg](https://github.com/mcpcpc/xbg) is a tiny background color setter written 
@@ -56,9 +52,7 @@ sudo make install
 
 ---
 
-## Questions?
-
-Feel free to reach out to me:
+**Questions?** Feel free to reach out to me:
 
 * email: *info at mcpcpc dot com*
 * irc: [#kisslinux](https://freenode.logbot.info/kisslinux) or [#kirc](https://freenode.logbot.info/kirc)
