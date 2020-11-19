@@ -53,6 +53,12 @@ make
 sudo make install
 ```
 
+## tss
+
+tss ("Tiny Static Site") is a small static-site generator tool designed for
+small hosting platforms. This project is current a work in-progress and is 
+intended to replace the current generator for this page.
+
 ---
 
 Questions? Feel free to reach out to me via email at info[at]mcpcpc[dot]com,
