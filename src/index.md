@@ -1,6 +1,6 @@
 # mcpcpc 
 
-Hello! My name is Michael Czigler and I create minimally viable solutions written 
+Hello! My name is *Michael Czigler* and I create minimally viable solutions written 
 in C. The following are examples of my more recent projects.
 
 ## xwm
@@ -10,10 +10,9 @@ window manager written using the XCB protocol. This project is considered a
 minimally viable solution and, therefore, provides a limited set of out-of-box
 features:
 
-* parameterized window settings (default sizes, borders, colors, etc.)
-* configurable and extendable key bindings and default utilities (beyond st, 
-  dmenu, and surf)
-* focus follows mouse
+* Parameterized window settings (default sizes, borders, colors, etc.).
+* Configurable and extendable key bindings and default utilities (beyond st, 
+  dmenu, and surf).
 * POSIX C99 and MISRA-C compliant, which  promotes portability, security and 
   safety of the source.
 
