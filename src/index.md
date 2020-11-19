@@ -6,20 +6,19 @@ in C. The following are examples of my more recent projects.
 ## xwm
 
 [xwm](https://github.com/mcpcpc/xwm) ("XCB Window Manager") is a tiny floating 
-window manager written using the XCB protocol. The acyronym "xwm" is a homage 
-to the original and now-defunct "X Window Manager". Both projects are 
-unaffiliated and do not share any common source code.
+window manager written using the XCB protocol. This project is considered a
+minimally viable solution and, therefore, provides a **limited** set of
+out-of-box features:
 
-Out of the box, the xwm provides a limited set of features:
-
-* borders with focus/unfocus color params
+* configurable/extendable window paremeters, key bindings and default utilities
 * focus follows mouse
-* POSIX C99 and MISRA-C compliant
 
-This project differs from other window managers as the focus is entirely on 
-creating a minimally viable solution. This means that mosy users will find that 
-many regular features are missing. This sets the expectation for the the user to 
-expand or patch-in features that they so desire.
+This sets the expectation for the the user to expand or patch-in features that
+they so desire. This project is also POSIX C99 and MISRA-C compliant, which 
+promotes portability, security and safety of the source.
+
+The acyronym "xwm" is a homage to the original and now-defunct "X Window Manager". 
+Both projects are unaffiliated and do not share any common source code. 
 
 ## xbg
 
