@@ -35,7 +35,13 @@ sudo make install
 
 [xbg](https://github.com/mcpcpc/xbg) is a tiny background color setter written 
 using the XCB protocol. Using this project is intended to be a straight forward
-as possible and executable through any virtual terminal.
+as possible and executable through any virtual terminal. For example, to
+specify a background color of "teal", one could simply use the following
+command:
+
+```shell
+xbg teal
+```
 
 To get started, one can simply use `git` and `make` commands to build and install 
 `xbg`:
