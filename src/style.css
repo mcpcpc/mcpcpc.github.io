@@ -38,6 +38,14 @@ img:hover {
   cursor: pointer;
 }
 
+table {
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
 ::selection {
   background-color: #fff888;
 }
