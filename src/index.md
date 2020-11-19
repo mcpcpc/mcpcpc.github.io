@@ -5,9 +5,8 @@ My name is Michael Czigler and I create minimally viable solutions written in C.
 ## xwm
 
 [xwm](https://github.com/mcpcpc/xwm) ("XCB Window Manager") is a tiny floating 
-window manager written using the XCB protocol. This project is considered a
-minimally viable solution and, therefore, provides a limited set of out-of-box
-features:
+window manager written using the XCB protocol. This project provides a limited 
+set of out-of-box features:
 
 * Parameterized window settings (default sizes, borders, colors, etc.).
 * Configurable and extendable key bindings and default utilities (`st`, 
