@@ -1,4 +1,4 @@
-#kirc documentation
+# kirc documentation
 
 - [Transport Layer Security Support](#transport-layer-security-support)
 - [SASL PLAIN Authentication](#sasl-plain-authentication)
