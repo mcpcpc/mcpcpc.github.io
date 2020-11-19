@@ -17,13 +17,12 @@ features:
 * POSIX C99 and MISRA-C compliant, which  promotes portability, security and 
   safety of the source.
 
-This sets the expectation for the the user to expand or patch-in features that
-they so desire. For patch examples (and screenshots of xwm in use), refer to the
+This sets the expectation for the the user to expand or patch features that they
+so desire. For patch examples (and screenshots of xwm in use), refer to the
 [xwm-patches](http://github.com/mcpcpc/xwm-patches) repository.
 
-
-*This project is a homage to the original and now-defunct "X Window Manager". 
-Both projects are unaffiliated and do not share any common source code.*
+This project is a homage to the original and now-defunct "X Window Manager". 
+Both projects are unaffiliated and do not share any common source code.
 
 ## xbg
 
