@@ -52,7 +52,4 @@ sudo make install
 
 ---
 
-**Questions?** Feel free to reach out to me:
-
-* email: *info at mcpcpc dot com*
-* irc: [#kisslinux](https://freenode.logbot.info/kisslinux) or [#kirc](https://freenode.logbot.info/kirc)
+Questions? Feel free to reach out to me via email, *info at mcpcpc dot com*, or on IRC ([#kisslinux](https://freenode.logbot.info/kisslinux) or [#kirc](https://freenode.logbot.info/kirc))
