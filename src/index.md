@@ -60,4 +60,7 @@ intended to replace the current generator for this page.
 
 ---
 
-Questions? Send mail to info[at]mcpcpc[dot]com. 
+Questions? Send mail to info[at]mcpcpc[dot]com or one of the following:
+
+| twitter | reddit | github |
+| ------- | ------ | ------ |
