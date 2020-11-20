@@ -2,12 +2,13 @@
 <html lang="en-US">
   <head>
     <title>mcpcpc.com &mdash; minimally viable solutions written in C</title>
+    <meta name="description" content="Minimally viable solutions written in C">
     <meta name="viewport" content="width=device-width"> 
-    <meta charset="UTF-8">
-	<meta name="author" content="Michael Czigler">
-	<meta name="description" content="Michael Czigler's project landing page">
+    <meta charset="utf-8">
+	<meta property="og:title" content="">
+    <meta property="og:type" content="website">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" href="style.css?v=1.0">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <main>
@@ -48,13 +49,7 @@ sudo make install
 <h2 id="xbg">xbg</h2>
 
 <p><a href="https://github.com/mcpcpc/xbg">xbg</a> is a tiny background color setter written 
-using the XCB protocol. Using this project is intended to be a straight forward
-as possible and executable through any virtual terminal. For example, to
-specify a background color of &#8220;teal&#8221;, one could simply use the following
-command:</p>
-
-<pre><code class="language-shell">xbg teal
-</code></pre>
+using the XCB protocol. </p>
 
 <p>To get started, one can simply use <code>git</code> and <code>make</code> commands to build and install 
 <code>xbg</code>:</p>
@@ -65,10 +60,15 @@ make
 sudo make install
 </code></pre>
 
-<h2 id="tss">tss</h2>
+<p>Once installed, setting a new background is a simple as specify the the X11 color name as an argument from any virtual terminal emulator:</p>
 
-<p>tss (&#8220;Tiny Static Site&#8221;) is a small static-site generator tool designed for
-small hosting platforms. This project is currently a work in-progress and is 
+<pre><code class="language-shell">xbg teal
+</code></pre>
+
+<h2 id="uss">uss</h2>
+
+<p>uss (&#8220;Micro Static Site&#8221;) is a static-site generator tool designed for small 
+hosting platforms. This project is currently a work in-progress and is 
 intended to replace the current generator for this page.</p>
 
 <hr/>

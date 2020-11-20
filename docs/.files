@@ -1,5 +1,6 @@
-./style.css
 ./CNAME
+./404.md
 ./index.md
+./css/style.css
 ./robot.txt
 ./favicon.ico
