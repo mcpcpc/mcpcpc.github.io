@@ -1,6 +1,6 @@
-# mcpcpc.com 
+# Minimal Viable C Programming Solutions
 
-My name is Michael Czigler and I create minimally viable solutions written in C.
+My name is Michael Czigler and I create minimal viable solutions written in the C programming language.
 
 ## xwm
 
@@ -54,13 +54,10 @@ xbg teal
 
 ## uss
 
-uss ("Micro Static Site") is a static-site generator tool designed for small 
+uss ("Micro Static Site") is a static-site generator designed for small 
 hosting platforms. This project is currently a work in-progress and is 
 intended to replace the current generator for this page.
 
 ---
 
-Questions? Feel free to reach out to me via email at info[at]mcpcpc[dot]com,
-Freenode IRC channels [#kisslinux](https://freenode.logbot.info/kisslinux) and
-[#kirc](https://freenode.logbot.info/kirc), or on
-[reddit](https://www.reddit.com/user/mcpcpc).
+Questions? Send mail to info[at]mcpcpc[dot]com. 
