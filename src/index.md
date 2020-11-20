@@ -1,4 +1,4 @@
-# Minimal Viable C Programming Solutions
+# mcpcpc.com
 
 My name is Michael Czigler and I create minimal viable solutions written in the C programming language.
 
