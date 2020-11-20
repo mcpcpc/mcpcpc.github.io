@@ -52,9 +52,9 @@ Once installed, setting a new background is a simple as specify the the X11 colo
 xbg teal
 ```
 
-## uss
+## μss
 
-uss ("Micro Static Site") is a static-site generator designed for small 
+μss ("Micro Static Site") is a static-site generator designed for small 
 hosting platforms. This project is currently a work in-progress and is 
 intended to replace the current generator for this page.
 
