@@ -62,5 +62,5 @@ intended to replace the current generator for this page.
 
 Questions? Send mail to info[at]mcpcpc[dot]com or one of the following:
 
-| [reddit](https://www.reddit.com/user/mcpcpc) | [github](https://githhb.com/mcpcpc) |
+| [reddit](https://www.reddit.com/user/mcpcpc) | [github](https://github.com/mcpcpc) |
 | ------ | ------ |
