@@ -54,8 +54,8 @@ xbg teal
 
 ## uss
 
-uss ("Micro Static Site") is a small static-site generator tool designed for
-small hosting platforms. This project is currently a work in-progress and is 
+uss ("Micro Static Site") is a static-site generator tool designed for small 
+hosting platforms. This project is currently a work in-progress and is 
 intended to replace the current generator for this page.
 
 ---
