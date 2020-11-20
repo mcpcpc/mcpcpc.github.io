@@ -1,6 +1,6 @@
 # mcpcpc.com
 
-My name is Michael Czigler and I create minimal viable solutions written in the C programming language.
+My name is Michael Czigler and I create minimum viable solutions written in the C programming language.
 
 ## xwm
 
