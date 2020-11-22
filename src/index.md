@@ -10,7 +10,7 @@ set of out-of-box features, including parametric window settings, configurable
 and extendable key bindings and default utilities, as well as POSIX C99 and 
 MISRA-C compliance.
 
-To get started, one can simply use `git` and `make` commands to build and install
+Getting started is a easy as using `git` and `make` commands to build and install
 `xwm`:
 
 ```shell
@@ -25,7 +25,7 @@ sudo make install
 [xbg](https://github.com/mcpcpc/xbg) is a tiny background color setter written 
 using the XCB protocol. 
 
-To get started, one can simply use `git` and `make` commands to build and install 
+Getting started is a easy as using `git` and `make` commands to build and install
 `xbg`:
 
 ```shell
