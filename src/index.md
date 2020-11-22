@@ -6,14 +6,9 @@ My name is Michael Czigler and I create minimum viable solutions written in C.
 
 [xwm](https://github.com/mcpcpc/xwm) ("XCB Window Manager") is a tiny floating 
 window manager written using the XCB protocol. This project provides a limited 
-set of out-of-box features:
-
-* Parameterized window settings (default sizes, borders, colors, etc.).
-* Configurable and extendable key bindings and default utilities (`st`, 
-  `dmenu`, `surf`, etc.).
-* POSIX C99 and MISRA-C compliant, which  promotes portability, security and 
-  safety of the source.
-
+set of out-of-box features, including parametric window settings, configurable 
+and extendable key bindings and default utilities, as well as POSIX C99 and 
+MISRA-C compliance.
 
 To get started, one can simply use `git` and `make` commands to build and install
 `xwm`:
