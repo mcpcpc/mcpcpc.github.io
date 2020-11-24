@@ -38,9 +38,9 @@ make
 sudo make install
 ```
 
----
+## Questions?
 
-Questions? Send mail to info[at]mcpcpc[dot]com or any of the following:
+Send mail to info[at]mcpcpc[dot]com or any of the following:
 
 | [hackernews](https://news.ycombinator.com/user?id=mcpcpc) | [reddit](https://www.reddit.com/user/mcpcpc) | [github](https://github.com/mcpcpc) |
 | ---------- | ------ | ------ |
