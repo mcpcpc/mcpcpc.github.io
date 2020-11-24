@@ -1,4 +1,4 @@
-# Creating Mimimum Viable Solutions
+# Creating mimimum viable solutions.
 
 My name is Michael Czigler and I create dead-simple programs that contain all
 of the core components that have been deemed necessary to be a viable product.  
