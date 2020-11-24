@@ -5,7 +5,11 @@ of the core components that have been deemed necessary to be a viable product.
 Most of my projects are written in the C programming language, which best 
 aligns with the suckless.org and Unix philosophies.
 
-## xwm
+## Projects
+
+The following are examples of some of my more recent projects.
+
+### xwm
 
 [xwm](https://github.com/mcpcpc/xwm) ("XCB Window Manager") is a tiny floating 
 window manager written using the XCB protocol. This project provides a limited 
@@ -23,7 +27,7 @@ make
 sudo make install
 ```
 
-## xbg
+### xbg
 
 [xbg](https://github.com/mcpcpc/xbg) is a tiny background color setter written 
 using the XCB protocol. 
