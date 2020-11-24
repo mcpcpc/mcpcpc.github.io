@@ -1,7 +1,9 @@
-# Mimimum Viable Solutions Written in C
+# Mimimum Viable C Solutions
 
 My name is Michael Czigler and I create dead-simple programs that contain all
-of the core components that have been deemed necessary to be a solution.  
+of the core components that have been deemed necessary to be a viable solution.  
+Most of my projects are written in the C programming language, which best 
+aligns withe the sucess.org and Unix philosophies.
 
 ## xwm
 
