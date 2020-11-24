@@ -1,6 +1,7 @@
-# mcpcpc.com
+# Mimimum Viable Solutions Written in C
 
-My name is Michael Czigler and I create minimum viable solutions written in C.
+My name is Michael Czigler and I create dead-simple programs that contain all
+of the core components that have been deemed necessary to be a solution.  
 
 ## xwm
 
