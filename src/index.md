@@ -1,9 +1,9 @@
 # Creating Mimimum Viable Solutions
 
 My name is Michael Czigler and I create dead-simple programs that contain all
-of the core components that have been deemed necessary to be a viable solution.  
+of the core components that have been deemed necessary to be a viable product.  
 Most of my projects are written in the C programming language, which best 
-aligns withe the suckless.org and Unix philosophies.
+aligns with the suckless.org and Unix philosophies.
 
 ## xwm
 
