@@ -1,7 +1,7 @@
 # Creating mimimum viable solutions.
 
 My name is Michael Czigler and I create dead-simple programs that contain all
-of the core components that have been deemed necessary to be a viable product.  
+of the core components that have been deemed necessary to be a viable product. 
 Most of my projects are written in the C programming language, which best 
 aligns with the suckless.org and Unix philosophies.
 
@@ -17,8 +17,8 @@ set of out-of-box features, including parametric window settings, configurable
 and extendable key bindings and default utilities, as well as POSIX C99 and 
 MISRA-C compliance.
 
-Getting started is a easy as using `git` and `make` commands to build and install
-`xwm`:
+Getting started is a easy as using `git` and `make` commands to build and 
+install `xwm`:
 
 ```shell
 git clone https://github.com/mcpcpc/xwm
@@ -32,8 +32,8 @@ sudo make install
 [xbg](https://github.com/mcpcpc/xbg) is a tiny background color setter written 
 using the XCB protocol. 
 
-Getting started is a easy as using `git` and `make` commands to build and install
-`xbg`:
+Getting started is a easy as using `git` and `make` commands to build and 
+install `xbg`:
 
 ```shell
 git clone https://github.com/mcpcpc/xbg
