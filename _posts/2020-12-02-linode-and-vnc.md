@@ -4,37 +4,37 @@ title: "Linode and VNC"
 ---
 
 As part of my recent efforts to expand [xwm](http://github.com/mcpcpc/xwm) to 
-various distribution platforms, I decided to purchase a Linode virtual machine
-(VM). The sole purpose of this compute module is to host Docker and various 
+other distribution platforms, I decided to purchase a Linode virtual machine
+(VM). The sole purpose of this VM is to host Docker, along with various other 
 operating system containers (e.g. Debian, CentOS, Arch Linux, Void Linux, etc). 
-I opted for the bottom-line 5 USD shared which, while only having 1GB of RAM 
-and 1 Core, is surprisingly fast and made pushing cross-platform package updates
-a breeze. 
+I opted for a 5 USD shared instance which, while only having 1GB of RAM and 1 
+Core, is surprisingly fast and made pushing cross-platform package updates a 
+breeze. 
 
 At some point I decided that it would be a good idea to run GUI-based 
-applications on my shiny new VM. The process for getting a minimal Xorg server up
-and running was fairly straight forward.  I did, however, encounter a few "snags" 
-that I figured would be worth sharing. Also, if it any point I decide to repeat
-this process on a different VM, I at least won't waste any time figuring out 
-what went wrong.  
+applications on my shiny new VM. While the process for getting a minimal Xorg 
+server up and running was fairly straight forward.  I did, however, encounter a 
+few "snags" that I figured would be worth sharing. Also, if it any point I 
+decide to repeat this process on a different VM, I at least won't waste any time 
+figuring out what went wrong.
 
 ## Xorg Server
 
-To start, let's make sure that we are SSH'd in and logged in as a regular user 
-(a.k.a non-root). This regular user should (1) be part of the sudoers group and 
-(2) be a member of the audio and video groups. If you are not sure which groups 
-your regular user belongs to, you can always confirm with the `groups` command. 
-If you are missing a group you can add one or multiple with the following 
-command, replacing <username> with your regular user name:
+To begin, let's make sure that we have an SSH session going and are logged in as 
+a regular user (a.k.a non-root). This regular user should (1) be part of the 
+sudoers group and (2) be a member of the audio and video groups. If you are not 
+sure which groups your regular user belongs to, you can always confirm with the 
+`groups` command. If you are missing a group you can add one or multiple with the 
+following command, replacing <username> with your regular user name:
 
 ```shell
 usermod -a -G audio <username>
 usermod -a -G video <username>
 ```
 
-We then need to verify that we have all of the prequisit packages installed. Note
-that I specify `xwm` in the application list below, but this will also work with
-many other window managers (e.g. cwm, dwm, evilwm, etc.):
+We then need to verify that we have all of the prerequisite packages installed. 
+Note that I specify `xwm` in the application list below, but this will also work 
+with many other window managers (e.g. cwm, dwm, evilwm, etc.):
 
 ```shell
 sudo apt update
@@ -42,9 +42,9 @@ sudo apt upgrade
 sudo apt install xinit x11vnc xwm
 ```
 
-With all of the prerequisit packages installed, we need to tell xorg which window
-manager to run when starting the server. For this, we will create an .xinitrc 
-file in the regular user's HOME directory: 
+With all of the prerequisite packages installed, we need to tell xorg which 
+window manager to run when starting the server. For this, we will create an 
+.xinitrc file in the regular user's HOME directory: 
 
 ```shell
 echo "exec xwm" > ~/.xinitrc
