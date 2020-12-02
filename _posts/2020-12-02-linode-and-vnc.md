@@ -43,7 +43,7 @@ sudo apt install xinit x11vnc xwm
 ```
 
 With all of the prerequisit packages installed, we need to tell xorg which window
-manager to run when starting the server. For this, we will create an `.xinitrc` 
+manager to run when starting the server. For this, we will create an .xinitrc 
 file in the regular user's HOME directory: 
 
 ```shell
@@ -93,8 +93,66 @@ startx
 
 If all goes well, the server should start right away.  If it fails, inspect the 
 log file, typically located in the ~/.local/share/xorg/ directory. If it starts
-succesfully, we can force it to shutdown with Ctrl+C and proceed to the next
-step of configuring x11vnc.
+succesfully, we can force it to shutdown with `Ctrl+C`.
+
+Of course, manually starting and stopping the Xorg server is not a practical 
+solution.  Instead, we will want to specify the server to start automagically
+after user login. A simple way of doing this is to add a line to to our ~/.bashrc 
+file, which will check for tty1 and, if it matches, run the `startx` command:
+
+```shell
+echo '[ -z "$DISPLAY" ] && [ "$(tty)" = /dev/tty1 ] && startx' >> ~/.bashrc
+```
+
+If you are manually typing in the above command, take note of the `>>`, as 
+opposed to the `>` used previously. The next time you restart and/or login as 
+your regular user, the Xorg server should already be running. 
 
 ## x11vnc
 
+At this point, x11vnc should already be installed and, by just passing the 
+`x11vnc` command, should run without a problem (by default, x11vnc will start
+the VNC service on port "5900"). The one caveat that you might notice is when
+you close the VNC session, the x11vnc service terminates as well. To have 
+x11vnc running constantly, even after disconnect, we should pass the `--loop`
+argument:
+
+```shell
+x11vnc --loop
+``` 
+If we pass `--bg` in addition to the `--loop` argument, x11vnc will continue
+to run forever in the background:
+
+```shell
+x11vnc --loop --bg
+```
+
+Another issue to address is security. At this point, any unauthorized user 
+with your IP address could potentially start a VNC session and have complete
+access to the filesystem on your VM. To prevent this from happening, we will 
+tell x11vnc to generate a secure key and prompt the user for this key on each 
+new session. To generate a secure key, we need to first run x11vnc with the 
+`-storepasswd` argument, which will prompt you for a plaintext password and 
+path to store the password (I would recommend leaving the default path as 
+~/.vnc/passwd):
+
+```shell
+x11vnc -storepasswd
+```
+
+We can now specify the `-usepw` argument, which will prompt the user at
+the beginning of each VNC session to enter the password generated in the
+previous step:
+
+```shell
+x11vnc -usepw --loop --bg
+```
+
+## Conclusions
+
+At this point, we should have both Xorg and VNC servers running. Some closing
+remarks:
+
+1. blah
+2. foo
+3. bar
