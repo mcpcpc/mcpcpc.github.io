@@ -1,6 +1,0 @@
-rm -r docs && mkdir docs
-./ssg5 src docs 'minimum viable solutions written in C' 'https://mcpcpc.com/'
-git add *
-git commit -m "update"
-git push
-firefox ./docs/index.html
