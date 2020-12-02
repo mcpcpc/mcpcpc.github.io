@@ -155,7 +155,7 @@ remarks:
 
 1. There are far more secure ways to go about protecting your VNC session. 
    **If privacy is important to you, then do not use the proposed password 
-   method instructed above**.
+   method mentioned above**.
 2. Running x11vnc in the background is nice, but I would not advise leaving it 
    running 24 hours, 7 days a week. A better solution is to start the VNC server
    on demand. For this, I like to create command alias:
