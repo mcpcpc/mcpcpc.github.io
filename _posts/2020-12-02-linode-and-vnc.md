@@ -153,6 +153,13 @@ x11vnc -usepw --loop --bg
 At this point, we should have both Xorg and VNC servers running. Some closing
 remarks:
 
-1. blah
-2. foo
-3. bar
+1. There are far more secure ways to go about protecting your VNC session. 
+   **If privacy is important to you, then do not use the proposed password 
+   method instructed above**.
+2. Running x11vnc in the background is nice, but I would not advise leaving it 
+   running 24 hours, 7 days a week. A better solution is to start the VNC server
+   on demand. For this, I like to create command alias:
+
+```shell
+echo 'alias svnc="x11vnc -usepw --loop"' > ~/.bashrc
+```
