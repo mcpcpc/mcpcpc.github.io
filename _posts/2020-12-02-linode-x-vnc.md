@@ -8,7 +8,7 @@ As part of my recent efforts to expand [xwm](http://github.com/mcpcpc/xwm) to
 other distribution platforms, I decided to purchase a Linode virtual machine
 (VM). The sole purpose of this VM is to host Docker, along with various other 
 operating system containers (e.g. Debian, CentOS, Arch Linux, Void Linux, etc). 
-I opted for a 5 USD shared instance which, while only having 1GB of RAM and 1 
+I opted for a 5 USD shared instance which, despite only having 1GB of RAM and 1 
 Core, is surprisingly fast and made pushing cross-platform package updates a 
 breeze. 
 
