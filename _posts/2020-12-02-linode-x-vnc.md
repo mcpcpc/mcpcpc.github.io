@@ -155,7 +155,7 @@ remarks:
    method mentioned above**.
 2. Running x11vnc in the background is nice, but I would not advise leaving it 
    running 24 hours, 7 days a week. A better solution is to start the VNC server
-   on demand (dropping the `--loop` flag). For this, I like to create command alias:
+   on demand and drop the `--loop` flag. For this, I like to create an alias:
 
    ```shell
    echo 'alias svnc="x11vnc -usepw --bg"' > ~/.bashrc
