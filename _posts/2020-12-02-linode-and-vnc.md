@@ -2,7 +2,7 @@
 layout: post
 title: "Linode and VNC"
 author: Michael Czigler
-date:   2020-12-02
+date:   2020-12-02 19:57:00
 ---
 
 As part of my recent efforts to expand [xwm](http://github.com/mcpcpc/xwm) to 
