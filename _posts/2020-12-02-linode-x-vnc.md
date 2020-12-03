@@ -95,6 +95,8 @@ If all goes well, the server should start right away.  If it fails, inspect the
 log file, typically located in the ~/.local/share/xorg/ directory. If it starts
 succesfully, we can force it to shutdown with `Ctrl+C`.
 
+## Automating the X Server Start
+
 Of course, manually starting and stopping the Xorg server is not a practical 
 solution.  Instead, we will want to specify the server to start automagically
 after user login. A simple way of doing this is to add a line to to our ~/.bashrc 
