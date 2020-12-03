@@ -99,8 +99,8 @@ succesfully, we can force it to shutdown with `Ctrl+C`.
 
 Of course, manually starting and stopping the Xorg server is not a practical 
 solution.  Instead, we will want to specify the server to start automagically
-after user login. A simple way of doing this is to add a line to to our ~/.bashrc 
-file, which will check for tty1 and, if it matches, run the `startx` command:
+after user login. A simple way of doing this is to add a line to to our 
+~/.bashrc file, which will check for tty1 and run the `startx` command:
 
 ```shell
 echo '[ -z "$DISPLAY" ] && [ "$(tty)" = /dev/tty1 ] && startx' >> ~/.bashrc
@@ -155,8 +155,8 @@ remarks:
    method mentioned above**.
 2. Running x11vnc in the background is nice, but I would not advise leaving it 
    running 24 hours, 7 days a week. A better solution is to start the VNC server
-   on demand. For this, I like to create command alias:
+   on demand (dropping the `--loop` flag). For this, I like to create command alias:
 
    ```shell
-   echo 'alias svnc="x11vnc -usepw --loop"' > ~/.bashrc
+   echo 'alias svnc="x11vnc -usepw --bg"' > ~/.bashrc
    ```
