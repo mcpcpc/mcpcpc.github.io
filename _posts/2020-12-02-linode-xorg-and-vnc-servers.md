@@ -5,8 +5,6 @@ title: Xorg and VNC servers on Linode VM
 
 Configuring a minimal VNC and Xorg Server on a Linode virtual machine.
 
-## Background
-
 As part of my recent efforts to expand [xwm](http://github.com/mcpcpc/xwm) to 
 other distribution platforms, I decided to purchase a Linode virtual machine
 (VM). The sole purpose of this VM is to host Docker, along with various other 
