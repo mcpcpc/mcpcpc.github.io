@@ -29,7 +29,7 @@ sure which groups your regular user belongs to, you can always confirm with the
 `groups` command. If you are missing a group you can add one or multiple with the 
 following command, replacing <username> with your regular user name:
 
-```bash
+```shell
 usermod -a -G audio video mcpcpc
 ```
 
@@ -37,7 +37,7 @@ We then need to verify that we have all of the prerequisite packages installed.
 Note that I specify `xwm` in the application list below, but this will also work 
 with many other window managers (e.g. cwm, dwm, evilwm, etc.):
 
-```bash
+```shell
 sudo apt update
 sudo apt upgrade
 sudo apt install xinit x11vnc xwm
@@ -47,7 +47,7 @@ With all of the prerequisite packages installed, we need to tell xorg which
 window manager to run when starting the server. For this, we will create an 
 .xinitrc file in the regular user's HOME directory: 
 
-```bash
+```shell
 echo "exec xwm" > ~/.xinitrc
 ```
 
@@ -56,7 +56,7 @@ regular user, but the server will most likely complain and throw off multiple
 errors. To fix these errors, we need to to change some of the server's default
 permissions. Begin by opening the Xwrapper.config file for editting:
 
-```bash
+```shell
 sudo vim /etc/X11/Xwrapper.config
 ```
 
@@ -88,7 +88,7 @@ needs_root_rights=yes
 Remember to save and close the modified Xwrapper.config file mentioned above. At 
 this point we, can test the Xorg server:
 
-```bash
+```shell
 startx
 ```
 
@@ -119,7 +119,7 @@ x11vnc running constantly, even after disconnect, we should pass the `--loop`
 argument.  If we also pass `--bg`, x11vnc will continue to run forever as a 
 background process:
 
-```bash
+```shell
 x11vnc --loop --bg
 ``` 
 
@@ -132,7 +132,7 @@ new session. To generate a secure key, we need to first run x11vnc with the
 path to store the password (I would recommend leaving the default path as 
 ~/.vnc/passwd):
 
-```bash
+```shell
 x11vnc -storepasswd
 ```
 
@@ -140,7 +140,7 @@ We can now specify the `-usepw` argument, which will prompt the user at
 the beginning of each VNC session to enter the password generated in the
 previous step:
 
-```bash
+```shell
 x11vnc -usepw --loop --bg
 ```
 
