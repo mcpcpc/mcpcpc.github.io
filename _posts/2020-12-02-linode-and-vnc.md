@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Linode and VNC"
-author: Michael Czigler
-date:   2020-12-02 19:57:00
 ---
 
 
