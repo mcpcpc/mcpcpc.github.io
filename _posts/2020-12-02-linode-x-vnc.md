@@ -1,7 +1,6 @@
 ---
 layout: post
 title: X Server and VNC on a Linode VM
-description: Configuring a minimal VNC and X server on a Linode virtual machine.
 ---
 
 As part of my recent efforts to expand [xwm](http://github.com/mcpcpc/xwm) to 
