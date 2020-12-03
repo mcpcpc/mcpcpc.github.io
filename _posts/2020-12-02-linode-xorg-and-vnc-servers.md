@@ -119,17 +119,12 @@ At this point, x11vnc should already be installed and, by just passing the
 the VNC service on port "5900"). The one caveat that you might notice is when
 you close the VNC session, the x11vnc service terminates as well. To have 
 x11vnc running constantly, even after disconnect, we should pass the `--loop`
-argument:
-
-```shell
-x11vnc --loop
-``` 
-If we pass `--bg` in addition to the `--loop` argument, x11vnc will continue
-to run forever in the background:
+argument.  If we also pass `--bg`, x11vnc will continue to run forever as a 
+background process:
 
 ```shell
 x11vnc --loop --bg
-```
+``` 
 
 Another issue to address is security. At this point, any unauthorized user 
 with your IP address could potentially start a VNC session and have complete
