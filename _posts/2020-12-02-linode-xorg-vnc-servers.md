@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Xorg and VNC servers on Linode VM
+title: Xorg and VNC Servers on a Linode VM
 description: Configuring a minimal VNC and Xorg Server on a Linode virtual machine.
 ---
 
@@ -108,7 +108,7 @@ If you are manually typing in the above command, take note of the `>>`, as
 opposed to the `>` used previously. The next time you restart and/or login as 
 your regular user, the Xorg server should already be running. 
 
-## x11vnc
+## VNC Server
 
 At this point, x11vnc should already be installed and, by just passing the 
 `x11vnc` command, should run without a problem (by default, x11vnc will start
