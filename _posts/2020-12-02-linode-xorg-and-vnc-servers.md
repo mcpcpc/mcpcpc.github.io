@@ -164,6 +164,6 @@ remarks:
    running 24 hours, 7 days a week. A better solution is to start the VNC server
    on demand. For this, I like to create command alias:
 
-```shell
-echo 'alias svnc="x11vnc -usepw --loop"' > ~/.bashrc
-```
+   ```shell
+   echo 'alias svnc="x11vnc -usepw --loop"' > ~/.bashrc
+   ```
