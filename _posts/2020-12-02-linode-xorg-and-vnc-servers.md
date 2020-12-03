@@ -15,10 +15,10 @@ breeze.
 
 At some point I decided that it would be a good idea to run GUI-based 
 applications on my shiny new VM. While the process for getting a minimal Xorg 
-server up and running was fairly straight forward.  I did, however, encounter a 
-few "snags" that I figured would be worth sharing. Also, if it any point I 
-decide to repeat this process on a different VM, I at least won't waste any time 
-figuring out what went wrong.
+server up and running was fairly straight forward, I encounter a few "snags" 
+that I figured would be worth sharing. Also, if it any point I decide to repeat 
+this process on a different VM, I at least won't waste any time figuring out 
+what went wrong.
 
 ## Xorg Server
 
