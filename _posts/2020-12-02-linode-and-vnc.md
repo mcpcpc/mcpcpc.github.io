@@ -7,6 +7,8 @@ date:   2020-12-02 19:57:00
 
 Lindode and VNC
 
+## Background
+
 As part of my recent efforts to expand [xwm](http://github.com/mcpcpc/xwm) to 
 other distribution platforms, I decided to purchase a Linode virtual machine
 (VM). The sole purpose of this VM is to host Docker, along with various other 
