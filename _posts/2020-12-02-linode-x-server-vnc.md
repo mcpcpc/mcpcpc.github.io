@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Xorg and VNC Servers on a Linode VM
+title: X Server and VNC on a Linode VM
 description: Configuring a minimal VNC and Xorg Server on a Linode virtual machine.
 ---
 
