@@ -19,7 +19,7 @@ that I figured would be worth sharing. Also, if it any point I decide to repeat
 this process on a different VM, I at least won't waste any time figuring out 
 what went wrong.
 
-## Xorg Server
+## X Server
 
 To begin, let's make sure that we have an SSH session going and are logged in as 
 a regular user (a.k.a non-root). This regular user should (1) be part of the 
