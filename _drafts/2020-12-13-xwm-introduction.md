@@ -1,14 +1,26 @@
 ---
 layout: default
-title: XWM, The Tiniest of Floating Window Managers
-description: A brief introduction and argument for xwm as a primary floating window manager.
+title: Why Use Small Window Managers
+description: A brief argument for xwm as a primary window manager.
 ---
 
-The world of window managers is flooded and confusing. A quick search on GitHub 
-for the keyword "window manager" reveals a countless number of options to choose from. Some are quite good while a a majority are just downright aweful or non-functional. It begs the question, why does the world need another window 
-manager? What does [xwm](http://github.com/mcpcpc/xwm) offer that other window 
-manager have failed to deliver? In this article, I will attempt to answer this question and possibly delve a little bit into my development process.
+When I first started looking at window managers (WM) ~2 years ago, I noticed a
+consistent trend amongst the ones that came recommended to me. First, most used
+the Xlib protocol, which is archaic in comparison to other protocols such as X 
+Protocol C Binding (XCB). The second issue being that most appeared to have 
+fairly large code-bases and yet offered arguably no advantage over the smaller 
+projects. For comparison sake, let's take a look at a few of the more "popular" 
+minimal X Server window managers:
 
-## Background
-
+|feature               |cwm     |tinywm  |xwm     |evilwm  |dwm     |bspwm   |
+|----------------------|--------|--------|--------|--------|--------|--------|
+|cloc                  |6328    |115     |357     |3257    |2505    |11909   |
+|protocol              |Xlib    |Xlib    |XCB     |Xlib    |Xlib    |XCB     |
+|license               |ISC     |Public  |MIT     |MIT     |MIT     |BSD     |
+|language              |C       |C       |C       |C       |C       |C       |
+|release year          |2004    |2005    |2020    |2000    |2006    |2013    |
+|type                  |stacking|floating|floating|stacking|dynamic |tiling  |
+|themeable             |yes     |no      |no      |yes     |yes     |no      |
+|virtual desktops      |no      |no      |no      |yes     |yes     |yes     |
+|window switching panel|no      |no      |no      |no      |yes     |no      |
 
