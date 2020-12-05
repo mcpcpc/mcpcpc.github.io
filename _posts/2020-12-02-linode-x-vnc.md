@@ -93,7 +93,7 @@ startx
 
 If all goes well, the server should start right away.  If it fails, inspect the 
 log file, typically located in the ~/.local/share/xorg/ directory. If it starts
-succesfully, we can force it to shutdown with `Ctrl+C`.
+successfully, we can force it to shutdown with `Ctrl+C`.
 
 ## Automating the X Server Start
 
@@ -126,10 +126,10 @@ x11vnc --loop --bg
 
 Another issue to address is security. At this point, any unauthorized user 
 with your IP address could potentially start a VNC session and have complete
-access to the filesystem on your VM. To prevent this from happening, we will 
+access to the file system on your VM. To prevent this from happening, we will 
 tell x11vnc to generate a secure key and prompt the user for this key on each 
 new session. To generate a secure key, we need to first run x11vnc with the 
-`-storepasswd` argument, which will prompt you for a plaintext password and 
+`-storepasswd` argument, which will prompt you for a plain text password and 
 path to store the password (I would recommend leaving the default path as 
 ~/.vnc/passwd):
 

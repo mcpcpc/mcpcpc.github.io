@@ -4,6 +4,8 @@ title: Why Use Small Window Managers
 description: A brief argument for xwm as a primary window manager.
 ---
 
+## Why use small window managers?
+
 When I first started looking at window managers ~2 years ago, I noticed a 
 consistent trend amongst the ones that came recommended to me. Let's begin by 
 first comparing a few of the more "popular" minimal X server window managers:
