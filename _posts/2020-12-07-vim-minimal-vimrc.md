@@ -29,7 +29,7 @@ set list lcs=tab:»·,trail:·,extends:^
 |nocp                        |nocompatible |This changes the values of a LOT of options, enabling features which are not Vi compatible but really really nice.|
 |ek                          |esckeys      |Enables recognition of arrow key codes which start off with an ESC.|
 |hid                         |hidden       |Allows hiding buffers even though they contain modifications which have not yet been written back to the associated file.|
-|hls                         |hlsearch     ||
+|hls                         |hlsearch     |With the defaults, setting this option causes all text matching the current search to be highlighted using the Search highlight group, which adds a yellow background to the current highlighting.|
 |ru                          |ruler        |Shows the "ruler" for the cursor (i.e. its current position with line+column and the percentage within the buffer).|
 |sc                          |showcmd      |Show the input of an *incomplete* command.|
 |vb                          |visualbell   |Chose "visual bell" effect rather than "beeping".|
@@ -37,7 +37,7 @@ set list lcs=tab:»·,trail:·,extends:^
 |noeb                        |noerrorbells |Turn off the bell. You do know the "beep" you get when you type ESC in normal mode?|
 |noet                        |noexandtab   |When inserting text do not expand TABs to spaces.|
 |nosol                       |nostartofline|Prevent the cursor from changing the current column when jumping to other lines within the window.|
-|nowrap                      |nowrap       ||
+|nowrap                      |nowrap       |Turn off automatic wordwrapping.|
 |bs=2                        |backspace    |Backspace with this value allows to use the backspace character (aka CTRL-H or "<-") to use for moving the cursor over automatically inserted indentation and over the start/end of line.|
 |fo=cqrt                     |fold         ||
 |shm=at                      |shortmess    |This shortens about every message to a minimum and thus avoids scrolling within the output of messages and the "press a key" prompt that goes with these.|
