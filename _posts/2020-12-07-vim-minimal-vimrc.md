@@ -20,7 +20,7 @@ set com=b:#,:%,n:>
 set list lcs=tab:»·,trail:·,extends:^
 ```
 
-## The breakdown (WIP)
+## The breakdown
 
 
 |abbreviation                |parameter    |description                        |
@@ -44,5 +44,5 @@ set list lcs=tab:»·,trail:·,extends:^
 |tw=80                       |textwidth    |This explicitly sets the width of text to 72 characters.|
 |ww=<,>,h,l,[,]              |whichwrap    |Sets the default cursor behavior when reaching the beginning or end of a line.|
 |com=b:#,:%,n:>              |command      |Reformat text and preserve comments.|
-|list                        |list         ||
-|lcs=tab:»·,trail:·,extends:^|lcscope      ||
+|list                        |list         |(coming soon...)|
+|lcs=tab:»·,trail:·,extends:^|listchars    |(coming soon...)|
