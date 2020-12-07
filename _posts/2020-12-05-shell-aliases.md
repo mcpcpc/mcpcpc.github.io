@@ -5,12 +5,12 @@ description: A collection of my frequently used utilitiy aliases.
 ---
 
 When you are an every day Linux user, it's hard not to have a few command
-aliases. Aliases make life easier and why not take advantage of the feature!
-Here are a few of my favorites...
+aliases. Aliases make commands shorter and life easier, so and why not take 
+advantage of the feature! Here are a few of my favorites...
 
 ## My every day aliases
 
-From file manipulation to just browsing my file system, i cannot live without
+From file manipulation to just browsing my filesystem, i cannot live without
 these.
 
 ```shell
