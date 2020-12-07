@@ -17,8 +17,8 @@ on specific settings that new `vim` users might find confusing (or click
 
 ```vimrc
 set nocp ai hls ru sc vb wmnu noeb noet nosol nowrap
-set fo=cqrt shm=at tw=72 ww=<,>,h,l,[,] com=b:#,:%,n:>
-set list lcs=tab:»·,trail:·,extends:^
+set bs=2 fo=cqrt shm=at tw=72 ww=<,>,h,l,[,] com=b:#,:%,n:>
+set list lcs=tab:>-,trail:~,extends:^
 ```
 
 ## The breakdown
@@ -29,8 +29,8 @@ parameter exactly do?
 
 |abbreviation                |parameter    |description               |
 |----------------------------|-------------|--------------------------|
-|ai                          |autoindent   |Automatic indentation.|
 |nocp                        |nocompatible |This changes the values of a LOT of options, enabling features which are not Vi compatible but really really nice.|
+|ai                          |autoindent   |Automatic indentation.|
 |hls                         |hlsearch     |With the defaults, setting this option causes all text matching the current search to be highlighted using the Search highlight group, which adds a yellow background to the current highlighting.|
 |ru                          |ruler        |Shows the "ruler" for the cursor (i.e. its current position with line+column and the percentage within the buffer).|
 |sc                          |showcmd      |Show the input of an *incomplete* command.|
@@ -43,7 +43,7 @@ parameter exactly do?
 |bs=2                        |backspace    |Backspace with this value allows to use the backspace character (aka CTRL-H or "<-") to use for moving the cursor over automatically inserted indentation and over the start/end of line.|
 |fo=cqrt                     |fold         |This allows one to add text to a comment and still be within the comment after you start a new line. It also allows to break the line within a comment without breaking the comment.|
 |shm=at                      |shortmess    |This shortens about every message to a minimum and thus avoids scrolling within the output of messages and the "press a key" prompt that goes with these.|
-|tw=80                       |textwidth    |This explicitly sets the width of text to 72 characters.|
+|tw=72                       |textwidth    |This explicitly sets the width of text to 72 characters.|
 |ww=<,>,h,l,[,]              |whichwrap    |Sets the default cursor behavior when reaching the beginning or end of a line.|
 |com=b:#,:%,n:>              |command      |Reformat text and preserve comments.|
 |list                        |list         |(coming soon...)|
