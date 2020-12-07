@@ -1,34 +1,36 @@
 ---
-layout: default
-title: Creating a minimal vim configuration file
-description: A detailed explanation of my minimal vimrc file
+layout: post
+title: A develeoper's minimum vim configuration file
+description: A detailed explanation of my current minimal .vimrc file.
 ---
 
-As a person that uses `vim` on a daily basis, I find it nearly impossible to use
-without some additional configuration (kudos to those that can). However, I do
-feel that most `vi`m configuration files are overly complex and completely
-defeat the purpose of using a minimalistic text editor like `vim` in the first
-place. It's taken me almost a year, but I think I have refined my config file to
-the absolute minimum number of custom settings that I require on a daily basis.
-Below, I have provided my raw ~/.vimrc configuration file, along with an
-explanation on specific settings that new `vim` users might find confusing:
+As a person that uses `vim` on a daily basis, I find it nearly I
+impossible to use without some additional configuration (kudos to those
+that can). However, I do feel that most `vi`m configuration files are
+overly complex and completely defeat the purpose of using a minimalistic
+text editor like `vim` in the first place. It's taken me almost a year,
+but I think I have refined my config file to the absolute minimum number
+of custom settings that I require on a daily basis. Below, I have
+provided my raw ~/.vimrc configuration file, along with an explanation
+on specific settings that new `vim` users might find confusing (or click
+[here](.vimrc) for a complete explanation):
 
 ```vimrc
-set ai nocp ek hid hls ru sc vb wmnu noeb noet nosol nowrap
-set bs=2 fo=cqrt shm=at tw=80 sw=4 ts=4 sts=4 ww=<,>,h,l,[,]
-set com=b:#,:%,n:>
+set nocp ai hls ru sc vb wmnu noeb noet nosol nowrap
+set fo=cqrt shm=at tw=72 ww=<,>,h,l,[,] com=b:#,:%,n:>
 set list lcs=tab:»·,trail:·,extends:^
 ```
 
 ## The breakdown
 
+The above configuration file is nice and short, but what does each
+parameter exactly do?
 
-|abbreviation                |parameter    |description                        |
-|----------------------------|-------------|-----------------------------------|
+
+|abbreviation                |parameter    |description               |
+|----------------------------|-------------|--------------------------|
 |ai                          |autoindent   |Automatic indentation.|
 |nocp                        |nocompatible |This changes the values of a LOT of options, enabling features which are not Vi compatible but really really nice.|
-|ek                          |esckeys      |Enables recognition of arrow key codes which start off with an ESC.|
-|hid                         |hidden       |Allows hiding buffers even though they contain modifications which have not yet been written back to the associated file.|
 |hls                         |hlsearch     |With the defaults, setting this option causes all text matching the current search to be highlighted using the Search highlight group, which adds a yellow background to the current highlighting.|
 |ru                          |ruler        |Shows the "ruler" for the cursor (i.e. its current position with line+column and the percentage within the buffer).|
 |sc                          |showcmd      |Show the input of an *incomplete* command.|

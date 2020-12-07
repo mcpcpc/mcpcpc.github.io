@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A few of my favorite bash aliases.
 description: A collection of my frequently used utilitiy aliases.
 ---
