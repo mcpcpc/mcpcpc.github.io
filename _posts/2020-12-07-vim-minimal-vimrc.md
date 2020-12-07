@@ -13,7 +13,7 @@ but I think I have refined my config file to the absolute minimum number
 of custom settings that I require on a daily basis. Below, I have
 provided my raw ~/.vimrc configuration file, along with an explanation
 on specific settings that new `vim` users might find confusing (or click
-[here](.vimrc) for a complete explanation):
+[here](.vimrc) for the plain text version):
 
 ```vimrc
 set nocp ai hls ru sc vb wmnu noeb noet nosol nowrap
