@@ -39,11 +39,10 @@ set list lcs=tab:»·,trail:·,extends:^
 |nosol                       |nostartofline|Prevent the cursor from changing the current column when jumping to other lines within the window.|
 |nowrap                      |nowrap       |Turn off automatic wordwrapping.|
 |bs=2                        |backspace    |Backspace with this value allows to use the backspace character (aka CTRL-H or "<-") to use for moving the cursor over automatically inserted indentation and over the start/end of line.|
-|fo=cqrt                     |fold         ||
+|fo=cqrt                     |fold         |This allows one to add text to a comment and still be within the comment after you start a new line. It also allows to break the line within a comment without breaking the comment.|
 |shm=at                      |shortmess    |This shortens about every message to a minimum and thus avoids scrolling within the output of messages and the "press a key" prompt that goes with these.|
 |tw=80                       |textwidth    |This explicitly sets the width of text to 72 characters.|
-|sw=4                        |swapname     ||
-|ww=<,>,h,l,[,]              |whichwrap    ||
+|ww=<,>,h,l,[,]              |whichwrap    |Sets the default cursor behavior when reaching the beginning or end of a line.|
 |com=b:#,:%,n:>              |command      |Reformat text and preserve comments.|
 |list                        |list         ||
 |lcs=tab:»·,trail:·,extends:^|lcscope      ||
