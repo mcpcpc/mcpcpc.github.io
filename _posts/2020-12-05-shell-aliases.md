@@ -8,7 +8,7 @@ When you are an every day Linux user, it's hard not to have a few command
 aliases. Aliases make commands shorter and life easier, so and why not take 
 advantage of the feature! Here are a few of my favorites...
 
-## My Every Day Commands (EDC)
+## Navigation and Editting
 
 From file manipulation to just browsing my filesystem, i cannot live without
 these.
