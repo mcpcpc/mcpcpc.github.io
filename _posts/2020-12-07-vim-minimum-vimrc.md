@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Minimum vim configuration
+title: Minimum vim Configuration
 description: A developer's minimal .vimrc configuration.
 ---
 
