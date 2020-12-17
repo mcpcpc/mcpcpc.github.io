@@ -21,6 +21,8 @@ installing the following applications:
 I will also assume that you already have a working X server installed
 and have some familiarity with shell scripting.  
 
+## Creating a Status Bar
+
 ```bash
 #!/bin/bash
 
