@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Minimum vim Configuration
+title: Minimum vim configuration
 description: A developer's minimal .vimrc configuration.
 ---
 
@@ -15,9 +15,9 @@ along with an explanation on the specifici settings:
 
 {% gist c6a62e3313df2618e1be62884ce9e677 .vimrc %}
 
-## Decyphering each parameter
-The above .vimrc file is nice and short, but incredibly cryptic. So what does
-each string/parameter exactly do?
+## Deciphering each paramater
+The above .vimrc file is nice and short, but incredibly cryptic. Let's try to
+decipher the meaning of each parameter:
 
 |abbreviation                |parameter    |description               |
 |----------------------------|-------------|--------------------------|
