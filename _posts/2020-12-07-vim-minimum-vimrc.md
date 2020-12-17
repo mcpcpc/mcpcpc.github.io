@@ -10,8 +10,7 @@ I do feel, however, that most ~/.vimrc files are bloated and overly complex,
 defeating the purpose of using a minimalistic text editor like `vim` in the 
 first place. It has taken me almost a year, but I think I have refined my 
 configuration file to the "absolute minimum" number of custom settings that I 
-can comfortably live with. Below, I have provided my raw configuration file, 
-along with an explanation on the specifici settings:
+can comfortably live with:
 
 {% gist c6a62e3313df2618e1be62884ce9e677 .vimrc %}
 
