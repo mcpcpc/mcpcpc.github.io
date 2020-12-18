@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Creating a Desktop From Scratch
-description: A beginners guide to creating a custom desktop environment.
+title: Creating a Minimal Desktop From Scratch
+description: A beginners guide to creating a minimal custom desktop environment.
 ---
 
 For the purpose of this guide, I will try to create a minimal desktop
