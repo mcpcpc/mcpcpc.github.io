@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating a Minimal Desktop From Scratch
-description: A beginners guide to creating a minimal custom desktop environment.
+description: A beginners guide to creating a minimal custom desktop.
 ---
 
 For the purpose of this guide, I will try to create a minimal desktop
@@ -9,15 +9,15 @@ environment that can be adapted to suite the end-user's purpose and
 desired "look-and-feel". In order to get started, I would recommend
 installing the following applications:
 
-*   [lemonbar](https://github.com/LemonBoy/bar) - A lightweight status 
-    bar that we will use to display important metrics, such as battery 
-    level, volume and time.
 *   [xwm](https://github.com/mcpcpc/xwm) - A tiny XCB window manager.  
 *   [imagemagick](https://imagemagick.org) - A free and open-source 
     cross-platform software suite for displaying, creating, converting, 
     modifying, and editing raster images. In this tutorial, we will be
     using it to set the root window background image, control it's 
     placement and scaling.
+*   [lemonbar](https://github.com/LemonBoy/bar) - A lightweight status 
+    bar that we will use to display important metrics, such as battery 
+    level, volume and time.
     
 I will also assume that you already have a working X server installed
 and have some familiarity with shell scripting.  
