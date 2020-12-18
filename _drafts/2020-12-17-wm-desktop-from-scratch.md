@@ -6,7 +6,7 @@ description: A beginners guide to creating a custom desktop environment.
 
 For the purpose of this guide, I will try to create a minimal desktop
 environment that can be adapted to suite the end-user's purpose and
-desired look-and-feel. In order to get started, I would recommend
+desired "look-and-feel". In order to get started, I would recommend
 installing the following applications:
 
 *   [lemonbar](https://github.com/LemonBoy/bar) - A lightweight status 
@@ -16,7 +16,8 @@ installing the following applications:
 *   [imagemagick](https://imagemagick.org) - A free and open-source 
     cross-platform software suite for displaying, creating, converting, 
     modifying, and editing raster images. In this tutorial, we will be
-    using it to set the root window background image.
+    using it to set the root window background image, control it's 
+    placement and scaling.
     
 I will also assume that you already have a working X server installed
 and have some familiarity with shell scripting.  
