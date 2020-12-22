@@ -4,3 +4,5 @@ description: >-
 url: "https://mcpcpc.com"
 author: Michael Czigler
 email: info@mcpcpc.com
+gems:
+  - jekyll-sitemap
