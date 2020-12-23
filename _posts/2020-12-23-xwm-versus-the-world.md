@@ -1,6 +1,6 @@
 ---
 layout: post
-title: xwm vs The World
+title: xwm Versus The World
 description: A comparison of xwm to mainstream window manager solutions.
 ---
 
