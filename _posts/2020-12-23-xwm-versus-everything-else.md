@@ -26,7 +26,7 @@ referenced as "minimal" window manager solutions:
 Some key takeaways from this table:
 
 *   There are two main X protocols used for window manager development: Xlib
-    and XCB. However, XCB is the more modern and (arguably) preferred X 
+    and XCB. However, XCB is the more modern and (arguably) the preferred X 
     protocol. Refer to [The X New Developer's Guide: Xlib and 
 	XCB](https://www.x.org/wiki/guide/xlib-and-xcb/) for a more in-depth 
 	comparison.
