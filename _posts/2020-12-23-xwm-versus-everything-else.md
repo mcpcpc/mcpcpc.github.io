@@ -6,9 +6,9 @@ description: A comparison of xwm to mainstream window manager solutions.
 
 A question that I am frequently asked is, *how does xwm compare to X*? The
 reality is that there is no straightforward answer. In most cases, comparing xwm
-to any window manger is like comparing *apples to oranges*. You might be asking
-yourself, why is that so? Let's begin by looking at a high-level feature 
-comparison for some of the mainstream solutions that are actively developed and
+to any window manger is like comparing *apples* to *oranges*. You might be
+asking yourself, why is that so? Let's begin by looking at a high-level 
+features for some of the mainstream solutions that are actively developed and
 frequently referenced as "minimal" window manager solutions:
 
 |feature               |cwm     |tinywm  |xwm     |evilwm  |dwm     |bspwm   |
