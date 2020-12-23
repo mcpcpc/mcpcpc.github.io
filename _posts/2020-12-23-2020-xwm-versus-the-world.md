@@ -58,7 +58,7 @@ have a config file these days that is either placed in an obscure directory,
 (and they hate me). Not doing so forces the user to glimpse into the source
 which, to me, is a habit that all existing and new Unix users should be doing.
 
-### Empower The User To Create There Own Experience
+### Empower The User To Create Their Own Experience
 
 I provide no out-of-box multi-monitor support, no menu bar, no title bars, no tab
 focus or or any other feature that a regular user would find essential. Instead, 
