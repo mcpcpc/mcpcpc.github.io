@@ -27,7 +27,7 @@ Some key takeaways from this table:
 
 *   There are two main X protocols used for window manager development: Xlib
     and XCB. However, XCB is the more modern and (arguably) preferred X protocol.
-	Refer to the [New Developer's Guide: Xlib and 
+	Refer to [The X New Developer's Guide: Xlib and 
 	XCB](https://www.x.org/wiki/guide/xlib-and-xcb/) for a more in-depth 
 	comparison.
 *   There is a pretty big difference in the cloc footprint, so it’s difficult to
