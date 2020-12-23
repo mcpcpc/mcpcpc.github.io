@@ -37,11 +37,11 @@ Some key takeaways from this table:
 	So there is nothing stopping users or developers from making xwm more like
 	the rest.
 
-### The Philosophy
+## The Philosophy Behind xwm
 
 The philosophy behind xwm is fairly straight forward.
 
-#### Less is more
+### Less Is More
 
 From a sheer dependency standpoint, xwm has fewer than the rest. There are
 obvious drawbacks to this, but I intentionally left xwm as "barebones" as
@@ -50,7 +50,7 @@ consistent with the Suckless Philosophy of programming
 (https://suckless.org/philosophy/), which is based on the Unix Philosophy of
 programming.
 
-#### Reduce the Configuration File Clutter
+### Reduce The Configuration File Clutter
 
 I have opted not to have a run-time config file in xwm. Everyone seems to
 have a config file these days that is either placed in an obscure directory,
@@ -58,14 +58,14 @@ have a config file these days that is either placed in an obscure directory,
 (and they hate me). Not doing so forces the user to glimpse into the source
 which, to me, is a habit that all existing and new Unix users should be doing.
 
-#### Empower The User To Create There Own Experience
+### Empower The User To Create There Own Experience
 
 I provide no out-of-box multi-monitor support, no menu bar, no title bars, no tab
 focus or or any other feature that a regular user would find essential. Instead, 
 these features will be offered as patches, which the user must learn how to apply
 themselves.
 
-### Conclusions
+## Conclusions
 
 xwm is not for everyone. I feel that the target audience is niche and those of
 that audience will appreciate what xwm attempts to accomplish. 
