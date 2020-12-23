@@ -31,7 +31,7 @@ Some key takeaways from this table:
 	XCB](https://www.x.org/wiki/guide/xlib-and-xcb/) for a more in-depth 
 	comparison.
 *   There is a pretty big difference in the cloc footprint, so it’s difficult to
-    compare these from a feature perspective as xwm is considered a “minimal
+    compare these from a feature perspective as xwm is considered a “minimum
     viable solution” and the rest offer a more full-featured user experience.
 	However, like dwm, xwm is a framework for developers to patch and enhance.
 	So there is nothing stopping users or developers from making xwm more like
