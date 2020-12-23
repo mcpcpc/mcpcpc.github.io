@@ -9,7 +9,7 @@ reality is that there is no straightforward answer. In most cases, comparing
 xwm to any window manger is like comparing *apples* to *oranges*. You might
 be asking yourself, why is that so? Let's begin by looking at some high-level 
 features for mainstream solutions that are actively developed and frequently 
-referenced as "minimal" window manager solutions [^1]:
+referenced as "minimal" window manager solutions [^1][^2]:
 
 |feature               |cwm     |tinywm  |xwm     |evilwm  |dwm     |bspwm   |
 |----------------------|--------|--------|--------|--------|--------|--------|
@@ -39,7 +39,7 @@ Some key takeaways from this table:
 
 ## The Philosophy Behind xwm
 
-The philosophy behind xwm is fairly straight forward.
+The philosophy behind xwm is fairly straight forward [^3]:
 
 ### Less Is More
 
@@ -74,4 +74,8 @@ would welcome veterans and newbies alike to try xwm out and let me know their
 thoughts. I am always open to suggestions and ideas for improving xwm or counter
 arguments to anything I have stated in this article.
 
-[^1]: http://github.com/mcpcpc/xwm
+---
+
+[^1]: xwm, [GitHub](http://github.com/mcpcpc/xwm) project page.
+[^2]: "Comparison of X window managers", [Wikipedia](https://en.m.wikipedia.org/wiki/Comparison_of_X_window_managers)
+[^3]: "xwm - a tiny XCB window floating window manager", [Hacker News](https://news.ycombinator.com/item?id=25033613)
