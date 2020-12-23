@@ -52,7 +52,7 @@ programming.
 
 ### No Configuration File Clutter
 
-I have opted not to have a run-time config file in xwm. Everyone seems to
+I have opted not to have a run-time configuration file in xwm. Everyone seems to
 have a config file these days that is either placed in an obscure directory,
 "hidden" from plain site or cluttering my home directory. I hate config files
 (and they hate me). Not doing so forces the user to glimpse into the source
