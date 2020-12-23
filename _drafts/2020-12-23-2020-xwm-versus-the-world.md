@@ -68,4 +68,4 @@ themselves.
 ## Conclusions
 
 xwm is not for everyone. I feel that the target audience is niche and those of
-that audience will appreciate what xwm attempts to accomplish. 
+that audience will appreciate what xwm attempts to accomplish. With that said, I would welcome veterans and newbies alike to try xwm out and let me know their thoughts. I am always open to suggestions and ideas for improving xwm or counter arguemnts to anything I have stated in this article. 
