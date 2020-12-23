@@ -50,7 +50,7 @@ consistent with the Suckless Philosophy of programming
 (https://suckless.org/philosophy/), which is based on the Unix Philosophy of
 programming.
 
-### Reduce The Configuration File Clutter
+### No Configuration File Clutter
 
 I have opted not to have a run-time config file in xwm. Everyone seems to
 have a config file these days that is either placed in an obscure directory,
