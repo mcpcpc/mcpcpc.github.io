@@ -61,10 +61,10 @@ should be doing.
 
 ### Empower The User To Create Their Own Experience
 
-I provide no out-of-box multi-monitor support, no menu bar, no title bars, no tab
-focus or or any other feature that a regular user would find essential. Instead, 
-these features will be offered as patches, which the user must learn how to apply
-themselves.
+I provide no out-of-box multi-monitor support, no menu bar, no title bars, no
+tab	focus or or any other feature that a regular user would find essential.
+Instead, these features will be offered as patches, which the user must learn
+how to apply themselves.
 
 ## Conclusions
 
@@ -72,4 +72,4 @@ xwm is not for everyone. I feel that the target audience is niche and those of
 that audience will appreciate what xwm attempts to accomplish. With that said, I
 would welcome veterans and newbies alike to try xwm out and let me know their
 thoughts. I am always open to suggestions and ideas for improving xwm or counter
-arguments to anything I have stated in this article. 
+arguments to anything I have stated in this article.
