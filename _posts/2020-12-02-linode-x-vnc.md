@@ -19,7 +19,7 @@ that I figured would be worth sharing. Also, if it any point I decide to repeat
 this process on a different VM, I at least won't waste any time figuring out 
 what went wrong.
 
-## Prerequisits
+## Prerequisites
 
 For this tutorial, you will need Docker all ready installed on an image of your
 choosing. I would recommend browsing the Linode Marketplace and using the
