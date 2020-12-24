@@ -13,7 +13,7 @@ Why is that so? Let's a take a look.
 ## The Competition
 
 Let's begin by comparing high-level features for several actively developed 
-(and frequently refered to as "minimal") window manager solutions [^1][^2]:
+(and frequently referred to as "minimal") window manager solutions [^1][^2]:
 
 |feature               |cwm     |tinywm  |xwm     |evilwm  |dwm     |bspwm   |
 |----------------------|--------|--------|--------|--------|--------|--------|
