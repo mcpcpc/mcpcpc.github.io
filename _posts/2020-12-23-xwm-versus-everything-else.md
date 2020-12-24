@@ -27,7 +27,8 @@ Let's begin by comparing high-level features for several actively developed
 |virtual desktops      |no      |no      |no      |yes     |yes     |yes     |
 |window switching panel|no      |no      |no      |no      |yes     |no      |
 
-Some key takeaways from this table:
+This information provided above is pretty generic, but there are some key
+takeaways:
 
 *   There are two main X protocols used for window manager development: Xlib
     and XCB. However, XCB is the more modern and (arguably) the preferred X 
