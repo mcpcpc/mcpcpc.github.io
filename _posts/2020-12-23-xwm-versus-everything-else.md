@@ -6,10 +6,14 @@ description: A comparison of xwm to mainstream window manager solutions.
 
 A question that I am frequently asked is, how does xwm compare to *X*"? The
 reality is that there is no straightforward answer. In most cases, comparing
-xwm to any window manger is like comparing *apples* to *oranges*. You might
-be asking yourself, why is that so? Let's begin by looking at some high-level 
-features for mainstream solutions that are actively developed and frequently 
-referenced as "minimal" window manager solutions [^1][^2]:
+xwm to any window manger is like comparing *apples* to *oranges*. 
+
+Why is that so? Let's a take a look.
+
+## The Competition
+
+Let's begin by comparing high-level features for several actively developed 
+(and frequently refered to as "minimal") window manager solutions [^1][^2]:
 
 |feature               |cwm     |tinywm  |xwm     |evilwm  |dwm     |bspwm   |
 |----------------------|--------|--------|--------|--------|--------|--------|
@@ -28,14 +32,14 @@ Some key takeaways from this table:
 *   There are two main X protocols used for window manager development: Xlib
     and XCB. However, XCB is the more modern and (arguably) the preferred X 
     protocol. Refer to [The X New Developer's Guide: Xlib and 
-	XCB](https://www.x.org/wiki/guide/xlib-and-xcb/) for a more in-depth 
-	comparison.
+    XCB](https://www.x.org/wiki/guide/xlib-and-xcb/) for a more in-depth 
+    comparison.
 *   There is a pretty big difference in the `cloc` footprint, so it’s difficult
     to compare these from a feature perspective as xwm is considered a “minimum
     viable solution” and the rest offer a more full-featured user experience.
-	However, like dwm, xwm is a framework for developers to patch and enhance.
-	So there is nothing stopping users or developers from making xwm more like
-	the rest [^3].
+    However, like dwm, xwm is a framework for developers to patch and enhance.
+    So there is nothing stopping users or developers from making xwm more like
+    the rest [^3].
 
 ## The Philosophy Behind xwm
 
