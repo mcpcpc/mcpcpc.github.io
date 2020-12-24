@@ -19,6 +19,12 @@ that I figured would be worth sharing. Also, if it any point I decide to repeat
 this process on a different VM, I at least won't waste any time figuring out 
 what went wrong.
 
+## Prerequisits
+
+For this tutorial, you will need Docker all ready installed on an image of your
+choosing. I would recommend browsing the Linode Marketplace and using the
+preconfigured Docker image, which uses Debian. 
+
 ## X Server
 
 To begin, let's make sure that we have an SSH session going and are logged in as 
