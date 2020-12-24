@@ -31,10 +31,12 @@ This information provided above is pretty generic, but there are some key
 takeaways:
 
 *   There are two main X protocols used for window manager development: Xlib
-    and XCB. However, XCB is the more modern and (arguably) the preferred X 
-    protocol. Refer to [The X New Developer's Guide: Xlib and 
-    XCB](https://www.x.org/wiki/guide/xlib-and-xcb/) for a more in-depth 
-    comparison.
+    and XCB. However, XCB is the faster and (arguably) the preferred X protocol
+    for developers. Refer to [The X New Developer's Guide: Xlib and 
+    XCB](https://www.x.org/wiki/guide/xlib-and-xcb/) for a more detailed
+    comparison. While choosing one protocol doesn't necessarily translate to
+    impacting the user experience, choosing the more modern protocol ensures
+    better long-term support.
 *   There is a pretty big difference in the `cloc` footprint, so it’s difficult
     to compare these from a feature perspective as xwm is considered a “minimum
     viable solution” and the rest offer a more full-featured user experience.
