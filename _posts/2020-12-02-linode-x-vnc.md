@@ -22,8 +22,9 @@ what went wrong.
 ## Prerequisites
 
 For this tutorial, you will need Docker all ready installed on an image of your
-choosing. I would recommend browsing the Linode Marketplace and using the
-preconfigured Docker image, which uses Debian. 
+choosing. I would recommend browsing the 
+[Linode Marketplace](https://www.linode.com/marketplace/apps/) and using the
+preconfigured Docker image (which uses Debian). 
 
 ## X Server
 
