@@ -36,7 +36,7 @@ takeaways:
     XCB](https://www.x.org/wiki/guide/xlib-and-xcb/) for a more detailed
     comparison. While choosing one protocol doesn't necessarily translate to
     impacting the user experience, choosing the more modern protocol ensures
-    better long-term support.
+    better long-term support for the life of the project.
 *   There is a pretty big difference in the `cloc` footprint, so it’s difficult
     to compare these from a feature perspective as xwm is considered a “minimum
     viable solution” and the rest offer a more full-featured user experience.
