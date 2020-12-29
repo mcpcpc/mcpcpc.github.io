@@ -17,7 +17,7 @@ Let's begin by comparing high-level features for several actively developed
 
 |feature               |cwm     |tinywm  |xwm     |evilwm  |dwm     |bspwm   |
 |----------------------|--------|--------|--------|--------|--------|--------|
-|cloc                  |6328    |115     |339     |3257    |2505    |11909   |
+|cloc[^3]              |6328    |115     |339     |3257    |2505    |11909   |
 |protocol              |Xlib    |Xlib    |XCB     |Xlib    |Xlib    |XCB     |
 |license               |ISC     |Public  |MIT     |MIT     |MIT     |BSD     |
 |language              |C       |C       |C       |C       |C       |C       |
@@ -41,7 +41,7 @@ takeaways:
     viable solution” and the rest offer a more full-featured user experience.
     However, like dwm, xwm is a framework for developers to patch and enhance.
     So there is nothing stopping users or developers from making xwm more like
-    the rest [^3].
+    the rest.
 
 ## The Philosophy Behind xwm
 
@@ -84,6 +84,7 @@ arguments to anything I have stated in this article.
 
 [^1]: xwm project page, [GitHub](http://github.com/mcpcpc/xwm)
 [^2]: "Comparison of X window managers", [Wikipedia](https://en.m.wikipedia.org/wiki/Comparison_of_X_window_managers)
-[^3]: cloc project page, [GitHub](https://github.com/AlDanial/cloc)
+[^3]: cloc standands for "Count Lines of Code" and was run on the projects source directory.
+      [GitHub](https://github.com/AlDanial/cloc)
 [^4]: "The X New Developer's Guide: Xlib and XCB", [www.x.org](https://www.x.org/wiki/guide/xlib-and-xcb/)
 [^5]: "xwm - a tiny XCB window floating window manager", [Hacker News](https://news.ycombinator.com/item?id=25033613)
