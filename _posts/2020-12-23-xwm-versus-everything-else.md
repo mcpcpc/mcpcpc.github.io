@@ -17,7 +17,7 @@ Let's begin by comparing high-level features for several actively developed
 
 |feature               |cwm     |tinywm  |xwm     |evilwm  |dwm     |bspwm   |
 |----------------------|--------|--------|--------|--------|--------|--------|
-|cloc                  |6328    |115     |349     |3257    |2505    |11909   |
+|cloc                  |6328    |115     |339     |3257    |2505    |11909   |
 |protocol              |Xlib    |Xlib    |XCB     |Xlib    |Xlib    |XCB     |
 |license               |ISC     |Public  |MIT     |MIT     |MIT     |BSD     |
 |language              |C       |C       |C       |C       |C       |C       |
