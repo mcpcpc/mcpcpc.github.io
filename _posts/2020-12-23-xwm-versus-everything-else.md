@@ -84,7 +84,6 @@ arguments to anything I have stated in this article.
 
 [^1]: xwm project page, [GitHub](http://github.com/mcpcpc/xwm)
 [^2]: "Comparison of X window managers", [Wikipedia](https://en.m.wikipedia.org/wiki/Comparison_of_X_window_managers)
-[^3]: cloc standands for "Count Lines of Code" and was run on the projects source directory.
-      [GitHub](https://github.com/AlDanial/cloc)
+[^3]: cloc project page, [GitHub](https://github.com/AlDanial/cloc)
 [^4]: "The X New Developer's Guide: Xlib and XCB", [www.x.org](https://www.x.org/wiki/guide/xlib-and-xcb/)
 [^5]: "xwm - a tiny XCB window floating window manager", [Hacker News](https://news.ycombinator.com/item?id=25033613)
