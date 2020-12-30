@@ -32,8 +32,8 @@ takeaways:
 
 *   There are two main X protocols used for window manager development: Xlib
     and XCB.
-*   XCB is the faster and (arguably) the preferred X protocol for developers.
-    Refer to "The X New Developer's Guide: Xlib and XCB" for a more detailed 
+*   XCB is the faster and (arguably) preferred X protocol for developers. Refer
+    to "The X New Developer's Guide: Xlib and XCB" for a more detailed
     comparison [^4].
 *   While choosing one protocol does not necessarily translate to a better
     user experience, choosing the more modern protocol ensures better
