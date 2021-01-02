@@ -5,12 +5,13 @@ description: How to configuring a minimal VNC and X server on a Linode virtual m
 ---
 
 As part of my recent efforts to expand [xwm](http://github.com/mcpcpc/xwm) to 
-other distribution platforms, I decided to purchase a Linode virtual machine
-(VM). The sole purpose of this VM is to host Docker, along with various other 
-operating system containers (e.g. Debian, CentOS, Arch Linux, Void Linux, etc). 
-I opted for a 5 USD shared instance which, despite only having 1GB of RAM and 1 
-Core, is surprisingly fast and made pushing cross-platform package updates a 
-breeze. 
+other distribution platforms, I decided to purchase a
+[Linode](https://www.linode.com/?r=0c625ecd8478eb827df57d2e2ffa095759d089ab)
+virtual machine (VM). The sole purpose of this VM is to host Docker, along with
+various other operating system containers (e.g. Debian, CentOS, Arch Linux, Void
+Linux, etc). I opted for a 5 USD shared instance which, despite only having 1GB
+of RAM and 1 Core, is surprisingly fast and made pushing cross-platform package
+updates a breeze. 
 
 At some point I decided that it would be a good idea to run GUI-based 
 applications on my shiny new VM. While the process for getting a minimal Xorg 
@@ -23,8 +24,8 @@ what went wrong.
 
 For this tutorial, you will need Docker all ready installed on an image of your
 choosing. I would recommend browsing the 
-[Linode Marketplace](https://www.linode.com/marketplace/apps/) and using the
-preconfigured Docker image (which uses Debian). 
+[Linode](https://www.linode.com/?r=0c625ecd8478eb827df57d2e2ffa095759d089ab) 
+Marketplace and using the preconfigured Docker image (which uses Debian). 
 
 ## X Server
 
