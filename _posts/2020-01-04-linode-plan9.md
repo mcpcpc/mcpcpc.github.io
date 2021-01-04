@@ -4,7 +4,7 @@ title: 9front and Linode
 description: Installing and configuring 9front on Linode virtual machine.
 ---
 
-## Why Inbstall 9front on a VM?
+## Why Install 9front on a VM?
 
 Because we can.
 
