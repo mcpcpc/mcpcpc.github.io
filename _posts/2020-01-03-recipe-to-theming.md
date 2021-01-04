@@ -1,0 +1,27 @@
+---
+layout: post
+title: A Mini Recipe to Theming
+description: Small tips for those looking to get into linux theming or ricing.
+---
+
+Like most software developers, I find myself frequently perusing sub-reddits 
+and, on occasion, posting my unique Linux creations on
+[/r/unixporn](httpa://www.reddit.com/r/unixporn). The creative process of
+theming (or "ricing") is something that has always fascinated me and, while I
+don't necessarily consider myself a "ricer", I have developed a recipe that
+works and thought was worth sharing. 
+
+*   *Get inspired*. For me, it always starts with a quote or wallpaper that I    
+    like, and I build around it. 
+*   *Build A Color Schema*. I haven't found a good methodology for this one 
+    (kudos to those that can do this from scratch) and usually resort to cycling
+    through pre-configured palettes (a.k.a. spamming `kfc -rp` in a VTE, which 
+    applies a new random color scheme). If I am lucky, I can usually find one
+    that meshes well enough.  
+*   *Express yourself*. Showcase the tools that you use on a daily basis or,
+    better yet, the tools you working on! Avoid the stereotypical tools (e.g 
+    neofetch, top, mpv, firefox, etc).
+
+The rest is personal preference, but I would recommend keeping it simple.  I try
+to keep my entire theming process to ~30min or so as this can be a dangerous
+time sink and there comes a point of diminishing return.
