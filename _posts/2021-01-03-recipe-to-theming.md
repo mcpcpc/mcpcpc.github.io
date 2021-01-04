@@ -11,14 +11,14 @@ theming (or "ricing") is something that has always fascinated me and, while I
 don't necessarily consider myself a "ricer", I have developed a recipe that
 works and thought was worth sharing. 
 
-*   *Get inspired*. For me, it always starts with a quote or wallpaper that I    
+*   **Get inspired**. For me, it always starts with a quote or wallpaper that I    
     like, and I build around it. 
-*   *Build A Color Schema*. I haven't found a good methodology for this one 
+*   **Build A Color Schema**. I haven't found a good methodology for this one 
     (kudos to those that can do this from scratch) and usually resort to cycling
     through pre-configured palettes (a.k.a. spamming `kfc -rp` in a VTE, which 
     applies a new random color scheme). If I am lucky, I can usually find one
     that meshes well enough.  
-*   *Express yourself*. Showcase the tools that you use on a daily basis or,
+*   **Express yourself**. Showcase the tools that you use on a daily basis or,
     better yet, the tools you working on! Avoid the stereotypical tools (e.g 
     neofetch, top, mpv, firefox, etc).
 
