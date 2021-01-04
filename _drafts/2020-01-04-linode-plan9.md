@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 9front VM on Linode
-description: A guide to creating a simple 9front virtual machine using 
+title: 9front and Linode VM
+description: Installing and configuring 9front on Linode virtual machine.
 ---
 
 ## Why 9front?
