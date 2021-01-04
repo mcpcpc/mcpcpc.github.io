@@ -54,6 +54,8 @@ Because we can.
     see that the VM is powered off. At this point, you can *Power On* your VM and launch a new LISH
     console. 
 
+---
+
 [^1]: https://www.linode.com/docs/guides/install-a-custom-distribution-on-a-linode
 [^2]: http://9front.org/iso/
 [^3]: http://fqa.9front.org/fqa4.html#4.3
