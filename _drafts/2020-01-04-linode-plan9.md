@@ -29,7 +29,7 @@ Because we can.
 
 *   Click the *Settings* tab, and disable the Shutdown Watchdog.
 
-## Installation
+## Installation and First Boot
 *   With the VM powered off, start Rescue Mode.
 *   Once in Rescue Mode, download your installation media and copy it to your Installer disk. Refer 
     to one of the 9front mirrors for the latest image [^2].
