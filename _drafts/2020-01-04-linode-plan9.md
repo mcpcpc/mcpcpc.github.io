@@ -10,7 +10,7 @@ Because we can.
 
 ## Preparing the Linode VM
 
-*   Create a new Linode. I would recommend the Shared CPU *Nanode 1GB* plan, which is 1GB of RAM, 
+*   Create a new Linode. I would recommend the Shared CPU "Nanode 1GB" plan, which is 1GB of RAM, 
     25GB of Storage and 1 CPU for $5 USD/month.
 *   Click the **Storage** tab and press *Add a Disk*.
 *   Specify a Label name, partition size (25600 MB recommended) and press *Create*.
