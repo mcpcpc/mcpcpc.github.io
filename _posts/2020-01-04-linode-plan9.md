@@ -4,9 +4,7 @@ title: 9front and Linode
 description: Installing and configuring 9front on Linode virtual machine.
 ---
 
-## Why Install 9front on a VM?
-
-Because we can.
+Why install 9front on a Linode virtual machine? Because we can.
 
 ## Preparing the Linode VM
 
@@ -38,7 +36,7 @@ Because we can.
     wget http://9front.org/iso/9front-8013.d9e940a768d1.amd64.iso.gz -q -O -| funzip | dd of=/dev/sda
     ```
     
-*   Empty the cache so that you have enough space to unpack and install the image.
+*   Empty the cache so that you have enough space to unpack and install the image [^1].
 
     ```
     sync; echo 3 > /proc/sys/vm/drop_caches
