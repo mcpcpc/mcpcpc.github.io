@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 9front and Linode VM
+title: 9front and Linode
 description: Installing and configuring 9front on Linode virtual machine.
 ---
 
