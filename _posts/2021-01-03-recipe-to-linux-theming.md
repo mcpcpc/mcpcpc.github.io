@@ -6,8 +6,8 @@ description: Tips and tricks for aspiring linux ricers and theming.
 
 Like most software developers, I find myself frequently perusing sub-reddits 
 and, on occasion, posting my unique Linux creations on
-[/r/unixporn](https://reddit.com/unixporn). The creative process of theming (or 
-"ricing") is something that has always fascinated me and, while I don't 
+[/r/unixporn](https://reddit.com/r/unixporn). The creative process of theming
+(or "ricing") is something that has always fascinated me and, while I don't 
 necessarily consider myself a "ricer", I have developed a recipe that works and
 thought was worth sharing. 
 
