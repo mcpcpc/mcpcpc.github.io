@@ -1,3 +1,7 @@
+## Prepare the Linode VM
+
+
+## Installation
 *   Start Rescue Mode.
 *   Once in Rescue Mode, download your installation media and copy it to your Installer disk.
 
