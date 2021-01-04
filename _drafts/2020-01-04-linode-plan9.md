@@ -17,15 +17,15 @@ Because we can.
 *   Click the **Configurations** tab and press *Add a Configuration*.
 *   Specify a Label name and the following recommended parameters and press *Submit*.
 
-    |parameter              |value                                                              |
-    |-----------------------|-------------------------------------------------------------------|
-    |VM Mode                |Paravirtualization                                                 |
-    |Boot Settings          |Direct Disk                                                        |
-    |Run Level              |Run Default Level                                                  |
-    |Memory Limit           |Do not set any limits on memory usage                              |
-    |Block Device Assignment|`/dev/sda` should mach the Label name created in the previous step.|
-    |Root Device            |/dev/sda                                                           |
-    |Filesystem/Boot Helpers|All Disabled                                                       |
+    |parameter              |value                                                               |
+    |-----------------------|--------------------------------------------------------------------|
+    |VM Mode                |Paravirtualization                                                  |
+    |Boot Settings          |Direct Disk                                                         |
+    |Run Level              |Run Default Level                                                   |
+    |Memory Limit           |Do not set any limits on memory usage                               |
+    |Block Device Assignment|"/dev/sda" should match the Label name created in the previous step.|
+    |Root Device            |/dev/sda                                                            |
+    |Filesystem/Boot Helpers|All Disabled                                                        |
 
 *   Click the *Settings* tab, and disable the Shutdown Watchdog.
 
