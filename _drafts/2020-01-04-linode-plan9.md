@@ -1,8 +1,30 @@
-## Prepare the Linode VM
+## Why 9front
 
+
+
+## Preparing the Linode VM
+
+*   Create a new Linode. I would recommend the Shared CPU *Nanode 1GB* plan, which is 1GB of RAM, 
+    25GB of Storage and 1 CPU for $5 USD/month.
+*   Click the "Storage" tab and press *Add a Disk*.
+*   Specify a Label name, partition size (25600 MB recommended) and press *Create*.
+*   Click the "Configurations tab and press *Add a Configuration*.
+*   Specify a Label name and the following recommended parameters and press *Submit*.
+
+    |parameter              |value                                                              |
+    |-----------------------|-------------------------------------------------------------------|
+    |VM Mode                |Paravirtualization                                                 |
+    |Boot Settings          |Direct Disk                                                        |
+    |Run Level              |Run Default Level                                                  |
+    |Memory Limit           |Do not set any limits on memory usage                              |
+    |Block Device Assignment|`/dev/sda` should mach the Label name created in the previous step.|
+    |Root Device            |/dev/sda                                                           |
+    |Filesystem/Boot Helpers|All Disabled                                                       |
+
+*   Click the *Settings* tab, and disable the Shutdown Watchdog.
 
 ## Installation
-*   Start Rescue Mode.
+*   With the VM powered off, start Rescue Mode.
 *   Once in Rescue Mode, download your installation media and copy it to your Installer disk.
 
     ```
