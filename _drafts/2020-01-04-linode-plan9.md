@@ -1,6 +1,6 @@
-## Why 9front
+## Why 9front?
 
-
+Because we can.
 
 ## Preparing the Linode VM
 
