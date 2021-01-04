@@ -8,7 +8,7 @@ Empty the cache so that you have enough space to unpack and install the image.
 
 Close the Lish window and shutdown VM.
 
-Start "installer" configuration.
+Start *installer* configuration.
 
 Start a new Lish session, using Glish.
 
