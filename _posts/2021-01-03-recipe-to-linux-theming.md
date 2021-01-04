@@ -4,14 +4,16 @@ title: A Mini Recipe to Linux Theming
 description: Tips and tricks for aspiring linux ricers and theming.
 ---
 
-![Custom Theme](/assets/debian_28_12_2020_11_04_47.png)
-
 Like most software developers, I find myself frequently perusing sub-reddits 
 and, on occasion, posting my unique Linux creations on
-[/r/unixporn](https://reddit.com/r/unixporn). The creative process of theming
-(or "ricing") is something that has always fascinated me and, while I don't 
-necessarily consider myself a "ricer", I have developed a recipe that works and
-thought was worth sharing. 
+[/r/unixporn](https://reddit.com/r/unixporn). The following is an example of one
+of my more recent posts:
+
+![Custom Theme](/assets/debian_28_12_2020_11_04_47.png)
+
+The creative process of theming (or "ricing") is something that has always 
+fascinated me and, while I don't necessarily consider myself a "ricer", I have 
+developed a recipe that works and thought was worth sharing. 
 
 *   **Get inspired**. For me, it always starts with a quote or wallpaper that I    
     like, and I build around it. 
