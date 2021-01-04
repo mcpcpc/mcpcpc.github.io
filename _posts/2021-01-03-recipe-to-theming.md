@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A Mini Recipe to Theming
-description: Small tips for those looking to get into linux theming or ricing.
+title: A Mini Recipe to Linux Theming
+description: Tips and tricks for aspiring linux ricers and theming.
 ---
 
 Like most software developers, I find myself frequently perusing sub-reddits 
