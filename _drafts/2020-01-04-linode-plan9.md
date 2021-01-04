@@ -1,3 +1,9 @@
+---
+layout: post
+title: 9front VM on Linode
+description: A guide to creating a simple 9front virtual machine using 
+---
+
 ## Why 9front?
 
 Because we can.
@@ -25,7 +31,8 @@ Because we can.
 
 ## Installation
 *   With the VM powered off, start Rescue Mode.
-*   Once in Rescue Mode, download your installation media and copy it to your Installer disk.
+*   Once in Rescue Mode, download your installation media and copy it to your Installer disk. Refer 
+    to one of the 9front mirrors for the latest image [^2].
 
     ```
     wget http://9front.org/iso/9front-8013.d9e940a768d1.amd64.iso.gz -q -O -| funzip | dd of=/dev/sda
@@ -37,8 +44,8 @@ Because we can.
     sync; echo 3 > /proc/sys/vm/drop_caches
     ```
 
-*   Close the Lish console and Power Off the VM.
-*   Start *installer* configuration.
+*   Close the Lish console and press the *Power Off* button.
+*   Press the **Configurations** tab and press the *Boot* button.
 *   Start a new LISH console using **Glish**.
 *   At this point, you should be able to follow the general "9front Installation Guide" [^3] with 
     little motification. At the conclusion of the installation the VM should automatically be 
