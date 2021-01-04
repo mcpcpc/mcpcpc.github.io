@@ -1,8 +1,16 @@
 *   Start Rescue Mode.
 *   Once in Rescue Mode, download your installation media and copy it to your Installer disk.
-    `wget http://9front.org/iso/9front-8013.d9e940a768d1.amd64.iso.gz -q -O -| funzip | dd of=/dev/sda`
+
+    ```
+    wget http://9front.org/iso/9front-8013.d9e940a768d1.amd64.iso.gz -q -O -| funzip | dd of=/dev/sda
+    ```
+    
 *   Empty the cache so that you have enough space to unpack and install the image.
-    `sync; echo 3 > /proc/sys/vm/drop_caches`
+
+    ```
+    sync; echo 3 > /proc/sys/vm/drop_caches
+    ```
+
 *   Close the Lish window and shutdown VM.
 *   Start *installer* configuration.
 *   Start a new Lish session, using Glish.
