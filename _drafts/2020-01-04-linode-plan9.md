@@ -15,9 +15,15 @@
     sync; echo 3 > /proc/sys/vm/drop_caches
     ```
 
-*   Close the Lish window and shutdown VM.
+*   Close the Lish console and Power Off the VM.
 *   Start *installer* configuration.
-*   Start a new Lish session, using Glish.
+*   Start a new LISH console using **Glish**.
+*   At this point, you should be able to follow the general "9front Installation Guide" [^3] with 
+    little motification. At the conclusion of the installation the VM should automatically be 
+    restarted.
+*   Close the current LISH window. Upon refreshing your browser window, you may
+    see that the VM is powered off. At this point, you can *Power On* your VM and launch a new LISH
+    console. 
 
 [^1]: https://www.linode.com/docs/guides/install-a-custom-distribution-on-a-linode
 [^2]: http://9front.org/iso/
