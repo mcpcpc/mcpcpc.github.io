@@ -4,6 +4,8 @@ title: A Mini Recipe to Linux Theming
 description: Tips and tricks for aspiring linux ricers and theming.
 ---
 
+![Custom Theme](/assets/debian_28_12_2020_11_04_47.png)
+
 Like most software developers, I find myself frequently perusing sub-reddits 
 and, on occasion, posting my unique Linux creations on
 [/r/unixporn](https://reddit.com/r/unixporn). The creative process of theming
