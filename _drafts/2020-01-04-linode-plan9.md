@@ -12,9 +12,9 @@ Because we can.
 
 *   Create a new Linode. I would recommend the Shared CPU *Nanode 1GB* plan, which is 1GB of RAM, 
     25GB of Storage and 1 CPU for $5 USD/month.
-*   Click the "Storage" tab and press *Add a Disk*.
+*   Click the **Storage** tab and press *Add a Disk*.
 *   Specify a Label name, partition size (25600 MB recommended) and press *Create*.
-*   Click the "Configurations tab and press *Add a Configuration*.
+*   Click the **Configurations** tab and press *Add a Configuration*.
 *   Specify a Label name and the following recommended parameters and press *Submit*.
 
     |parameter              |value                                                              |
