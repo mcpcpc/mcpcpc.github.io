@@ -64,8 +64,12 @@ consider doing so using my referral link
     see that the VM is powered off. Press the *Power On* button and launch a new 
     LISH console window (glish). At this point, you should see the fully-
     functional rio window manger in a pseudoterminal.
-    
-    ![9front in a pseudo-tty](/assets/9front-mothra.png)
+
+## The Reault
+
+If all went well, then you should be seeing the rio window manager with a termimal window and process monitor in your LISH console.
+
+![9front in a pseudo-tty](/assets/9front-mothra.png)
 
 ## Next Steps
 
