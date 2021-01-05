@@ -65,7 +65,7 @@ consider doing so using my referral link
     LISH console window (glish). At this point, you should see the fully-
     functional rio window manger in a pseudoterminal.
 
-## The Reault
+## The Result
 
 If all went well, then you should be seeing the rio window manager with a termimal window and process monitor in your LISH console.
 
