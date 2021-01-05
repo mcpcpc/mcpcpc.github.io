@@ -78,8 +78,8 @@ screenshot below).
 There are *many* resources at your disposal if you are looking to learn more 
 about 9front or plan9. Here are some of the best that I have found: 
 
-*   The official 9front FAQ: http://fqa.9front.org
-*   https://pspodcasting.net/dan/blog/2019/plan9_desktop.html
+*   Official 9front FAQ, (9front.org)[http://fqa.9front.org]
+*   "Plan9 Desktop Guide", (pspodcasting.net/)[https://pspodcasting.net/dan/blog/2019/plan9_desktop.html]
 
 ---
 
