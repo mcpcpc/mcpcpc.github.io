@@ -67,7 +67,9 @@ consider doing so using my referral link
 
 ## The Result
 
-If all went well, then you should be seeing the rio window manager with a termimal window and process monitor in your LISH console.
+If all went well, then you should be seeing the rio window manager with a 
+termimal window and process monitor in your LISH console (something like the 
+screenshot below).
 
 ![9front in a pseudo-tty](/assets/9front-mothra.png)
 
