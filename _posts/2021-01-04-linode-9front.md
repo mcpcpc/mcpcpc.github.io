@@ -10,7 +10,7 @@ Why install 9front on a Linode virtual machine? Because we can.
 
 *Note that if you are new to Linode and are looking to sign up, then please 
 consider doing so using my referral link
-[here](https://www.linode.com/?r=0c625ecd8478eb827df57d2e2ffa095759d089ab) (which supports me and my many projects).*
+[here](https://www.linode.com/?r=0c625ecd8478eb827df57d2e2ffa095759d089ab) (which helps support me and my many projects).*
 
 ## Preparing the Linode VM
 
