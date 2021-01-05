@@ -71,6 +71,8 @@ screenshot below).
 
 ![9front in a pseudo-tty](/assets/9front-mothra.png)
 
+A complete desktop experience over a pseudoterminal. Pretty nifty, right?
+
 ## Next Steps
 
 There are *many* resources at your disposal if you are looking to learn more 
