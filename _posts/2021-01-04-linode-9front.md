@@ -4,8 +4,6 @@ title: Installing 9front OS on a Linode VM
 description: Installing and configuring 9front operating system on Linode virtual machine.
 ---
 
-![glenda](/assets/glenda_space_medium.jpg)
-
 Why install 9front on a Linode virtual machine? Because we can! Note that if you
 are new to Linode and are looking to sign up, then please consider doing so using
 my referral link
