@@ -56,15 +56,20 @@ Why install 9front on a Linode virtual machine? Because we can.
     see that the VM is powered off. At this point, you can *Power On* your VM
     and launch a new LISH console winosw (glish). At this point, you should aee    
     the fully-functional rio window manger in a pseudotermimal.
+    
+    ![9front in a pseudo-tty](/assets/debian_28_12_2020_11_04_47.png)
 
 ## Next Steps
 
-I started this adventure with the desire to mess with the rio window manager works. With that said, if you are looking to learn more about 9front or plan9, there are a number of reaources at your disposal:
+I started this adventure with the desire to mess with the rio window manager. 
+With that said, there are a number of reaources at your disposal if you are 
+looking to learn more about 9front or plan9:
 
+*   http://fqa.9front.org
 *   https://pspodcasting.net/dan/blog/2019/plan9_desktop.html
 
 ---
 
 [^1]: https://www.linode.com/docs/guides/install-a-custom-distribution-on-a-linode
-[^2]: http://9front.org/iso/
+[^2]: an offic 9front mirror http://9front.org/iso/
 [^3]: http://fqa.9front.org/fqa4.html#4.3
