@@ -56,8 +56,8 @@ referral link
 *   Start a new LISH console (Glish). At this point, you should be able to 
     follow the general 
     [9front Installation Guide](http://fqa.9front.org/fqa4.html#4.3) for 
-    installing 9front OS to the main partition. At the conclusion of the 
-    installation the VM should automatically be restarted.
+    installing 9front OS to the boot disk. At the conclusion of the installation
+    the VM should automatically restart.
 *   Close the current LISH window. Upon refreshing your browser window, you may
     see that the VM is powered off. Press the *Power On* button and launch a new 
     LISH console window (glish). At this point, you should see the fully-
