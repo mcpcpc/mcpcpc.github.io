@@ -54,7 +54,7 @@ Why install 9front on a Linode virtual machine? Because we can.
     be restarted.
 *   Close the current LISH window. Upon refreshing your browser window, you may
     see that the VM is powered off. At this point, you can *Power On* your VM
-    and launch a new LISH console winosw (glish). At this point, you should aee    
+    and launch a new LISH console winosw (glish). At this point, you should see    
     the fully-functional rio window manger in a pseudotermimal.
     
     ![9front in a pseudo-tty](/assets/debian_28_12_2020_11_04_47.png)
