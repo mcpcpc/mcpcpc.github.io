@@ -57,7 +57,7 @@ Why install 9front on a Linode virtual machine? Because we can.
     and launch a new LISH console winosw (glish). At this point, you should see    
     the fully-functional rio window manger in a pseudotermimal.
     
-    ![9front in a pseudo-tty](/assets/debian_28_12_2020_11_04_47.png)
+    ![9front in a pseudo-tty](/assets/9front-mothra.png)
 
 ## Next Steps
 
