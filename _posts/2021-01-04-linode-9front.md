@@ -41,7 +41,7 @@ consider doing so using my referral link
 *   With the VM powered off, start Rescue mode.
 *   Open a new LISH console window. Once in Rescue mode, download your
     installation media and copy it to your boot disk. Refer to one of the 9front 
-    mirrors for the latest image[^2].
+    mirrors for the latest image[^1].
 
     ```shell
     wget http://9front.org/iso/9front-8013.d9e940a768d1.amd64.iso.gz -q -O -| funzip | dd of=/dev/sda
@@ -57,7 +57,7 @@ consider doing so using my referral link
 *   Close the LISH console window and press the *Power Off* button.
 *   Press the **Configurations** tab and press the *Boot* button.
 *   Start a new LISH console (Glish). At this point, you should be able to 
-    follow the general "9front Installation Guide"[^3] for installing 9front OS 
+    follow the general "9front Installation Guide"[^2] for installing 9front OS 
     to the main partition. At the conclusion of the installation the VM should 
     automatically be restarted.
 *   Close the current LISH window. Upon refreshing your browser window, you may
@@ -83,6 +83,5 @@ about 9front or plan9. Here are some of the best that I have found:
 
 ---
 
-[^1]: https://www.linode.com/docs/guides/install-a-custom-distribution-on-a-linode
 [^2]: 9front ISO mirror, http://9front.org/iso/
 [^3]: "9front Installation Guide", http://fqa.9front.org/fqa4.html#4.3
