@@ -31,7 +31,7 @@ Why install 9front on a Linode virtual machine? Because we can.
 ## Installation and First Boot
 
 *   With the VM powered off, start Rescue mode.
-*   Open in a new LISH console window. Once in Rescue mode, download your
+*   Open a new LISH console window. Once in Rescue mode, download your
     installation media and copy it to your boot disk. Refer to one of the 9front 
     mirrors for the latest image[^2].
 
