@@ -9,8 +9,8 @@ Why install 9front on a Linode virtual machine? Because we can.
 ## Preparing the Linode VM
 
 *   Create a new Linode vortual machine. I would recommend the Shared CPU 
-    "Nanode 1GB" plan, which is 1GB of RAM, 25GB of Storage and 1 CPU for $5
-    USD/month.
+    "Nanode 1GB" plan (which is 1GB of RAM, 25GB of Storage and 1 CPU for $5
+    USD per month).
 *   Click the **Storage** tab and press *Add a Disk*. Specify a Label name,
     partition size (25600MB recommended) and press *Create*.
 *   Click the **Configurations** tab and press *Add a Configuration*. Specify a
@@ -49,13 +49,17 @@ Why install 9front on a Linode virtual machine? Because we can.
 *   Close the LISH console window and press the *Power Off* button.
 *   Press the **Configurations** tab and press the *Boot* button.
 *   Start a new LISH console using **Glish**.
-*   At this point, you should be able to follow the general "9front Installation
-    Guide"[^3] with 
-    little motification. At the conclusion of the installation the VM should
-    automatically be restarted.
+*   You should be able to follow the general "9front Installation Guide"[^3] for 
+    installing 9front OS to the main partition. At the conclusion of the
+    installation the VM should automatically be restarted.
 *   Close the current LISH window. Upon refreshing your browser window, you may
     see that the VM is powered off. At this point, you can *Power On* your VM
-    and launch a new LISH console. 
+    and launch a new LISH console winosw (glish). At this point, you should aee    
+    the fully-functional rio window manger in a pseudotermimal.
+
+## Next Steps
+
+That's it.  At t
 
 ---
 
