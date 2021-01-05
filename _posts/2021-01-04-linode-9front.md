@@ -62,9 +62,8 @@ Why install 9front on a Linode virtual machine? Because we can.
 
 ## Next Steps
 
-I started this adventure with the desire to mess with the rio window manager. 
-With that said, there are a number of reaources at your disposal if you are 
-looking to learn more about 9front or plan9:
+There are *many* reaources at your disposal if you are looking to learn more 
+about 9front or plan9. Here are some of the best that I have found: 
 
 *   http://fqa.9front.org
 *   https://pspodcasting.net/dan/blog/2019/plan9_desktop.html
