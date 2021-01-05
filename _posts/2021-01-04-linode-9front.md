@@ -8,9 +8,9 @@ Why install 9front on a Linode virtual machine? Because we can.
 
 ## Preparing the Linode VM
 
-*   Create a new Linode vortual machine. I would recommend the Shared CPU 
-    "Nanode 1GB" plan (which is 1GB of RAM, 25GB of Storage and 1 CPU for $5
-    USD per month).
+*   Create a new Linode virtual machine. I would recommend starting with the 
+    Shared CPU "Nanode 1GB" plan (which is 1GB of RAM, 25GB of Storage and 1 CPU 
+    for 5 USD per month).
 *   Click the **Storage** tab and press *Add a Disk*. Specify a Label name,
     partition size (25600MB recommended) and press *Create*.
 *   Click the **Configurations** tab and press *Add a Configuration*. Specify a
