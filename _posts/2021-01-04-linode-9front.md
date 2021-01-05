@@ -83,5 +83,5 @@ about 9front or plan9. Here are some of the best that I have found:
 
 ---
 
-[^2]: 9front ISO mirror, http://9front.org/iso/
-[^3]: "9front Installation Guide", http://fqa.9front.org/fqa4.html#4.3
+[^1]: 9front ISO mirror, http://9front.org/iso/
+[^2]: "9front Installation Guide", http://fqa.9front.org/fqa4.html#4.3
