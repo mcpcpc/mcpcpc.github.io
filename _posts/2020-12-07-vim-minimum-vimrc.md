@@ -16,7 +16,7 @@ can comfortably live with:
 
 ## Deciphering Each Parameter
 The above .vimrc file is nice and short, but incredibly cryptic. Let's try to
-decipher the meaning of each parameter:
+decipher the meaning of each parameter.
 
 |abbreviation                |parameter    |description               |
 |----------------------------|-------------|--------------------------|
