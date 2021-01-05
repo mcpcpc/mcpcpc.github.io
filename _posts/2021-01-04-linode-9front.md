@@ -53,9 +53,9 @@ Why install 9front on a Linode virtual machine? Because we can.
     partition. At the conclusion of the installation the VM should automatically
     be restarted.
 *   Close the current LISH window. Upon refreshing your browser window, you may
-    see that the VM is powered off. At this point, you can *Power On* your VM
-    and launch a new LISH console winosw (glish). At this point, you should see    
-    the fully-functional rio window manger in a pseudotermimal.
+    see that the VM is powered off. Press the *Power On* button and launch a new 
+    LISH console window (glish). At this point, you should see the fully-
+    functional rio window manger in a pseudoterminal.
     
     ![9front in a pseudo-tty](/assets/9front-mothra.png)
 
