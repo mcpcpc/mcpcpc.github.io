@@ -78,5 +78,3 @@ about 9front or plan9. Here are some of the best that I have found:
 
 *   [Official 9front FAQ](http://fqa.9front.org)
 *   [Plan9 Desktop Guide](https://pspodcasting.net/dan/blog/2019/plan9_desktop.html)
-
-[^2]: "9front Installation Guide", http://fqa.9front.org/fqa4.html#4.3
