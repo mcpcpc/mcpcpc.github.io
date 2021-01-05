@@ -4,20 +4,21 @@ title: xwm Versus Everything Else
 description: A comparison of xwm to mainstream window manager solutions.
 ---
 
-A question that I am frequently asked is, how does xwm compare to *X*"? The
-reality is that there is no straightforward answer. In most cases, comparing
-xwm to any window manger is like comparing *apples* to *oranges*. 
+A question that I am frequently asked is, how does 
+[xwm](http://github.com/mcpcpc/xwm) compare to *X*"? The reality is that there
+is no straightforward answer. In most cases, comparing xwm to any window manger
+is like comparing *apples* to *oranges*. 
 
 Why is that so? Let's a take a look.
 
 ## The Competition
 
 Let's begin by comparing high-level features for several actively developed 
-(and frequently referred to as "minimal") window manager solutions [^1][^2]:
+(and frequently referred to as "minimal") window manager solutions:
 
 |feature               |cwm     |tinywm  |xwm     |evilwm  |dwm     |bspwm   |
 |----------------------|--------|--------|--------|--------|--------|--------|
-|cloc[^3]              |6328    |115     |339     |3257    |2505    |11909   |
+|cloc                  |6328    |115     |339     |3257    |2505    |11909   |
 |protocol              |Xlib    |Xlib    |XCB     |Xlib    |Xlib    |XCB     |
 |license               |ISC     |Public  |MIT     |MIT     |MIT     |BSD     |
 |language              |C       |C       |C       |C       |C       |C       |
@@ -33,13 +34,14 @@ takeaways:
 *   There are two main X protocols used for window manager development: Xlib
     and XCB.
 *   XCB is the faster and (arguably) preferred X protocol for developers. Refer
-    to "The X New Developer's Guide: Xlib and XCB" for a more detailed
-    comparison [^4].
+    to the [The X New Developer's Guide: Xlib and XCB](https://www.x.org/wiki/guide/xlib-and-xcb/)
+    for a more detailed comparison.
 *   While choosing one protocol does not necessarily translate to a better
     user experience, choosing the more modern protocol ensures better
     long-term support for the life of the project.
-*   There is a pretty big difference in the `cloc` footprint, so it’s difficult
-    to compare these from a feature perspective as xwm is considered a “minimum
+*   There is a pretty big difference in the 
+    [cloc](https://github.com/AlDanial/cloc) footprint, so it’s difficult to 
+    compare these from a feature perspective as xwm is considered a “minimum
     viable solution” and the rest offer a more full-featured user experience.
     However, like dwm, xwm is a framework for developers to patch and enhance.
     So there is nothing stopping users or developers from making xwm more like
@@ -47,7 +49,7 @@ takeaways:
 
 ## The Philosophy Behind xwm
 
-The philosophy behind xwm is fairly straight forward [^5]:
+The philosophy behind xwm is fairly straight forward:
 
 ### Less Is More
 
@@ -81,11 +83,3 @@ that audience will appreciate what xwm attempts to accomplish. With that said, I
 would welcome veterans and newbies alike to try xwm out and let me know their
 thoughts. I am always open to suggestions and ideas for improving xwm or counter
 arguments to anything I have stated in this article.
-
----
-
-[^1]: xwm project page, [GitHub](http://github.com/mcpcpc/xwm)
-[^2]: "Comparison of X window managers", [Wikipedia](https://en.m.wikipedia.org/wiki/Comparison_of_X_window_managers)
-[^3]: cloc project page, [GitHub](https://github.com/AlDanial/cloc)
-[^4]: "The X New Developer's Guide: Xlib and XCB", [www.x.org](https://www.x.org/wiki/guide/xlib-and-xcb/)
-[^5]: "xwm - a tiny XCB window floating window manager", [Hacker News](https://news.ycombinator.com/item?id=25033613)
