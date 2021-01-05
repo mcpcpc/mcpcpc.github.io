@@ -12,7 +12,8 @@ Why install 9front on a Linode virtual machine? Because we can.
     Shared CPU "Nanode 1GB" plan (which is 1GB of RAM, 25GB of Storage and 1 CPU 
     for 5 USD per month).
 *   Click the **Storage** tab and press *Add a Disk*. Specify a Label name,
-    partition size (25600MB recommended) and press *Create*.
+    raw format type and the partition size (asumming you chose the "Nanode 1GB"
+    plan, I would recommd using 25600MB) and press *Create*.
 *   Click the **Configurations** tab and press *Add a Configuration*. Specify a
     Label name and the following recommended parameters and press *Submit*.
 
@@ -35,14 +36,14 @@ Why install 9front on a Linode virtual machine? Because we can.
     installation media and copy it to your boot disk. Refer to one of the 9front 
     mirrors for the latest image[^2].
 
-    ```
+    ```shell
     wget http://9front.org/iso/9front-8013.d9e940a768d1.amd64.iso.gz -q -O -| funzip | dd of=/dev/sda
     ```
     
 *   Empty the cache so that you have enough space to unpack and install the
     image.
 
-    ```
+    ```shell
     sync; echo 3 > /proc/sys/vm/drop_caches
     ```
 
