@@ -27,7 +27,7 @@ Why install 9front on a Linode virtual machine? Because we can.
     |Memory Limit           |Do not set any limits on memory usage             |
     |Block Device Assignment|"/dev/sda" matches the *Storage* tab Label name.  |
     |Root Device            |/dev/sda                                          |
-    |Filesystem/Boot Helpers|All Disabled                                      |
+    |Filesystem/Boot Helpers|All options disabled                              |
 
 *   Click the *Settings* tab, and disable the Shutdown Watchdog.
 
@@ -67,11 +67,11 @@ Why install 9front on a Linode virtual machine? Because we can.
 There are *many* resources at your disposal if you are looking to learn more 
 about 9front or plan9. Here are some of the best that I have found: 
 
-*   http://fqa.9front.org
+*   The official 9front FAQ: http://fqa.9front.org
 *   https://pspodcasting.net/dan/blog/2019/plan9_desktop.html
 
 ---
 
 [^1]: https://www.linode.com/docs/guides/install-a-custom-distribution-on-a-linode
-[^2]: an offic 9front mirror http://9front.org/iso/
-[^3]: http://fqa.9front.org/fqa4.html#4.3
+[^2]: 9front ISO mirror, http://9front.org/iso/
+[^3]: "9front Installation Guide", http://fqa.9front.org/fqa4.html#4.3
