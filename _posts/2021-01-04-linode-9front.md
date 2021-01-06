@@ -4,11 +4,7 @@ title: Installing 9front OS on a Linode VM
 description: Installing and configuring 9front operating system on Linode virtual machine.
 ---
 
-Why install 9front on a Linode virtual machine? Because we can! Also, if you are 
-new to Linode and are looking to sign up, then please consider doing so using my
-referral link
-[here](https://www.linode.com/?r=0c625ecd8478eb827df57d2e2ffa095759d089ab)
-(which helps support me and my many projects).
+Why install 9front on a Linode virtual machine? Because we can!
 
 ## Preparing the Linode VM
 
@@ -82,3 +78,8 @@ about 9front or plan9. Here are some of the best that I have found:
 *   [Plan9 Desktop Guide](https://pspodcasting.net/dan/blog/2019/plan9_desktop.html)
 *   [How I Switched To Plan 9](http://helpful.cat-v.org/Blog/2019/12/03/0/)
 *   [Nicolas Montanaro's 9front Guide](https://nicolasmontanaro.com/blog/9front-guide/)
+
+Also, if you are new to Linode and are looking to sign up, then please consider 
+doing so using my referral link
+[here](https://www.linode.com/?r=0c625ecd8478eb827df57d2e2ffa095759d089ab)
+(which helps support me and my many projects).
