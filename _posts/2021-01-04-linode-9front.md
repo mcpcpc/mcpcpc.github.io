@@ -78,7 +78,7 @@ about 9front or plan9. Here are some of the best that I have found:
 *   [Plan9 Desktop Guide](https://pspodcasting.net/dan/blog/2019/plan9_desktop.html)
 *   [How I Switched To Plan 9](http://helpful.cat-v.org/Blog/2019/12/03/0/)
 *   [Nicolas Montanaro's 9front Guide](https://nicolasmontanaro.com/blog/9front-guide/)
-*   [Plan 9 on SDF VPS](https://sdf.org/?tutorials/VPS_Plan9)Plan 9 on SDF VPS
+*   [Plan 9 on SDF VPS](https://sdf.org/?tutorials/VPS_Plan9)
 
 Also, if you are new to Linode and are looking to sign up, then please consider 
 doing so using my referral link
