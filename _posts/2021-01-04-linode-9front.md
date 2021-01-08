@@ -48,7 +48,8 @@ Why install 9front on a Linode virtual machine? Because we can!
     ```
 
 *   Close the LISH console window and press the *Power Off* button.
-*   Press the **Configurations** tab and press the *Boot* button.
+*   Press the **Configurations** tab and, under the configuration previously
+    created, press the *Boot* button.
 *   Start a new LISH console (Glish). At this point, you should be able to 
     follow the general 
     [9front Installation Guide](http://fqa.9front.org/fqa4.html#4.3) for 
