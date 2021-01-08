@@ -80,6 +80,7 @@ about 9front or plan9. Here are some of the best that I have found:
 *   [Nicolas Montanaro's 9front Guide](https://nicolasmontanaro.com/blog/9front-guide/)
 *   [Plan 9 on SDF VPS](https://sdf.org/?tutorials/VPS_Plan9)
 *   [Reading E-mail from Gmail on Plan 9 from Bell Labs](https://luksamuk.codes/posts/plan9-mail.html)
+*   [Plan 9 Remote CPU]https://royniang.com/cpu_auth.html
 
 Also, if you are new to Linode and are looking to sign up, then please consider 
 doing so using my referral link
