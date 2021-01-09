@@ -10,11 +10,9 @@ description: temp
 
     ```
     term% 9fs 9fat
-    term% cd /n/9fat
-    term% cp plan9.ini plan9.ini.old
     ```
 
-*   Invoke the dhcpcd server and print the configured network database information.  
+*   Invoke the DHCPCD server and print the configured network database information.  
     Note the values for `ip=`, `ipmask=` and `ipgw=` as these will be used later.
 
     ```
@@ -35,11 +33,11 @@ description: temp
 
     ```
     bootfile=9pc
-    bootargs=local!/dev/sdXX/fscache -a tcp!*!564
+    bootargs=local!/dev/sdC0/fs -m 832
     mouseport=ps2
     monitor=vesa
     vgasize=1024x768x16
-    nobootprompt=local!/dev/sdXX/fs -
+    nobootprompt=local!/dev/sdC0/fscache -a tcp!*!564
     user=glenda
     auth=XX.X.X.XX
     cpu=XX.X.X.XX
