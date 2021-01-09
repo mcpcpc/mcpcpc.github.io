@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing 9front OS on a Linode VM
+title: "9front OS: Installing on a Linode VM"
 description: Installing and configuring 9front operating system on Linode virtual machine.
 ---
 
