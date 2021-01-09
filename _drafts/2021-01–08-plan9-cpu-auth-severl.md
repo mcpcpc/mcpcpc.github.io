@@ -5,11 +5,11 @@ description: How to connect to your plan9 OS on a Linode virtual machine
 ---
 
 If you were following along with my previous 
-[article]({% post_url 2021-01-04-linode-9front %}), then you probably have a work 
-install of 9front OS on a Linode virtual machine that you can access through a LISH
-pseudoterminal. In the following article, I will attempt to walk through the process 
-of turning your virtual machine into a cpu+auth server, which will allow you to 
-spawn a virtual desktop from any non-9front OS.
+[article]({% post_url 2021-01-04-linode-9front %}), then you probably have a working 
+installation of 9front OS on a Linode virtual machine that you can access through a 
+LISH pseudoterminal. In the following article, I will attempt to walk through the 
+process of turning creating a cpu+auth server, which will allow you 
+to spawn a virtual desktop from any non-9front OS.
 
 ## Cpu and Auth Server Configuration
 
