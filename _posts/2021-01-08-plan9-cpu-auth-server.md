@@ -44,7 +44,7 @@ desktop from any non-9front OS[^1] using drawterm.
     user=glenda
     auth=10.0.2.15
     cpu=10.0.2.15
-    authdom=plan9
+    authdom=9front
     service=cpu
     ```
     
@@ -56,7 +56,7 @@ desktop from any non-9front OS[^1] using drawterm.
     bad authentication id
     bad authenication domain
     authid: glenda
-    authdom: plan9
+    authdom: 9front
     secstore key: <glenda secstore password>
     secstore key: <repeat glenda secstore password>
     password: <actual glenda password>
@@ -103,7 +103,7 @@ desktop from any non-9front OS[^1] using drawterm.
     ipnet=Home ip=10.0.2.0 ipmask=255.255.255.0
       ipgw=10.0.2.2
       auth=10.0.2.15
-      authdom=plan9
+      authdom=9front
       fs=10.0.2.15
       cpu=10.0.2.15
       dns=75.75.75.75
