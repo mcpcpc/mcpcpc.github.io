@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "9front OS: cpu, auth and fs Server Setup"
-description: How to connect to your plan9 operating system on a Linode virtual machine using a cpu+auth server.
+title: "9front OS: Remote CPU"
+description: How to connect to your plan9 operating system on a Linode virtual machine using a cpu, auth and fs server.
 ---
 
 If you were following along with my previous 
