@@ -35,7 +35,7 @@ description: temp
 
     ```
     bootfile=9pc
-    bootargs=local!/dev/sdXX/fs -n 832
+    bootargs=local!/dev/sdXX/fscache -a tcp!*!564
     mouseport=ps2
     monitor=vesa
     vgasize=1024x768x16
