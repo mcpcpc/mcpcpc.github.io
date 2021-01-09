@@ -80,7 +80,7 @@ desktop from any non-9front OS using drawterm[^1].
     assign new Inferno/POP secret? (y/n): n
     make it the same as Plan 9 password? (y/n): y
     Expiration date (YYYYMMDD or never)[never]:↵
-    Post id: glenda
+    Post id:↵
     User's full name:↵
     Department #:↵
     User's email address:↵
