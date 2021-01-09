@@ -9,7 +9,7 @@ If you were following along with my previous
 installation of 9front OS on a Linode virtual machine that you can access through a 
 LISH pseudoterminal. In the following article, I will attempt to walk through the 
 process of creating a cpu+auth server, which will allow you to spawn a virtual 
-desktop from any non-9front OS[^1].
+desktop from any non-9front OS[^1] using drawterm.
 
 ## Configuration
 
@@ -120,7 +120,7 @@ desktop from any non-9front OS[^1].
 
 Now comes the fun part.  From a non-plan9 OS, download and install the cpu client 
 application, [drawterm](http://drawterm.9front.org). Note that the version linked is 
-a fork of Russ CoX's drawterm. Once installed, launch the application, specify the server IP address, idname (glenda) and password.
+a fork of Russ CoX's drawterm. Once installed, launch the application, specify the server cpu IP address, user (glenda) and password.
 
 [^1]: Special thanks to Youtube user C0tl43 and his video [Setting up a 9front 
       cpu+auth+fs standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ),    
