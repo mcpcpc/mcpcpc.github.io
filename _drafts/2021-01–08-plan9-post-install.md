@@ -4,7 +4,7 @@ title: plan9 and Linode: Post-Install
 description:
 ---
 
-## Cpu+auth Server Configuration
+## Cpu and Auth Server Configuration
 
 *   Mount `9fat` and make a copy of your plan9.ini file.
 ```
@@ -27,7 +27,7 @@ cat /net/ndb
 sam plan9.ini
 ```
 
-* Set the bootargs as a default using nobootprompt
+* Set the bootargs, default hostowner, auth, cpu, authdom and service to cpu server.
 
 ```
 bootfile=9pc
@@ -42,6 +42,55 @@ cpu=XX.X.X.XX
 authdom=9plan
 service=cpu
 ```
+* Configure the auth server non-volitile ram host owner, name and password key.
 
+```
+term% auth/wrkey
+bad nvram des key
+bad authentication id
+bad authenication domain
+authid: glenda
+authdom: 9plan
+secstore key: <glenda sectore password>
+secstore key: <repeat glenda secstore password>
+password: <actual glenda password>
+password: <repeat actual glenda password>
+```
+
+* Start keyfs, which needs to be loaded every time you want to modify the users key.
+
+```
+term% auth/keyfs
+```
+
+* Modify the user key for glenda:
+
+```
+term% auth/changeuser glenda
+Password: <same as password used for nvram step>
+Password: <same as password used for nvram step>
+Confirm Password: <same as password used for nvram step>
+assign new Inferno/POP secret? (y/n): n
+make it the same as Plan 9 password? (y/n): y
+Expiration date (YYYYMMDD or never)[never]:
+Post id: glenda
+User's full name:
+Department #:
+User's email address:
+Sponsor's email address:
+user glenda installed for Plan 9
+```
+
+* Invoke `auth/enable` on glenda.
+
+```
+term% auth/enable glenda
+```
+
+* Configure the network database.
+
+```
+sam /lib/ndb/local
+```
 
 
