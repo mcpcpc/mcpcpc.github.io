@@ -114,3 +114,8 @@ description: temp
 
     ```
 
+*   Reboot the system.
+
+    ```
+    term% fshalt -r
+    ```
