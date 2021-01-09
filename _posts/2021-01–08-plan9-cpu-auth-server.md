@@ -57,7 +57,7 @@ desktop from any non-9front OS[^1] using drawterm.
     bad authenication domain
     authid: glenda
     authdom: plan9
-    secstore key: <glenda sectore password>
+    secstore key: <glenda secstore password>
     secstore key: <repeat glenda secstore password>
     password: <actual glenda password>
     password: <repeat actual glenda password>
