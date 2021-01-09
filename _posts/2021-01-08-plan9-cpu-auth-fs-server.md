@@ -67,9 +67,8 @@ default configurations selected (e.g. cwfs) and the device drive name of *sd00*.
     ```
     term% auth/keyfs
     term% auth/changeuser glenda
-    Password: <same as password used for nvram step>
-    Password: <same as password used for nvram step>
-    Confirm Password: <same as password used for nvram step>
+    Password: [same as password used for nvram step]
+    Confirm Password: [same as password used for nvram step]
     assign new Inferno/POP secret? (y/n): n
     Expiration date (YYYYMMDD or never)[never]: ↵
     Post id: ↵
@@ -110,7 +109,8 @@ default configurations selected (e.g. cwfs) and the device drive name of *sd00*.
 
 Now comes the fun part.  From a non-plan9 OS, download and install the cpu client 
 application, [drawterm](http://drawterm.9front.org). Note that the version linked is 
-a fork of Russ CoX's drawterm. Once installed, launch the application, specify the server cpu IP address, user (glenda) and password.
+a fork of Russ CoX's drawterm. Once installed, launch the application, specify the 
+server cpu IP address, user (glenda) and password.
 
 Once connected, start webfs and rio window manager.
 
@@ -122,8 +122,8 @@ rio -i riostart
 ## Tips And Tricks
 
 *   You probably don't want to enter the above commands each and every time you want  
-    to access your plan9 system remotely. Instead, we can edit the host users 
-    profile via `sam /usr/glenda/lib/profile` and add those lines right below 
+    to access your system remotely. Instead, we can edit the host users profile 
+    via `sam /usr/glenda/lib/profile` and add those lines right below.
     `fn cpu% { $* }`.
 
 [^1]: Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and helped create this article.
