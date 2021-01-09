@@ -42,8 +42,8 @@ desktop from any non-9front OS[^1] using drawterm.
     vgasize=1024x768x16
     nobootprompt=local!/dev/sd00/fscache -a tcp!*!564
     user=glenda
-    auth=XX.X.X.XX
-    cpu=XX.X.X.XX
+    auth=10.0.2.15
+    cpu=10.0.2.15
     authdom=plan9
     service=cpu
     ```
