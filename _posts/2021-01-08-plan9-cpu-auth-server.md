@@ -79,12 +79,12 @@ desktop from any non-9front OS[^1] using drawterm.
     Confirm Password: <same as password used for nvram step>
     assign new Inferno/POP secret? (y/n): n
     make it the same as Plan 9 password? (y/n): y
-    Expiration date (YYYYMMDD or never)[never]:
+    Expiration date (YYYYMMDD or never)[never]:↵
     Post id: glenda
-    User's full name:
-    Department #:
-    User's email address:
-    Sponsor's email address:
+    User's full name:↵
+    Department #:↵
+    User's email address:↵
+    Sponsor's email address:↵
     user glenda installed for Plan 9
     ```
 
