@@ -1,7 +1,7 @@
 ---
-type: post
+layout: post
 title: plan9 and Linode: Post-Install
-description:
+description: temp
 ---
 
 ## Cpu and Auth Server Configuration
