@@ -87,13 +87,8 @@ description: temp
     term% auth/enable glenda
     ```
 
-*   Open the network database.
-
-    ```
-    sam /lib/ndb/local
-    ```
-
-*   Scroll to the bottom of the file and add/modify the following lines. 
+*   Open the network database using `sam /lib/ndb/local`. Scroll to the bottom of 
+    the file and add/modify the following lines. 
 
     ```
     sys=plan9 ether=000027ad3b9a authdom=plan9 auth=10.0.2.15 ip=10.0.2.15
