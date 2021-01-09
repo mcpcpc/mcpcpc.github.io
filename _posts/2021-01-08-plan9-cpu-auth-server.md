@@ -9,7 +9,10 @@ If you were following along with my previous
 installation of 9front OS on a Linode virtual machine that you can access through a 
 LISH pseudoterminal. In the following article, I will attempt to walk through the 
 process of creating a cpu+auth server, which will allow you to spawn a virtual 
-desktop from any non-9front OS using drawterm[^1].
+desktop from any non-9front OS using drawterm[^1]. 
+
+For the purpose of this installation, I will assume that 9front was installed with
+default configurations selected (e.g. cwfs) and the device drive name of *sd00*.
 
 ## Configuration
 
