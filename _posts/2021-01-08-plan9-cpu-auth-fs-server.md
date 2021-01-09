@@ -51,16 +51,7 @@ default configurations selected (e.g. cwfs) and the device drive name of *sd00*.
     service=cpu
     ```
     
-*   Configure the auth server non-volitile ram host owner, name and password key.
-    The `secstore key` and `password` are secret passwords of eight characters
-    or more in length. The `password` is the password belonging to the authid 
-    user on the auth server responsible for the authdom entered above. The  
-    `secstore key` is the password of the user on the secure-store server 
-    (Read: [FQA 7.4.3 - secstored](http://fqa.9front.org/fqa8.html#7.4.3)). If 
-    the secstore client (Read: [FQA 8.4.7 - secstore](http://fqa.9front.org/
-    fqa7.html#8.4.7)) is not being used on this machine (for example, if this 
-    is the auth server where secstored will run), just hit enter at the 
-    *secstore key:* prompt.
+*   Configure the auth server non-volitile ram host owner, name and password key [^2].
 
     ```
     term% auth/wrkey
@@ -145,3 +136,13 @@ rio -i riostart
     `fn cpu% { $* }`.
 
 [^1]: Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and helped create this article.
+[^2]:  The `secstore key` and `password` are secret passwords of eight characters
+       or more in length. The `password` is the password belonging to the authid 
+       user on the auth server responsible for the authdom entered above. The  
+       `secstore key` is the password of the user on the secure-store server 
+       (Read: [FQA 7.4.3 - secstored](http://fqa.9front.org/fqa8.html#7.4.3)). If 
+       the secstore client (Read: [FQA 8.4.7 - secstore](http://fqa.9front.org/
+       fqa7.html#8.4.7)) is not being used on this machine (for example, if this 
+       is the auth server where secstored will run), just hit enter at the 
+       *secstore key:* prompt.
+
