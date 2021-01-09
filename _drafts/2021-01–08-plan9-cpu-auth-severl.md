@@ -117,3 +117,9 @@ desktop from any non-9front OS.
     ```
 
 ## Connecting To The cpu+auth Server
+
+tbd
+
+## Credits
+
+Special thanks to Youtube user C0tl43 and his video [Setting up a 9front cpu+auth+fs standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and helped create this article.
