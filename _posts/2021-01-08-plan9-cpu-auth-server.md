@@ -140,4 +140,4 @@ rio -i riostart
     profile via `sam /usr/glenda/lib/profile` and add those lines right below 
     `fn cpu% { $* }`.
 
-[^1]: Special thanks to Youtube user C0tl43 and his video [Setting up a 9front cpu+auth+fs standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and helped create this article.
+[^1]: Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and helped create this article.
