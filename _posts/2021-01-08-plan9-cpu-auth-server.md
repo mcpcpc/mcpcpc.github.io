@@ -126,6 +126,7 @@ Once connected, start webfs and rio window manager.
 
 ```
 webfs
+bind -b '#S' /dev
 rio -i riostart
 ```
 
