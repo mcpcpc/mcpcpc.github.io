@@ -55,15 +55,10 @@ default configurations selected (e.g. cwfs) and the device drive name of *sd00*.
 
     ```
     term% auth/wrkey
-    bad nvram des key
-    bad authentication id
-    bad authenication domain
     authid: glenda
     authdom: 9front
-    secstore key: [glenda’s secstore password]
-    secstore key: [glenda’s secstore password repeated]
+    secstore key: ↵
     password: [glenda’s password]
-    password: [glenda’s password repeated]
     ```
 
 *   Start keyfs, which needs to be loaded every time you want to modify the users 
@@ -76,12 +71,12 @@ default configurations selected (e.g. cwfs) and the device drive name of *sd00*.
     Password: <same as password used for nvram step>
     Confirm Password: <same as password used for nvram step>
     assign new Inferno/POP secret? (y/n): n
-    Expiration date (YYYYMMDD or never)[never]:↵
-    Post id:↵
-    User's full name:↵
-    Department #:↵
-    User's email address:↵
-    Sponsor's email address:↵
+    Expiration date (YYYYMMDD or never)[never]: ↵
+    Post id: ↵
+    User's full name: ↵
+    Department #: ↵
+    User's email address: ↵
+    Sponsor's email address: ↵
     user glenda installed for Plan 9
     ```
 
