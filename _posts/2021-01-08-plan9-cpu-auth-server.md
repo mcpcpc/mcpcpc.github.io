@@ -64,15 +64,10 @@ desktop from any non-9front OS using drawterm[^1].
     ```
 
 *   Start keyfs, which needs to be loaded every time you want to modify the users 
-    key.
+    key, and modify the user key for glenda.
 
     ```
     term% auth/keyfs
-    ```
-
-*   Modify the user key for glenda:
-
-    ```
     term% auth/changeuser glenda
     Password: <same as password used for nvram step>
     Password: <same as password used for nvram step>
