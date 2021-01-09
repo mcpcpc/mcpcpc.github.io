@@ -57,10 +57,10 @@ desktop from any non-9front OS using drawterm[^1].
     bad authenication domain
     authid: glenda
     authdom: 9front
-    secstore key: <glenda secstore password>
-    secstore key: <repeat glenda secstore password>
-    password: <actual glenda password>
-    password: <repeat actual glenda password>
+    secstore key: [glenda’s secstore password]
+    secstore key: [glenda’s secstore password repeated]
+    password: [glenda’s password]
+    password: [glenda’s password repeated]
     ```
 
 *   Start keyfs, which needs to be loaded every time you want to modify the users 
