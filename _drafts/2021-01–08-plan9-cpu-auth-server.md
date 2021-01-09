@@ -36,15 +36,15 @@ desktop from any non-9front OS[^1].
 
     ```
     bootfile=9pc
-    bootargs=local!/dev/sdC0/fs -m 832
+    bootargs=local!/dev/sd00/fscache
     mouseport=ps2
     monitor=vesa
     vgasize=1024x768x16
-    nobootprompt=local!/dev/sdC0/fscache -a tcp!*!564
+    nobootprompt=local!/dev/sd00/fscache -a tcp!*!564
     user=glenda
     auth=XX.X.X.XX
     cpu=XX.X.X.XX
-    authdom=9plan
+    authdom=plan9
     service=cpu
     ```
     
