@@ -11,7 +11,7 @@ LISH pseudoterminal. In the following article, I will attempt to walk through th
 process of creating a cpu+auth server, which will allow you to spawn a virtual 
 desktop from any non-9front OS[^1].
 
-## Cpu and Auth Server Configuration
+## Configuration
 
 *   Mount `9fat` file.
 
@@ -116,7 +116,7 @@ desktop from any non-9front OS[^1].
     term% fshalt -r
     ```
 
-## Connecting To The cpu+auth Server
+## Connecting
 
 tbd
 
