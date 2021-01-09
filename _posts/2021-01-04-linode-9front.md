@@ -39,13 +39,6 @@ Why install 9front on a Linode virtual machine? Because we can!
     ```shell
     wget http://9front.org/iso/9front-8013.d9e940a768d1.amd64.iso.gz -q -O -| funzip | dd of=/dev/sda
     ```
-    
-*   Empty the cache so that you have enough space to unpack and install the
-    image.
-
-    ```shell
-    sync; echo 3 > /proc/sys/vm/drop_caches
-    ```
 
 *   Close the LISH console window and press the *Power Off* button.
 *   Press the **Configurations** tab and, under the configuration previously
