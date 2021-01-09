@@ -90,16 +90,14 @@ default configurations selected (e.g. cwfs) and the device drive name of *sd00*.
     the file and add/modify the following lines. 
 
     ```
-    sys=9front ether=000027ad3b9a authdom=9front auth=10.0.2.15 ip=10.0.2.15
-
-    ipnet=9front ip=10.0.2.0 ipmask=255.255.255.0
+    auth=cirno authdom=9front
+    ipnet=9front ip=10.0.2.15 ipmask=255.255.255.0
         ipgw=10.0.2.2
-        auth=10.0.2.15
-        authdom=9front
-        fs=10.0.2.15
-        cpu=10.0.2.15
-        dns=75.75.75.75
-
+        dns=10.0.2.15
+        auth=cirno
+        dnsdom=9front
+        cpu=cirno
+        fs=cirno
     ```
 
 *   Reboot the system.
