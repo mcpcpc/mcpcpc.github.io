@@ -116,4 +116,4 @@ spawn a virtual desktop from any non-9front OS.
     term% fshalt -r
     ```
 
-## Using drawterm
+## Connecting To The cpu+auth Server
