@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Configuring A 9front cpu+auth Server"
-description: How to connect to your plan9 OS on a Linode virtual machine 
+title: "9front OS: cpu+auth Server Setup"
+description: How to connect to your plan9 OS on a Linode virtual machine using a cpu+auth server.
 ---
 
 If you were following along with my previous 
