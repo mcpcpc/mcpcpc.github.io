@@ -29,7 +29,7 @@ Why install 9front on a Linode virtual machine? Because we can!
 
 *   Click the *Settings* tab, and disable the Shutdown Watchdog.
 
-## Installation and First Boot
+## Installation
 
 *   With the VM powered off, start Rescue mode.
 *   Open a new LISH console window. Once in Rescue mode, download your
@@ -48,15 +48,14 @@ Why install 9front on a Linode virtual machine? Because we can!
     [9front Installation Guide](http://fqa.9front.org/fqa4.html#4.3) for 
     installing 9front OS to the boot disk. At the conclusion of the installation
     the VM should automatically restart.
+    
+## First Boot
+
 *   Close the current LISH window. Upon refreshing your browser window, you may
     see that the VM is powered off. Press the *Power On* button and launch a new 
-    LISH console window (glish).
-
-## The Result
-
-If all went well, then you should be seeing the rio window manager with a 
-termimal window and process monitor in your LISH console (something like the 
-screenshot below).
+    LISH console window (glish). If all went well, then you should be seeing the 
+    rio window manager with a termimal window and process monitor in your LISH 
+    console (similar to the screenshot below).
 
 ![9front in a pseudo-tty](/assets/9front-mothra.png)
 
