@@ -23,13 +23,9 @@ description: temp
       dom=cirno.hsd1.wa.comcast.net
     ```
 
-*   Open the plan9.ini file in your preferred editor (i.e. sam, acme, ed).
-
-    ```
-    sam plan9.ini
-    ```
-
-*   Set the bootargs, default hostowner, auth, cpu, authdom and service to cpu server.
+*   Open the plan9.ini file using `sam /n/9fat/plan9.ini` or your preferred editor 
+    (i.e. acme, ed, etc). Set the bootargs, default hostowner, auth, cpu, authdom 
+    and service to cpu server.
 
     ```
     bootfile=9pc
