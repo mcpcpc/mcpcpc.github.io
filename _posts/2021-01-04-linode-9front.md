@@ -50,8 +50,7 @@ Why install 9front on a Linode virtual machine? Because we can!
     the VM should automatically restart.
 *   Close the current LISH window. Upon refreshing your browser window, you may
     see that the VM is powered off. Press the *Power On* button and launch a new 
-    LISH console window (glish). At this point, you should see the fully-
-    functional rio window manger in a pseudoterminal.
+    LISH console window (glish).
 
 ## The Result
 
