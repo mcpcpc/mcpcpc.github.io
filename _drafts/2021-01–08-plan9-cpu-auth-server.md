@@ -118,7 +118,9 @@ desktop from any non-9front OS[^1].
 
 ## Connecting
 
-tbd
+Now comes the fun part.  From a non-plan9 OS, download and install the cpu client 
+application, [drawterm](http://drawterm.9front.org). Note that the version linked is 
+a fork of Russ CoX's drawterm. Once installed, launch the application, specify the server IP address, idname (glenda) and password.
 
 [^1]: Special thanks to Youtube user C0tl43 and his video [Setting up a 9front 
       cpu+auth+fs standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ),    
