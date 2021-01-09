@@ -19,8 +19,8 @@ spawn a virtual desktop from any non-9front OS.
     term% 9fs 9fat
     ```
 
-*   Invoke the DHCPCD server and print the configured network database information.  
-    Note the values for `ip=`, `ipmask=` and `ipgw=` as these will be used later.
+*   Invoke the DHCPCD server. Print the configured network database information, 
+    noting the values for `ip=`, `ipmask=` and `ipgw=` (these will be used later).
 
     ```
     term% ip/ipconfig
