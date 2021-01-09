@@ -13,21 +13,24 @@ cd /n/9fat
 cp plan9.ini plan9.ini.old
 ```
 
-* Invoke the dhcpcd server and **record the IP address at setup**.
+*   Invoke the dhcpcd server and print the configured network database information.  
+    Note the values for `ip=`, `ipmask=`, `ipgw=` as these will be used later.
 
-```
-ip/ipconfig
-cat /net/ndb
-# should print several lines, but record the ip=XX.X.X.XX
-```
+    ```
+    term% ip/ipconfig
+    term% cat /net/ndb
+    ip=10.0.2.15 ipmask=255.255.255.0 ipgw=10.0.2.2
+      sys=cirno
+      dom=cirno.hsd1.wa.comcast.net
+    ```
 
-* Open the plan9.ini file in your preferred editor (i.e. sam, acme, ed).
+*   Open the plan9.ini file in your preferred editor (i.e. sam, acme, ed).
 
-```
-sam plan9.ini
-```
+  ```
+  sam plan9.ini
+  ```
 
-* Set the bootargs, default hostowner, auth, cpu, authdom and service to cpu server.
+*   Set the bootargs, default hostowner, auth, cpu, authdom and service to cpu server.
 
 ```
 bootfile=9pc
@@ -87,10 +90,24 @@ user glenda installed for Plan 9
 term% auth/enable glenda
 ```
 
-* Configure the network database.
+* Open the network database.
 
 ```
 sam /lib/ndb/local
 ```
 
+* Scroll to the bottom of the file and add the authdom, 
+
+```
+sys=plan9 ether=000027ad3b9a authdom=plan9 auth=10.0.2.15 ip=10.0.2.15
+
+ipnet=Home ip=10.0.2.0 ipmask=255.255.255.0
+  ipgw=10.0.2.2
+  auth=10.0.2.15
+  authdom=plan9
+  fs=10.0.2.15
+  cpu=10.0.2.15
+  dns=75.75.75.75
+
+```
 
