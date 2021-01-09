@@ -45,8 +45,8 @@ default configurations selected (e.g. cwfs) and the device drive name of *sd00*.
     vgasize=1024x768x16
     nobootprompt=local!/dev/sd00/fscache -a tcp!*!564
     user=glenda
-    auth=10.0.2.15
-    cpu=10.0.2.15
+    auth=cirno
+    cpu=cirno
     authdom=9front
     service=cpu
     ```
@@ -118,7 +118,6 @@ Once connected, start webfs and rio window manager.
 
 ```
 webfs
-bind -b '#S' /dev
 rio -i riostart
 ```
 
