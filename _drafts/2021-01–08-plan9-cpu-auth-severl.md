@@ -1,15 +1,19 @@
 ---
 layout: post
-title: plan9 and Linode: Post-Install
-description: temp
+title: "plan9 and Linode: CPU and Auth Server"
+description: How to connect to your plan9 OS on a Linode virtual machine 
 ---
 
 If you were following along with my previous 
-[article]({% post_url 2021-01-04-linode-9front %}), then you probably have a work install of 9front OS on a Linode virtual machine and are ready to take the next steps. In the following sections, I will attempt to walk you through some of the common post-installation 9front configuration steps.
+[article]({% post_url 2021-01-04-linode-9front %}), then you probably have a work 
+install of 9front OS on a Linode virtual machine that you can access through a LISH
+pseudoterminal. In the following article, I will attempt to walk through the process 
+of turning your virtual machine into a cpu+auth server, which will allow you to 
+spawn a virtual desktop from any non-9front OS.
 
 ## Cpu and Auth Server Configuration
 
-*   Mount `9fat` and make a copy of your plan9.ini file.
+*   Mount `9fat` file.
 
     ```
     term% 9fs 9fat
@@ -111,3 +115,5 @@ If you were following along with my previous
     ```
     term% fshalt -r
     ```
+
+## Using drawterm
