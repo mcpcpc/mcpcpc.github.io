@@ -6,9 +6,9 @@ description: temp
 
 If you were following along with my [Installing 9front OS on a Linode VM]({% 
 post_url 2021-01-04-linode-9front %}) guide, then you probably have a work install 
-of 9front OS and are ready to take the next steps. In the following sections, I will 
-attempt to walk you through some of the common post-installation configuration 
-steps.
+of 9front OS on a Linode virtual machine and are ready to take the next steps. In 
+the following sections, I will attempt to walk you through some of the common post
+installation configuration steps.
 
 ## Cpu and Auth Server Configuration
 
