@@ -76,7 +76,6 @@ default configurations selected (e.g. cwfs) and the device drive name of *sd00*.
     Password: <same as password used for nvram step>
     Confirm Password: <same as password used for nvram step>
     assign new Inferno/POP secret? (y/n): n
-    make it the same as Plan 9 password? (y/n): y
     Expiration date (YYYYMMDD or never)[never]:↵
     Post id:↵
     User's full name:↵
