@@ -121,21 +121,21 @@ webfs
 rio -s -i riostart
 ```
 
-## Tips And Tricks
+## Tip
 
-*   You probably don't want to enter the above commands each and every time you want  
-    to access your system remotely. Instead, we can edit the host users profile 
-    via `sam /usr/glenda/lib/profile` and add those lines right below.
-    `fn cpu% { $* }`.
+You probably don't want to enter the above commands each and every time you want to 
+access your system remotely. Instead, we can edit the host users profile via `sam 
+/usr/glenda/lib/profile` and add those lines right below `fn cpu% { $* }`.
 
-[^1]: Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and helped create this article.
-[^2]:  The `secstore key` and `password` are secret passwords of eight characters
-       or more in length. The `password` is the password belonging to the authid 
-       user on the auth server responsible for the authdom entered above. The  
-       `secstore key` is the password of the user on the secure-store server 
-       (Read: [FQA 7.4.3 - secstored](http://fqa.9front.org/fqa8.html#7.4.3)). If 
-       the secstore client (Read: [FQA 8.4.7 - secstore](http://fqa.9front.org/
-       fqa7.html#8.4.7)) is not being used on this machine (for example, if this 
-       is the auth server where secstored will run), just hit enter at the 
-       *secstore key:* prompt.
+[^1]: Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs 
+      standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and helped create this article.
+[^2]: The `secstore key` and `password` are secret passwords of eight characters
+      or more in length. The `password` is the password belonging to the authid 
+      user on the auth server responsible for the authdom entered above. The  
+      `secstore key` is the password of the user on the secure-store server 
+      (Read: [FQA 7.4.3 - secstored](http://fqa.9front.org/fqa8.html#7.4.3)). If 
+      the secstore client (Read: [FQA 8.4.7 - secstore](http://fqa.9front.org/
+      fqa7.html#8.4.7)) is not being used on this machine (for example, if this 
+      is the auth server where secstored will run), just hit enter at the 
+      *secstore key:* prompt.
 
