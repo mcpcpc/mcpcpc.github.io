@@ -38,7 +38,7 @@ default configurations selected (e.g. cwfs) and the device drive name of *sd00*.
     and service to cpu server.
 
     ```
-    bootfile=9pc
+    bootfile=9pc64
     bootargs=local!/dev/sd00/fscache
     mouseport=ps2
     monitor=vesa
