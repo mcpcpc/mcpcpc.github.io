@@ -76,6 +76,7 @@ about 9front or plan9. Here are some of the best that I have found:
 *   [Plan 9 Remote CPU](https://royniang.com/cpu_auth.html)
 *   [Awesome Plan9](https://github.com/henesy/awesome-plan9)
 *   [Tips](http://mirtchovski.com/lanlp9/tips.html)
+*   [9front rio Wallpaper](https://b1nary.tk/pub/9front-rio-wallpaper/)
 
 Also, if you are new to Linode and are looking to sign up, then please consider 
 doing so using my referral link
