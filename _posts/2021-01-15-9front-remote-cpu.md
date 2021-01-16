@@ -14,7 +14,7 @@ desktop from any non-9front OS using [drawterm](http://drawterm.9front.org)[^1].
 ## Prerequisits
 
 For the purpose of this guide, I will assume that you are installed 9front using the
-`hjfs` filesystem and default sysname (`cirno`) and hostowner (`glenda`).
+`hjfs` filesystem, default sysname (`cirno`) and hostowner (`glenda`).
 
 ## Step 1: Gather Information
 
