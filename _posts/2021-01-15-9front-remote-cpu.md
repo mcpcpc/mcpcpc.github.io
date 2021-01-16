@@ -134,5 +134,4 @@ Special thanks to the following blogs and developers:
       fqa7.html#8.4.7)) is not being used on this machine (for example, if this 
       is the auth server where secstored will run), just hit enter at the 
       *secstore key:* prompt.
-[^3]: These commands can be added to the host users profile (e.g.
-      /usr/glenda/lib/profile` below `fn cpu% { $* }`.
+[^3]: These commands can be added to the host users profile below `fn cpu% { $* }`.
