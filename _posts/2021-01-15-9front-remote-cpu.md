@@ -112,7 +112,12 @@ webfs
 rio -i riostart
 ```
 
+## Credit
 
+Special thanks to the following blogs and developers.
+
+*   [Nicolas Montanaro](https://nicolasmontanaro.com/blog/9front-guide/)
+*   [Roy Niang](https://royniang.com/cpu_auth.html)
 
 [^1]: Note that the version linked is a fork of Russ CoX's drawterm.
 [^2]: The `secstore key` and `password` are secret passwords of eight characters
