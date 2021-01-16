@@ -13,7 +13,7 @@ desktop from any non-9front OS using [drawterm](http://drawterm.9front.org)[^1].
 
 ## Step 1: Gather Information
 
-Invoke the DHCPCD server. Print the configured network database information, noting 
+Invoke the dhcpcd server. Print the configured network database information, noting 
 the values for `ip=`, `ipmask=` and `ipgw=` (these will be used later for network 
 configuration and connecting remotely).
 
