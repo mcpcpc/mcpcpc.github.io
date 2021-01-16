@@ -12,7 +12,7 @@ process of creating a cpu, auth and fs server, which will allow you to spawn a v
 desktop from any non-9front OS using drawterm[^1]. 
 
 For the purpose of this installation, I will assume that 9front was installed with
-the device drive name of `sd00` and the `hjfs` filesystem.
+the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
 
 ## Configuration
 
