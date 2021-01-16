@@ -11,6 +11,11 @@ LISH pseudoterminal. In the following article, I will attempt to walk through th
 process of creating a cpu, auth and fs server, which will allow you to spawn a virtual 
 desktop from any non-9front OS using [drawterm](http://drawterm.9front.org)[^1]. 
 
+## Prerequisits
+
+For the purpose of this guide, I will assume that you are installed 9front using the
+`hjfs` filesystem and default sysname (`cirno`) and hostowner (`glenda`).
+
 ## Step 1: Gather Information
 
 Invoke the dhcpcd server. Print the configured network database information, noting 
@@ -114,7 +119,7 @@ rio -i riostart
 
 ## Credit
 
-Special thanks to the following blogs and developers.
+Special thanks to the following blogs and developers:
 
 *   [Nicolas Montanaro](https://nicolasmontanaro.com/blog/9front-guide/)
 *   [Roy Niang](https://royniang.com/cpu_auth.html)
