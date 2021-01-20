@@ -34,8 +34,7 @@ the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
     ```
 
 *   Open the plan9.ini file using `sam /n/9fat/plan9.ini` or your preferred editor 
-    (i.e. acme, ed, etc). Set the bootargs, default hostowner, auth, cpu, authdom 
-    and service to cpu server.
+    (i.e. acme, ed, etc) and add `service=cpu`.
 
     ```
     bootfile=9pc64
@@ -43,11 +42,6 @@ the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
     mouseport=ps2
     monitor=vesa
     vgasize=1024x768x16
-    nobootprompt=local!/dev/sd00/fscache -a tcp!*!564
-    user=glenda
-    auth=cirno
-    cpu=cirno
-    authdom=9front
     service=cpu
     ```
     
