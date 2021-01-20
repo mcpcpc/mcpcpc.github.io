@@ -34,7 +34,7 @@ the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
     ```
 
 *   Open the plan9.ini file using `sam /n/9fat/plan9.ini` or your preferred editor 
-    (i.e. acme, ed, etc) and add `service=cpu`.
+    (i.e. acme, sam, etc) and add the `service=cpu` and `nobootprompt=` lines below.
 
     ```
     bootfile=9pc64
