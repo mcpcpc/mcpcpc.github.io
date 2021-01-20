@@ -116,7 +116,7 @@ server cpu IP address, user (glenda) and password.
 
 ![drawterm client session](/assets/drawterm-mothra.png)
 
-Once connected, start webfs and rio window manager[^3].
+Once connected, mount the web file system and start the rio window manager[^3].
 
 ```
 webfs
