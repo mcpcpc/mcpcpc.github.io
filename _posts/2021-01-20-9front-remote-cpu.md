@@ -116,18 +116,12 @@ server cpu IP address, user (glenda) and password.
 
 ![drawterm client session](/assets/drawterm-mothra.png)
 
-Once connected, start webfs and rio window manager.
+Once connected, start webfs and rio window manager[^3].
 
 ```
 webfs
 rio -s -i riostart
 ```
-
-## Tip
-
-You probably don't want to enter the above commands each and every time you want to 
-access your system remotely. Instead, we can edit the host users profile via `sam 
-/usr/glenda/lib/profile` and add those lines right below `fn cpu% { $* }`.
 
 [^1]: Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs 
       standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and helped create this article.
@@ -140,4 +134,6 @@ access your system remotely. Instead, we can edit the host users profile via `sa
       fqa7.html#8.4.7)) is not being used on this machine (for example, if this 
       is the auth server where secstored will run), just hit enter at the 
       *secstore key:* prompt.
+[^3]: Optionally, we can edit the host user's profile via `sam $home/lib/profile` 
+      and add those lines right below `fn cpu% { $* }`.
 
