@@ -124,7 +124,9 @@ rio -i riostart
 ```
 
 [^1]: Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs 
-      standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and helped create this article.
+      standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired 
+      and helped create this article.
+
 [^2]: The `secstore key` and `password` are secret passwords of eight characters
       or more in length. The `password` is the password belonging to the authid 
       user on the auth server responsible for the authdom entered above. The  
@@ -134,6 +136,7 @@ rio -i riostart
       fqa7.html#8.4.7)) is not being used on this machine (for example, if this 
       is the auth server where secstored will run), just hit enter at the 
       *secstore key:* prompt.
+
 [^3]: Optionally, we can edit the host user's profile via `sam $home/lib/profile` 
       and add those lines right below `fn cpu% { $* }`.
 
