@@ -78,6 +78,7 @@ about 9front or plan9. Here are some of the best that I have found:
 *   [Tips](http://mirtchovski.com/lanlp9/tips.html)
 *   [9front rio Wallpaper](https://b1nary.tk/pub/9front-rio-wallpaper/)
 *   [Unix to Plan9 Command Translation](https://9p.io/wiki/plan9/Unix_to_Plan_9_command_translation/index.html)
+*   [9front Rio Wallpaper](https://b1nary.tk/pub/9front-rio-wallpaper/)
 
 Also, if you are new to Linode and are looking to sign up, then please consider 
 doing so using my referral link
