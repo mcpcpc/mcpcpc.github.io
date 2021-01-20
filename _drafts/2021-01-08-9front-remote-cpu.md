@@ -38,11 +38,11 @@ the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
 
     ```
     bootfile=9pc64
-    bootargs=local!/dev/sd00/fscache
+    bootargs=local!/dev/sd00/fs -m 147
     mouseport=ps2
     monitor=vesa
     vgasize=1024x768x16
-    nobootprompt=local!/dev/sd00/fscache -a tcp!*!564
+    nobootprompt=local!/dev/sd00/fs -m 147 -a tcp!*!564
     service=cpu
     ```
     
