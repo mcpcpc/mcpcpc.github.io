@@ -55,8 +55,8 @@ Configure the auth server non-volitile ram host owner, name and password key [^2
 
 ```
 term% auth/wrkey
-authid: glenda
-authdom: 9front
+authid: [glenda]
+authdom: [9front]
 secstore key: ↵
 password: [glenda’s password]
 ```
@@ -66,7 +66,7 @@ key, and modify the user key for glenda.
 
 ```
 term% auth/keyfs
-term% auth/changeuser glenda
+term% auth/changeuser [glenda]
 Password: [same as password used for nvram step]
 Confirm Password: [same as password used for nvram step]
 assign new Inferno/POP secret? (y/n): n
@@ -79,10 +79,10 @@ Sponsor's email address: ↵
 user glenda installed for Plan 9
 ```
 
-Invoke `auth/enable` on glenda.
+Enable the Plan 9 and Netkey keys for the host user.
 
 ```
-term% auth/enable glenda
+term% auth/enable [glenda]
 ```
 
 ## Step 4: Network Database
