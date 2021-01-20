@@ -16,16 +16,16 @@ the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
 
 ## Step 1: Gather System Information
 
-*   Invoke the DHCPCD server. Print the configured network database information, 
-    noting the values for `ip=`, `ipmask=` and `ipgw=` (these will be used later).
+Invoke the DHCPCD server. Print the configured network database information, 
+noting the values for `ip=`, `ipmask=` and `ipgw=` (these will be used later).
 
-    ```
-    term% ip/ipconfig
-    term% cat /net/ndb
-    ip=10.0.2.15 ipmask=255.255.255.0 ipgw=10.0.2.2
-        sys=cirno
-        dom=cirno.hsd1.wa.comcast.net
-    ```
+```
+term% ip/ipconfig
+term% cat /net/ndb
+ip=10.0.2.15 ipmask=255.255.255.0 ipgw=10.0.2.2
+    sys=cirno
+    dom=cirno.hsd1.wa.comcast.net
+```
 
 ## Step 2: Enable CPU Service
 
