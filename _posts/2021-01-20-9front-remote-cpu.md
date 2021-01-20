@@ -31,9 +31,9 @@ ip=10.0.2.15 ipmask=255.255.255.0 ipgw=10.0.2.2
 
 Mount `9fat` file.
 
-    ```
-    term% 9fs 9fat
-    ```
+```
+term% 9fs 9fat
+```
     
 Open the plan9.ini file using `sam /n/9fat/plan9.ini` or your preferred editor 
 (i.e. acme, sam, etc). Add the `service=cpu` and `nobootprompt=` lines per the
@@ -139,4 +139,3 @@ rio -i riostart
 
 [^3]: Optionally, we can edit the host user's profile via `sam $home/lib/profile` 
       and add those lines right below `fn cpu% { $* }`.
-
