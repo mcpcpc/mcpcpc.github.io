@@ -120,7 +120,7 @@ Once connected, start webfs and rio window manager[^3].
 
 ```
 webfs
-rio -s -i riostart
+rio -i riostart
 ```
 
 [^1]: Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs 
