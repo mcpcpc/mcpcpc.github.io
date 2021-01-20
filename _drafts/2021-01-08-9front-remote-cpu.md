@@ -42,6 +42,7 @@ the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
     mouseport=ps2
     monitor=vesa
     vgasize=1024x768x16
+    nobootprompt=local!/dev/sd00/fscache -a tcp!*!564
     service=cpu
     ```
     
