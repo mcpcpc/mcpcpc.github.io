@@ -14,13 +14,7 @@ desktop from any non-9front OS using drawterm[^1].
 For the purpose of this installation, I will assume that 9front was installed with
 the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
 
-## Configuration
-
-*   Mount `9fat` file.
-
-    ```
-    term% 9fs 9fat
-    ```
+## Step 1: Gather System Information
 
 *   Invoke the DHCPCD server. Print the configured network database information, 
     noting the values for `ip=`, `ipmask=` and `ipgw=` (these will be used later).
@@ -33,74 +27,87 @@ the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
         dom=cirno.hsd1.wa.comcast.net
     ```
 
-*   Open the plan9.ini file using `sam /n/9fat/plan9.ini` or your preferred editor 
-    (i.e. acme, sam, etc) and add the `service=cpu` and `nobootprompt=` lines below.
+## Step 2: Enable CPU Service
+
+Mount `9fat` file.
 
     ```
-    bootfile=9pc64
-    bootargs=local!/dev/sd00/fs -m 147
-    mouseport=ps2
-    monitor=vesa
-    vgasize=1024x768x16
-    nobootprompt=local!/dev/sd00/fs -m 147 -a tcp!*!564
-    service=cpu
+    term% 9fs 9fat
     ```
     
-*   Configure the auth server non-volitile ram host owner, name and password key [^2].
+Open the plan9.ini file using `sam /n/9fat/plan9.ini` or your preferred editor 
+(i.e. acme, sam, etc). Add the `service=cpu` and `nobootprompt=` lines per the
+example below.
 
-    ```
-    term% auth/wrkey
-    authid: glenda
-    authdom: 9front
-    secstore key: ↵
-    password: [glenda’s password]
-    ```
+```
+bootfile=9pc64
+bootargs=local!/dev/sd00/fs -m 147
+mouseport=ps2
+monitor=vesa
+vgasize=1024x768x16
+nobootprompt=local!/dev/sd00/fs -m 147 -a tcp!*!564
+service=cpu
+```
 
-*   Start keyfs, which needs to be loaded every time you want to modify the users 
-    key, and modify the user key for glenda.
+## Step 3: Auth Server
 
-    ```
-    term% auth/keyfs
-    term% auth/changeuser glenda
-    Password: [same as password used for nvram step]
-    Confirm Password: [same as password used for nvram step]
-    assign new Inferno/POP secret? (y/n): n
-    Expiration date (YYYYMMDD or never)[never]: ↵
-    Post id: ↵
-    User's full name: ↵
-    Department #: ↵
-    User's email address: ↵
-    Sponsor's email address: ↵
-    user glenda installed for Plan 9
-    ```
+Configure the auth server non-volitile ram host owner, name and password key [^2].
 
-*   Invoke `auth/enable` on glenda.
+```
+term% auth/wrkey
+authid: glenda
+authdom: 9front
+secstore key: ↵
+password: [glenda’s password]
+```
 
-    ```
-    term% auth/enable glenda
-    ```
+Start keyfs, which needs to be loaded every time you want to modify the users 
+key, and modify the user key for glenda.
 
-*   Open the network database using `sam /lib/ndb/local`. Scroll to the bottom of 
-    the file and add/modify the following lines. 
+```
+term% auth/keyfs
+term% auth/changeuser glenda
+Password: [same as password used for nvram step]
+Confirm Password: [same as password used for nvram step]
+assign new Inferno/POP secret? (y/n): n
+Expiration date (YYYYMMDD or never)[never]: ↵
+Post id: ↵
+User's full name: ↵
+Department #: ↵
+User's email address: ↵
+Sponsor's email address: ↵
+user glenda installed for Plan 9
+```
 
-    ```
-    auth=cirno authdom=9front
-    ipnet=9front ip=10.0.2.15 ipmask=255.255.255.0
-        ipgw=10.0.2.2
-        dns=4.2.2.2
-        auth=cirno
-        dnsdom=9front
-        cpu=cirno
-        fs=cirno
-    ```
+Invoke `auth/enable` on glenda.
 
-*   Reboot the system.
+```
+term% auth/enable glenda
+```
 
-    ```
-    term% fshalt -r
-    ```
+## Step 4: Network Database
 
-## Connecting
+Open the network database using `sam /lib/ndb/local`. Scroll to the bottom of 
+the file and add/modify the following lines. 
+
+```
+auth=cirno authdom=9front
+ipnet=9front ip=10.0.2.15 ipmask=255.255.255.0
+    ipgw=10.0.2.2
+    dns=4.2.2.2
+    auth=cirno
+    dnsdom=9front
+    cpu=cirno
+    fs=cirno
+```
+
+Now it's time to reboot your system.
+
+```
+term% fshalt -r
+```
+
+## Step 6: Profit
 
 Now comes the fun part.  From a non-plan9 OS, download and install the cpu client 
 application, [drawterm](http://drawterm.9front.org). Note that the version linked is 
