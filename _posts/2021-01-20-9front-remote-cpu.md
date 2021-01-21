@@ -87,12 +87,13 @@ term% auth/enable [glenda]
 
 ## Step 4: Network Database
 
-Open the network database using `sam /lib/ndb/local`. Scroll to the bottom of 
-the file and add/modify the following lines. 
+Open the network database using `sam /lib/ndb/local`. Near the bottom of 
+the file, uncomment and modify the following lines using the values obtained
+in **Step 2**. Take not of the `ip=` value which ends with `0`.
 
 ```
 auth=cirno authdom=9front
-ipnet=9front ip=10.0.2.15 ipmask=255.255.255.0
+ipnet=9front ip=10.0.2.0 ipmask=255.255.255.0
     ipgw=10.0.2.2
     dns=4.2.2.2
     auth=cirno
