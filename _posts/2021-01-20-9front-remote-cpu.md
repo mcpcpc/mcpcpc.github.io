@@ -95,7 +95,7 @@ in **Step 2**. Take not of the `ip=` value which ends with `0`.
 auth=cirno authdom=9front
 ipnet=9front ip=10.0.2.0 ipmask=255.255.255.0
     ipgw=10.0.2.2
-    dns=4.2.2.2
+    dns=10.0.2.2
     auth=cirno
     dnsdom=9front
     cpu=cirno
