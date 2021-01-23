@@ -89,7 +89,7 @@ term% auth/enable [glenda]
 
 Open the network database using `sam /lib/ndb/local`. Near the bottom of 
 the file, uncomment and modify the following lines using the values obtained
-in **Step 2**. Take not of the `ip=` value which ends with `0`.
+in **Step 1**. Take not of the `ip=` value which ends with `0`.
 
 ```
 auth=cirno authdom=9front
