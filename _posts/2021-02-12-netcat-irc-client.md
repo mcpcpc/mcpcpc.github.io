@@ -18,7 +18,7 @@ Note that this list does not take into account multi-channel support or more adv
 
 ## Wrapping It Up
 
-I will save you the headaches of and research that I put into developing a shell wrapper script and just share the one I have created and affectionately named `irc2`. This script is also available on [Github](http://github.com/mcpcpc/irc2) for the community to further refinement. 
+I will save you the headaches and research and just share the wrapper script I have created and affectionately named `irc2`. This script is also available on [Github](http://github.com/mcpcpc/irc2) for the community to further refinement. 
 
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmcpcpc%2Firc2%2Fblob%2Fmaster%2Firc2&style=github"></script>
 
