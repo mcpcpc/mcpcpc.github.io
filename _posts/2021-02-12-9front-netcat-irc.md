@@ -39,3 +39,5 @@ script -a -c irc2 chat_log.txt
 ### TBD - More to Come!
 
 ## Credit
+
+Special thanks to aarng (for showing we the ways of "-e") and all the users on the #kisslinux IRC channel for the feedback and suggestions.
