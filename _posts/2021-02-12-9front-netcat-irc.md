@@ -12,6 +12,8 @@ I am writing this after having spent the past year developing a "more than funct
 
 Note that this list does not take into account multi-channel support or more advanced features that others might be deemed essential. However, based on this limited list, I think anyone can develope a half-decent client that can be extended to accomodate more advanced features through scripting. If we look at the current Linux tools that ship with a modern OS, there is an arsanel of utilities that we can leverage to create such a tool.  One of particular interest is `netcat`, which is a "swiss army knife" when it comes to reading from and writing to network connections using TCP or UDP. Furthermore, it easily checks the third attribute listed above. The question becomes, how do we accomodate for the first two attributes in the list?  We create a wrapper script, of course!
 
+## Wrap It Up
+
 I have affectionalty named this wrapper script `irc2`, and have made it available on [github](http://github.com/mcpcpc/irc2) for the community to further refine.
 
 <script src="https://github.com/mcpcpc/irc2/blob/master/irc2"></script>
