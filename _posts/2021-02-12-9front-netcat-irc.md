@@ -30,7 +30,7 @@ So what can we do with this script? Well, that's entirely up to the user. Here a
 
 ### Chat History Logging
 
-There are a couple of ways of going about this, but one that i recently discovered is the built-in `script` logging function, which is meant for creating transcripts of tty sessions for later review:
+There are a couple of ways of going about this, but one that i recently discovered is the built-in `script` function, which is meant for creating transcripts of tty sessions.
 
 ```shell
 script -a -c irc2 chat_log.txt
