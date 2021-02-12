@@ -22,4 +22,8 @@ I will save you the headaches of and research that I put into developing a shell
 
 <script src="https://github.com/mcpcpc/irc2/blob/master/irc2"></script>
 
-In ~39 CLOC, we have a script that checks all of the boxes on my list and works on 99% of POSIX-compliant shells.  Neat, eh?
+In ~39 CLOC, we have a script that checks all of the boxes on my list and works on 99% of POSIX-compliant shells.  Nifty, eh?
+
+## Next Steps
+
+So what can we do with this script? Well, that's entirely up to the user. 
