@@ -18,6 +18,8 @@ Note that this list does not take into account multi-channel support or more adv
 
 ## Wrapping It Up
 
-I will save you the headaches of and research that I put into developing a shell wrapper script and just share the one I have created and affectionately named `irc2`. This script is also available on [github](http://github.com/mcpcpc/irc2) for the community to further refinement.
+I will save you the headaches of and research that I put into developing a shell wrapper script and just share the one I have created and affectionately named `irc2`. This script is also available on [github](http://github.com/mcpcpc/irc2) for the community to further refinement. 
 
 <script src="https://github.com/mcpcpc/irc2/blob/master/irc2"></script>
+
+In ~39 CLOC, we have a script that checks all of the boxes on my list and works on 99% of POSIX-compliant shells.  Neat, eh?
