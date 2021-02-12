@@ -14,7 +14,7 @@ To answer this, I would like to start by listing the attributes that I find esse
 2. Command aliasing, which covers the scope of basic/frequently used commands (e.g. `PRIVMSG`, `JOIN`, `PART`, etc).
 3. Ability to pipe/fork and daemonize the application for third-party application development, chat logging, bots or direct TTY manipulation.
 
-Note that this list does not take into account multi-channel support or more advanced features that others might be deemed essential. However, based on this limited list, I think anyone can develope a half-decent client that can be extended to accomodate more advanced features through scripting. If we look at the current Linux tools that ship with a modern OS, there is an arsenal of utilities that we can leverage to create such a tool.  One of particular interest is `netcat`, which is the "swiss army knife" for reading from and writing to network connections using TCP or UDP. Furthermore, it easily checks the third attribute listed above. The question becomes, how do we accomodate for the first two attributes in the list?  We create a wrapper shell script, of course!
+Note that this list does not take into account multi-channel support or more advanced features that others might be deemed essential. However, based on this limited list, I think anyone can develop a half-decent client that can be extended to accommodate more advanced features through scripting. If we look at the current Linux tools that ship with a modern OS, there is an arsenal of utilities that we can leverage to create such a tool.  One of particular interest is `netcat`, which is the "swiss army knife" for reading from and writing to network connections using TCP or UDP. Furthermore, it easily checks the third attribute listed above. The question becomes, how do we accommodate for the first two attributes in the list?  We create a wrapper shell script, of course!
 
 ## Wrapping It Up
 
@@ -22,7 +22,7 @@ I will save you the headaches of and research that I put into developing a shell
 
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fmcpcpc%2Firc2%2Fblob%2Fmaster%2Firc2&style=github"></script>
 
-In ~39 CLOC, we have a script that checks all of the boxes on my list and works on 99% of POSIX-compliant shells.  Nifty, eh?
+In ~39 cloc, we have a script that checks all of the boxes on my list and works on 99% of POSIX-compliant shells.  Nifty, eh?
 
 ## Next Steps
 
