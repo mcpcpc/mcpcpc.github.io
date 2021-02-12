@@ -36,8 +36,8 @@ There are a couple of ways of going about this, but one that i recently discover
 script -a -c irc2 chat_log.txt
 ```
 
-### TBD - More to Come!
+### tbd - More to Come!
 
 ## Credit
 
-Special thanks to aarng (for showing we the ways of `-e`) and all the users on the #kisslinux IRC channel for the feedback and suggestions.
+Special thanks to aarng (for showing we the ways of `-e`) and all the users on the *#kisslinux* IRC channel for the continuous feedback and suggestions.
