@@ -40,4 +40,4 @@ script -a -c irc2 chat_log.txt
 
 ## Credit
 
-Special thanks to aarng (for showing we the ways of "-e") and all the users on the #kisslinux IRC channel for the feedback and suggestions.
+Special thanks to aarng (for showing we the ways of `-e`) and all the users on the #kisslinux IRC channel for the feedback and suggestions.
