@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "netcat - The One True IRC Client"
+title: "Netcat: The One True IRC Client"
 description: A justification for using netcat as an IRC client, including an example IRC client wrapper script.
 ---
 
-I am writing this after having spent the past year developing a "more than functional" C-based IRC client, `kirc`, and reflecting on my journey up until this point. The ugly truth is that `kirc` was never the IRC client I *wanted* to develope. Instead, it became the client I *needed* to develope in order to enhance my understanding of the C-programming language and [RFC1459](https://tools.ietf.org/html/rfc1459) protocol. Now, having grown accustomed to working and manipulating the raw IRC data stream, I can finally revisit the question that started me on this journey, which is *what makes an ideal IRC client*?
+I am writing this after having spent the past year developing a "more than functional" C-based IRC client, [kirc](http://github.com/mcpcp/kirc), and reflecting on my journey up until this point. The ugly truth is that kirc was never the IRC client I *wanted* to develope. Instead, it became the client I *needed* to develope in order to enhance my understanding of the C-programming language and [RFC1459](https://tools.ietf.org/html/rfc1459) protocol. Now, having grown accustomed to working and manipulating the raw IRC data stream, I can finally revisit the question that started me on this journey, which is *what makes an ideal IRC client*?
 
 ## Essential Characteristics
 
@@ -26,4 +26,12 @@ In ~39 CLOC, we have a script that checks all of the boxes on my list and works 
 
 ## Next Steps
 
-So what can we do with this script? Well, that's entirely up to the user. 
+So what can we do with this script? Well, that's entirely up to the user. Here are a few to get you started.
+
+### Chat History Logging
+
+There are a couple of ways of going about this, but one that i recently discovered is the built-in `script` logging function, which is meant for creating transcripts of tty sessions for later review:
+
+```shell
+script -a -c irc2 chat_log.txt
+```
