@@ -8,7 +8,7 @@ I am writing this after having spent the past year developing a "more than funct
 
 1. Persistent session management, via automatic keep-alive response (a.ka. `PING<->PONG`).
 2. Basic command aliasing, which covers the scope of basic or frequently used commands (e.g. `PRIVMSG`, `JOIN`, `PART`, etc).
-3. Ability to pipe, fork and daemonize the application for third-party application development, chat logging or direct TTY manipulation.
+3. Ability to pipe/fork and daemonize the application for third-party application development, chat logging, bots or direct TTY manipulation.
 
 Note that this list does not take into account multi-channel support or more advanced features that others might be deemed essential. However, based on this limited list, I think anyone can develope a half-decent client that can be extended to accomodate more advanced features through scripting. If we look at the current Linux tools that ship with a modern OS, there is an arsanel of utilities that we can leverage to create such a tool.  One of particular interest is `netcat`, which is a "swiss army knife" when it comes to reading from and writing to network connections using TCP or UDP. Furthermore, it easily checks the third attribute listed above. The question becomes, how do we accomodate for the first two attributes in the list?  We create a wrapper script, of course!
 
