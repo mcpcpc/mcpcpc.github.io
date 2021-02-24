@@ -57,24 +57,22 @@ The Philosophy Behind xwm
 
 The philosophy behind xwm is fairly straight forward:
 
-*   **Less Is More**. From a sheer dependency standpoint, xwm has fewer than the
-    rest. There are obvious drawbacks to this, but I intentionally left xwm as
-    "barebones" as possible, to allow the community to expand, patch, tweak and
-    modify. This is consistent with the Suckless Philosophy of programming [3],
-    which is based on the Unix Philosophy of programming.
+**Less Is More**. From a sheer dependency standpoint, xwm has fewer than the rest.
+There are obvious drawbacks to this, but I intentionally left xwm as "barebones"
+as possible, to allow the community to expand, patch, tweak and modify. This is
+consistent with the Suckless Philosophy of programming [3].
 
-*   **No Configuration File Clutter**. I have opted not to have a run-time
-    configuration file in xwm. Everyone seems to have a configuration file these
-    days that is either placed in an obscure directory, "hidden" from plain site
-    or cluttering the home directory. I hate configuration files (and they hate
-    me). Not doing so forces the user to glimpse into the source which, to me,
-    is a habit that all existing and new Unix users should be doing.
+**No Configuration File Clutter**. I have opted not to have a run-time
+configuration file in xwm. Everyone seems to have a configuration file these days
+that is either placed in an obscure directory, "hidden" from plain site or 
+cluttering the home directory. I hate configuration files (and they hate me). Not
+doing so forces the user to glimpse into the source which, to me, is a habit that
+all existing and new Unix users should be doing.
 
-*   **Empower The User To Create Their Own Experience**. I provide no out-of-box
-    multi-monitor support, no menu bar, no title bars, no tab	focus or or any
-    other feature that a regular user would find essential. Instead, these
-    features will be offered as patches, which the user must learn how to apply
-    themselves.
+**Empower The User To Create Their Own Experience**. I provide no out-of-box
+multi-monitor support, no menu bar, no title bars, no tab	focus or or any other
+feature that a regular user would find essential. Instead, these features will be
+offered as patches, which the user must learn how to apply themselves.
 
 Conclusions
 -----------
