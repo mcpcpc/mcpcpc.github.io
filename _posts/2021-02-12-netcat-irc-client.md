@@ -8,8 +8,6 @@ Netcat: The One True IRC Client
 
 A justification for using netcat as an IRC client, including an example IRC client wrapper script.
 
-![netcat irc](/assets/nc-irc.png)
-
 Overview
 --------
 
