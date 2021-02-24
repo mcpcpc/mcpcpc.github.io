@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Bash Command Aliases
+title: Command Aliases
 ---
 
-Bash Command Aliases
-====================
+Command Aliases
+===============
 
-A collection of my frequently used aliases.
+A collection of my frequently used shell aliases.
 
 Navigation and Editting
 -----------------------
