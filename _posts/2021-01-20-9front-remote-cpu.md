@@ -16,7 +16,7 @@ If you were following along with my previous
 installation of 9front OS on a Linode virtual machine that you can access through a 
 LISH pseudoterminal. In the following article, I will attempt to walk through the 
 process of creating a cpu, auth and fs server, which will allow you to spawn a virtual 
-desktop from any non-9front OS using drawterm[^1]. 
+desktop from any non-9front OS using drawterm. [1] 
 
 For the purpose of this installation, I will assume that 9front was installed with
 the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
@@ -113,14 +113,20 @@ server cpu IP address, user (glenda) and password.
 
 ![drawterm client session](/assets/drawterm-mothra.png)
 
-Once connected, mount the web file system and start the rio window manager[^3].
+Once connected, mount the web file system and start the rio window manager.
 
     webfs
     rio -i riostart
 
-[^1]: Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs 
-      standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired 
-      and helped create this article.
+Optionally, we can edit the host user's profile via `sam $home/lib/profile` and add
+those lines right below `fn cpu% { $* }`.
+
+Credit
+------
+
+Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs 
+standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and
+helped create this article.
 
 [^2]: The `secstore key` and `password` are secret passwords of eight characters
       or more in length. The `password` is the password belonging to the authid 
@@ -131,6 +137,3 @@ Once connected, mount the web file system and start the rio window manager[^3].
       fqa7.html#8.4.7)) is not being used on this machine (for example, if this 
       is the auth server where secstored will run), just hit enter at the 
       *secstore key:* prompt.
-
-[^3]: Optionally, we can edit the host user's profile via `sam $home/lib/profile` 
-      and add those lines right below `fn cpu% { $* }`.
