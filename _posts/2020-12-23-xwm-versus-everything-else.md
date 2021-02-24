@@ -11,9 +11,9 @@ A comparison of xwm to mainstream window manager solutions.
 Overview
 --------
 
-A question that I am frequently asked is, how does xwm [0] compare to *X*"? The
+A question that I am frequently asked is, "how does xwm compare to *X*"? The
 reality is that there is no straightforward answer. In most cases, comparing xwm
-to any window manger is like comparing *apples* to *oranges*. 
+to any window manger is like comparing *apples* to *oranges*. [0]
 
 Why is that so? Let's a take a look.
 
