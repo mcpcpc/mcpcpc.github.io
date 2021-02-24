@@ -4,14 +4,13 @@ title: X Server and VNC on a Linode VM
 description: How to configuring a minimal VNC and X server on a Linode virtual machine.
 ---
 
-As part of my recent efforts to expand [xwm](http://github.com/mcpcpc/xwm) to 
-other distribution platforms, I decided to purchase a
-[Linode](https://www.linode.com/?r=0c625ecd8478eb827df57d2e2ffa095759d089ab)
-virtual machine (VM). The sole purpose of this VM is to host Docker, along with
-various other operating system containers (e.g. Debian, CentOS, Arch Linux, Void
-Linux, etc). I opted for a 5 USD shared instance which, despite only having 1GB
-of RAM and 1 Core, is surprisingly fast and made pushing cross-platform package
-updates a breeze. 
+As part of my recent efforts to expand xwm [0] to other distribution
+platforms, I decided to purchase a Linode [1] virtual machine (VM). The sole
+purpose of this VM is to host Docker, along with various other operating
+system containers (e.g. Debian, CentOS, Arch Linux, Void Linux, etc). I opted
+for a 5 USD shared instance which, despite only having 1GB of RAM and 1 Core,
+is surprisingly fast and made pushing cross-platform package updates a
+breeze. 
 
 At some point I decided that it would be a good idea to run GUI-based 
 applications on my shiny new VM. While the process for getting a minimal Xorg 
@@ -20,14 +19,15 @@ that I figured would be worth sharing. Also, if it any point I decide to repeat
 this process on a different VM, I at least won't waste any time figuring out 
 what went wrong.
 
-## Prerequisites
+Prerequisites
+-------------
 
-For this tutorial, you will need Docker all ready installed on an image of your
-choosing. I would recommend browsing the 
-[Linode](https://www.linode.com/?r=0c625ecd8478eb827df57d2e2ffa095759d089ab) 
-Marketplace and using the preconfigured Docker image (which uses Debian). 
+For this tutorial, you will need Docker all ready installed on an image of
+your choosing. I would recommend browsing the Linode Marketplace and using
+the preconfigured Docker image (which uses Debian). 
 
-## X Server
+X Server
+--------
 
 To begin, let's make sure that we have an SSH session going and are logged in as 
 a regular user (a.k.a non-root). This regular user should (1) be part of the 
@@ -36,36 +36,28 @@ sure which groups your regular user belongs to, you can always confirm with the
 `groups` command. If you are missing a group you can add one or multiple with the 
 following command, replacing <username> with your regular user name:
 
-```shell
-usermod -a -G audio video mcpcpc
-```
+    usermod -a -G audio video mcpcpc
 
 We then need to verify that we have all of the prerequisite packages installed. 
 Note that I specify `xwm` in the application list below, but this will also work 
 with many other window managers (e.g. cwm, dwm, evilwm, etc.):
 
-```shell
-sudo apt update
-sudo apt upgrade
-sudo apt install xinit x11vnc xwm
-```
+    sudo apt update
+    sudo apt upgrade
+    sudo apt install xinit x11vnc xwm
 
 With all of the prerequisite packages installed, we need to tell xorg which 
 window manager to run when starting the server. For this, we will create an 
 .xinitrc file in the regular user's HOME directory: 
 
-```shell
-echo "exec xwm" > ~/.xinitrc
-```
+    echo "exec xwm" > ~/.xinitrc
 
 At this point, we are almost there. We could try to start the Xorg server as a 
 regular user, but the server will most likely complain and throw off multiple 
 errors. To fix these errors, we need to to change some of the server's default
 permissions. Begin by opening the Xwrapper.config file for editting:
 
-```shell
-sudo vim /etc/X11/Xwrapper.config
-```
+    sudo vim /etc/X11/Xwrapper.config
 
 Once opened, change the `allowed_users=` value from "console" to "anybody". This
 will allow a regular user from a non-TTY (e.g. over SSH) to start the Xorg 
@@ -95,30 +87,30 @@ needs_root_rights=yes
 Remember to save and close the modified Xwrapper.config file mentioned above. At 
 this point we, can test the Xorg server:
 
-```shell
-startx
-```
+    startx
 
 If all goes well, the server should start right away.  If it fails, inspect the 
 log file, typically located in the ~/.local/share/xorg/ directory. If it starts
 successfully, we can force it to shutdown with `Ctrl+C`.
 
-## Automating the X Server Start
+Automating the X Server Start
+-----------------------------
 
 Of course, manually starting and stopping the Xorg server is not a practical 
 solution.  Instead, we will want to specify the server to start automagically
 after user login. A simple way of doing this is to add a line to to our 
 ~/.bashrc file, which will check for tty1 and run the `startx` command:
 
-```shell
-echo '[ -z "$DISPLAY" ] && [ "$(tty)" = /dev/tty1 ] && startx' >> ~/.bashrc
-```
+    echo '[ -z "$DISPLAY" ] &&
+    [ "$(tty)" = /dev/tty1 ] &&
+    startx' >> ~/.bashrc
 
 If you are manually typing in the above command, take note of the `>>`, as 
 opposed to the `>` used previously. The next time you restart and/or login as 
 your regular user, the Xorg server should already be running. 
 
-## VNC Server
+VNC Server
+----------
 
 At this point, x11vnc should already be installed and, by just passing the 
 `x11vnc` command, should run without a problem (by default, x11vnc will start
@@ -128,9 +120,7 @@ x11vnc running constantly, even after disconnect, we should pass the `--loop`
 argument.  If we also pass `--bg`, x11vnc will continue to run forever as a 
 background process:
 
-```shell
-x11vnc --loop --bg
-``` 
+    x11vnc --loop --bg
 
 Another issue to address is security. At this point, any unauthorized user 
 with your IP address could potentially start a VNC session and have complete
@@ -141,19 +131,16 @@ new session. To generate a secure key, we need to first run x11vnc with the
 path to store the password (I would recommend leaving the default path as 
 ~/.vnc/passwd):
 
-```shell
-x11vnc -storepasswd
-```
+    x11vnc -storepasswd
 
 We can now specify the `-usepw` argument, which will prompt the user at
 the beginning of each VNC session to enter the password generated in the
 previous step:
 
-```shell
-x11vnc -usepw --loop --bg
-```
+    x11vnc -usepw --loop --bg
 
-## Conclusions
+Conclusions
+-----------
 
 At this point, we should have both Xorg and VNC servers running. Some closing
 remarks:
@@ -165,6 +152,7 @@ remarks:
    running 24 hours, 7 days a week. A better solution is to start the VNC server
    on-demand and drop the `--loop` flag. For this, I like to create an alias:
 
-   ```shell
-   echo 'alias svnc="x11vnc -usepw --bg"' > ~/.bashrc
-   ```
+    echo 'alias svnc="x11vnc -usepw --bg"' > ~/.bashrc
+
+[0]: http://github.com/mcpcpc/xwm
+[1]: https://www.linode.com/?r=0c625ecd8478eb827df57d2e2ffa095759d089ab

@@ -14,7 +14,8 @@ desktop from any non-9front OS using drawterm[^1].
 For the purpose of this installation, I will assume that 9front was installed with
 the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
 
-## Step 1: Gather System Information
+Step 1: Gather System Information
+---------------------------------
 
 Invoke the DHCPCD server. Print the configured network database information, 
 noting the values for `ip=`, `ipmask=` and `ipgw=` (these will be used later).
@@ -27,7 +28,8 @@ ip=10.0.2.15 ipmask=255.255.255.0 ipgw=10.0.2.2
     dom=cirno.hsd1.wa.comcast.net
 ```
 
-## Step 2: Enable CPU Service
+Step 2: Enable CPU Service
+--------------------------
 
 Mount `9fat` file.
 
@@ -49,17 +51,16 @@ nobootprompt=local!/dev/sd00/fs -m 147 -a tcp!*!564
 service=cpu
 ```
 
-## Step 3: Auth Server
+Step 3: Auth Server
+-------------------
 
 Configure the auth server non-volitile ram host owner, name and password key [^2].
 
-```
-term% auth/wrkey
-authid: [glenda]
-authdom: [9front]
-secstore key: ↵
-password: [glenda’s password]
-```
+    term% auth/wrkey
+    authid: [glenda]
+    authdom: [9front]
+    secstore key: ↵
+    password: [glenda’s password]
 
 Start keyfs, which needs to be loaded every time you want to modify the users 
 key, and modify the user key for glenda.
@@ -81,11 +82,10 @@ user glenda installed for Plan 9
 
 Enable the Plan 9 and Netkey keys for the host user.
 
-```
-term% auth/enable [glenda]
-```
+    term% auth/enable [glenda]
 
-## Step 4: Network Database
+Step 4: Network Database
+------------------------
 
 Open the network database using `sam /lib/ndb/local`. Near the bottom of 
 the file, uncomment and modify the following lines using the values obtained
@@ -104,11 +104,10 @@ ipnet=9front ip=10.0.2.0 ipmask=255.255.255.0
 
 Now it's time to reboot your system.
 
-```
-term% fshalt -r
-```
+    term% fshalt -r
 
-## Step 6: Profit
+Step 5: Profit
+--------------
 
 Now comes the fun part.  From a non-plan9 OS, download and install the cpu client 
 application, [drawterm](http://drawterm.9front.org). Note that the version linked is 
@@ -119,10 +118,8 @@ server cpu IP address, user (glenda) and password.
 
 Once connected, mount the web file system and start the rio window manager[^3].
 
-```
-webfs
-rio -i riostart
-```
+    webfs
+    rio -i riostart
 
 [^1]: Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs 
       standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired 

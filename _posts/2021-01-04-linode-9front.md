@@ -49,7 +49,8 @@ Why install 9front on a Linode virtual machine? Because we can!
     installing 9front OS to the boot disk. At the conclusion of the installation
     the VM should automatically restart.
     
-## First Boot
+First Boot
+----------
 
 *   Close the current LISH window. Upon refreshing your browser window, you may
     see that the VM is powered off. Press the *Power On* button and launch a new 
@@ -62,7 +63,8 @@ Why install 9front on a Linode virtual machine? Because we can!
 
 A complete desktop experience over a pseudoterminal. Pretty nifty, right?
 
-## Next Steps
+Next Steps
+----------
 
 There are *many* resources at your disposal if you are looking to learn more 
 about 9front or plan9. Here are some of the best that I have found: 

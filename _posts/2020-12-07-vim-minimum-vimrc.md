@@ -14,7 +14,9 @@ can comfortably live with:
 
 {% gist c6a62e3313df2618e1be62884ce9e677 .vimrc %}
 
-## Deciphering Each Parameter
+Deciphering Each Parameter
+--------------------------
+
 The above .vimrc file is nice and short, but incredibly cryptic. Let's try to
 decipher the meaning of each parameter.
 
