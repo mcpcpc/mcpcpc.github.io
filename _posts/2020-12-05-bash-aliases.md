@@ -11,9 +11,8 @@ A collection of my frequently used utilitiy aliases.
 Overview
 --------
 
-When you are an every day Linux user, it is hard not to have a few Bash
-command aliases. Aliases make commands shorter and life easier, so and why
-not take advantage of the feature! Here are a few of my favorites...
+SHELL aliases are fun. SHELL aliases are easy! So here are a few to get you
+started.
 
 Navigation and Editting
 -----------------------
