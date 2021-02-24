@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "9front OS: Installing on a Linode VM"
 ---
 
 9front OS: Installing on a Linode VM

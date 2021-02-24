@@ -1,5 +1,6 @@
 ---
 layout: default
+title: A Mini Recipe to Linux Theming
 ---
 
 A Mini Recipe to Linux Theming

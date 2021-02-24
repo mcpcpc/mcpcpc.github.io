@@ -1,5 +1,6 @@
 ---
 layout: default
+title: xwm Versus Everything Else
 ---
 
 xwm Versus Everything Else

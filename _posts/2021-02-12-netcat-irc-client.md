@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Netcat: The One True IRC Client"
 ---
 
 Netcat: The One True IRC Client

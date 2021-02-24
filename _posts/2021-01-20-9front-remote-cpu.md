@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "9front OS: Remote CPU"
 ---
 
 9front OS: Remote CPU

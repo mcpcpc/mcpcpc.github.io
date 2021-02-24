@@ -1,5 +1,6 @@
 ---
 layout: default
+title: My Docker Cheatsheet
 ---
 
 My Docker Cheatsheet
