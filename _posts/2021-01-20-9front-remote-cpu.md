@@ -1,8 +1,14 @@
 ---
-layout: post
-title: "9front OS: Remote CPU"
-description: How to connect to your plan9 operating system on a Linode virtual machine using a cpu, auth and fs server.
+layout: default
 ---
+
+9front OS: Remote CPU
+=====================
+
+How to connect to your plan9 operating system on a Linode virtual machine using a cpu, auth and fs server.
+
+Overview
+--------
 
 If you were following along with my previous 
 [article]({% post_url 2021-01-04-linode-9front %}), then you probably have a working 
@@ -19,37 +25,31 @@ Step 1: Gather System Information
 
 Invoke the DHCPCD server. Print the configured network database information, 
 noting the values for `ip=`, `ipmask=` and `ipgw=` (these will be used later).
-
-```
-term% ip/ipconfig
-term% cat /net/ndb
-ip=10.0.2.15 ipmask=255.255.255.0 ipgw=10.0.2.2
-    sys=cirno
-    dom=cirno.hsd1.wa.comcast.net
-```
+    
+    term% ip/ipconfig
+    term% cat /net/ndb
+    ip=10.0.2.15 ipmask=255.255.255.0 ipgw=10.0.2.2
+        sys=cirno
+        dom=cirno.hsd1.wa.comcast.net
 
 Step 2: Enable CPU Service
 --------------------------
 
 Mount `9fat` file.
 
-```
-term% 9fs 9fat
-```
+    term% 9fs 9fat
     
 Open the plan9.ini file using `sam /n/9fat/plan9.ini` or your preferred editor 
 (i.e. acme, sam, etc). Add the `service=cpu` and `nobootprompt=` lines per the
 example below.
 
-```
-bootfile=9pc64
-bootargs=local!/dev/sd00/fs -m 147
-mouseport=ps2
-monitor=vesa
-vgasize=1024x768x16
-nobootprompt=local!/dev/sd00/fs -m 147 -a tcp!*!564
-service=cpu
-```
+    bootfile=9pc64
+    bootargs=local!/dev/sd00/fs -m 147
+    mouseport=ps2
+    monitor=vesa
+    vgasize=1024x768x16
+    nobootprompt=local!/dev/sd00/fs -m 147 -a tcp!*!564
+    service=cpu
 
 Step 3: Auth Server
 -------------------
@@ -64,21 +64,19 @@ Configure the auth server non-volitile ram host owner, name and password key [^2
 
 Start keyfs, which needs to be loaded every time you want to modify the users 
 key, and modify the user key for glenda.
-
-```
-term% auth/keyfs
-term% auth/changeuser [glenda]
-Password: [same as password used for nvram step]
-Confirm Password: [same as password used for nvram step]
-assign new Inferno/POP secret? (y/n): n
-Expiration date (YYYYMMDD or never)[never]: ↵
-Post id: ↵
-User's full name: ↵
-Department #: ↵
-User's email address: ↵
-Sponsor's email address: ↵
-user glenda installed for Plan 9
-```
+    
+    term% auth/keyfs
+    term% auth/changeuser [glenda]
+    Password: [same as password used for nvram step]
+    Confirm Password: [same as password used for nvram step]
+    assign new Inferno/POP secret? (y/n): n
+    Expiration date (YYYYMMDD or never)[never]: ↵
+    Post id: ↵
+    User's full name: ↵
+    Department #: ↵
+    User's email address: ↵
+    Sponsor's email address: ↵
+    user glenda installed for Plan 9
 
 Enable the Plan 9 and Netkey keys for the host user.
 
@@ -90,17 +88,15 @@ Step 4: Network Database
 Open the network database using `sam /lib/ndb/local`. Near the bottom of 
 the file, uncomment and modify the following lines using the values obtained
 in **Step 1**. Take not of the `ip=` value which ends with `0`.
-
-```
-auth=cirno authdom=9front
-ipnet=9front ip=10.0.2.0 ipmask=255.255.255.0
-    ipgw=10.0.2.2
-    dns=10.0.2.2
-    auth=cirno
-    dnsdom=9front
-    cpu=cirno
-    fs=cirno
-```
+    
+    auth=cirno authdom=9front
+    ipnet=9front ip=10.0.2.0 ipmask=255.255.255.0
+        ipgw=10.0.2.2
+        dns=10.0.2.2
+        auth=cirno
+        dnsdom=9front
+        cpu=cirno
+        fs=cirno
 
 Now it's time to reboot your system.
 

@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Bash Command Aliases
-description: A collection of my frequently used utilitiy aliases.
+layout: default
 ---
 
 Bash Command Aliases
 ====================
+
+A collection of my frequently used utilitiy aliases.
+
+Overview
+--------
 
 When you are an every day Linux user, it is hard not to have a few Bash
 command aliases. Aliases make commands shorter and life easier, so and why

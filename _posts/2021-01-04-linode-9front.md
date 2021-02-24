@@ -1,12 +1,14 @@
 ---
-layout: post
-title: "9front OS: Installing on a Linode VM"
-description: Installing and configuring 9front operating system on Linode virtual machine.
+layout: default
 ---
 
-Why install 9front on a Linode virtual machine? Because we can!
+9front OS: Installing on a Linode VM
+====================================
 
-## Preparing the Linode VM
+Installing and configuring 9front operating system on Linode virtual machine.
+
+Preparing the Linode VM
+-----------------------
 
 *   Create a new Linode virtual machine. I would recommend starting with the 
     Shared CPU "Nanode 1GB" plan (which is 1GB of RAM, 25GB of Storage and 1 CPU 
@@ -29,7 +31,8 @@ Why install 9front on a Linode virtual machine? Because we can!
 
 *   Click the *Settings* tab, and disable the Shutdown Watchdog.
 
-## Installation
+Installation
+------------
 
 *   With the VM powered off, start Rescue mode.
 *   Open a new LISH console window. Once in Rescue mode, download your

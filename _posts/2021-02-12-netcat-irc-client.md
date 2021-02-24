@@ -1,10 +1,16 @@
 ---
-layout: post
-title: "Netcat: The One True IRC Client"
-description: A justification for using netcat as an IRC client, including an example IRC client wrapper script.
+layout: default
 ---
 
+Netcat: The One True IRC Client
+===============================
+
+A justification for using netcat as an IRC client, including an example IRC client wrapper script.
+
 ![netcat irc](/assets/nc-irc.png)
+
+Overview
+--------
 
 I am writing this after having spent the past year developing a "more than functional" C-based IRC client, [kirc](http://github.com/mcpcp/kirc), and reflecting on my journey up until this point. The ugly truth is that kirc was never the IRC client I *wanted* to develope. Instead, it became the client I *needed* to develope in order to enhance my understanding of the C-programming language and [RFC1459](https://tools.ietf.org/html/rfc1459) protocol. Now, having grown accustomed to working and manipulating the raw IRC data stream, I can finally revisit the question that started me on this journey, which is *what makes an ideal IRC client*?
 

@@ -1,8 +1,11 @@
 ---
-layout: post
-title: A Mini Recipe to Linux Theming
-description: Tips and tricks for aspiring linux ricers and theming.
+layout: default
 ---
+
+A Mini Recipe to Linux Theming
+==============================
+
+Tips and tricks for aspiring linux ricers and theming.
 
 Like most software developers, I find myself frequently perusing sub-reddits 
 and, on occasion, posting my unique Linux creations on

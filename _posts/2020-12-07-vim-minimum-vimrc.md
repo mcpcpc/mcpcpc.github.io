@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Minimum vim Configuration
-description: A developer's minimal .vimrc configuration.
+layout: default
 ---
 
 Minimum vim Configuration
 =========================
+
+A collection of my frequently used utilitiy aliases.
+
+Overview
+--------
 
 As a person that uses `vim` and `vi` on a daily basis, I find a custom .vimrc 
 absolutely essential to my workflow (kudos to those that survive without it). 

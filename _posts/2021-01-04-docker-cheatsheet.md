@@ -1,8 +1,11 @@
 ---
-layout: post
-title: My Docker Cheatsheet
-description: A quick reference sheet for frequently used Docker commands.
+layout: default
 ---
+
+My Docker Cheatsheet
+====================
+
+A quick reference sheet for frequently used Docker commands.
 
 I use Docker infrequently and, when I do, I find myself having to re-learn how to use it. 
 The following is a summary of my more frequent used commands:

@@ -1,11 +1,14 @@
 ---
-layout: post
-title: xwm Versus Everything Else
-description: A comparison of xwm to mainstream window manager solutions.
+layout: default
 ---
 
 xwm Versus Everything Else
 ==========================
+
+A comparison of xwm to mainstream window manager solutions.
+
+Overview
+--------
 
 A question that I am frequently asked is, how does xwm [0] compare to *X*"? The
 reality is that there is no straightforward answer. In most cases, comparing xwm
