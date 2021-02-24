@@ -6,7 +6,7 @@ title: Bash Command Aliases
 Bash Command Aliases
 ====================
 
-A collection of my frequently used utilitiy aliases.
+A collection of my frequently used aliases.
 
 Navigation and Editting
 -----------------------
