@@ -8,12 +8,6 @@ Bash Command Aliases
 
 A collection of my frequently used utilitiy aliases.
 
-Overview
---------
-
-Shell aliases are fun. Shell aliases are easy! So here are a few to get you
-started.
-
 Navigation and Editting
 -----------------------
 
