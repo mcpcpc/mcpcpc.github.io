@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Minimum vim Configuration
 ---
 
 Minimum vim Configuration
