@@ -111,8 +111,6 @@ application, [drawterm](http://drawterm.9front.org). Note that the version linke
 a fork of Russ CoX's drawterm. Once installed, launch the application, specify the 
 server cpu IP address, user (glenda) and password.
 
-![drawterm client session](/assets/drawterm-mothra.png)
-
 Once connected, mount the web file system and start the rio window manager.
 
     webfs
