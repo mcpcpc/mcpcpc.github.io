@@ -1,8 +1,4 @@
-title: mcpcpc->buffer
-description: >-
-  Minimum viable ideas and software solutions.
 url: "https://mcpcpc.com"
-author: Michael Czigler
-email: info@mcpcpc.com
+
 gems:
   - jekyll-sitemap
