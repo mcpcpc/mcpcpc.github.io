@@ -17,9 +17,9 @@ Projects
 All source files for my projects are hosted on GitHub. You can support them if you
 like by donating [here](https://www.paypal.me/mcpcpc/usd5).
 
-*   [xwm](https://github.com/mcpcpc/xwm) ~ XCB floating window manager</li>
-*   [xbar](https://github.com/mcpcpc/xbar) ~ XCB information bar</li>
-*   [kirc](https://github.com/mcpcpc/kirc) ~ POSIX C99 IRC client</li>
+*   [xwm](https://github.com/mcpcpc/xwm) ~ XCB floating window manager
+*   [xbar](https://github.com/mcpcpc/xbar) ~ XCB information bar
+*   [kirc](https://github.com/mcpcpc/kirc) ~ POSIX C99 IRC client
 
 Contact
 -------
