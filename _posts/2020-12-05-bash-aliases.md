@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Bash Command Aliases
 ---
 
 Bash Command Aliases

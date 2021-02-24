@@ -1,5 +1,6 @@
 ---
 layout: default
+title: X Server and VNC on a Linode VM
 ---
 
 X Server and VNC on a Linode VM
