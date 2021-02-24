@@ -56,16 +56,9 @@ Installation
 First Boot
 ----------
 
-*   Close the current LISH window. Upon refreshing your browser window, you may
-    see that the VM is powered off. Press the *Power On* button and launch a new 
-    LISH console window (glish). 
-*   If all went well, then you should be seeing the rio window manager with a 
-    termimal window and process monitor in your LISH console (similar to the 
-    screenshot below).
-
-![9front in a pseudo-tty](/assets/9front-mothra.png)
-
-A complete desktop experience over a pseudoterminal. Pretty nifty, right?
+Close the current LISH window. Upon refreshing your browser window, you may
+see that the VM is powered off. Press the *Power On* button and launch a new 
+LISH console window (glish). 
 
 Next Steps
 ----------
