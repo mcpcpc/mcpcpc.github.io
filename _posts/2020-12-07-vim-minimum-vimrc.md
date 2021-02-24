@@ -4,6 +4,9 @@ title: Minimum vim Configuration
 description: A developer's minimal .vimrc configuration.
 ---
 
+Minimum vim Configuration
+=========================
+
 As a person that uses `vim` and `vi` on a daily basis, I find a custom .vimrc 
 absolutely essential to my workflow (kudos to those that survive without it). 
 I do feel, however, that most ~/.vimrc files are bloated and overly complex, 

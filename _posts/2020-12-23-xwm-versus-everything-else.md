@@ -4,6 +4,9 @@ title: xwm Versus Everything Else
 description: A comparison of xwm to mainstream window manager solutions.
 ---
 
+xwm Versus Everything Else
+==========================
+
 A question that I am frequently asked is, how does xwm [0] compare to *X*"? The
 reality is that there is no straightforward answer. In most cases, comparing xwm
 to any window manger is like comparing *apples* to *oranges*. 

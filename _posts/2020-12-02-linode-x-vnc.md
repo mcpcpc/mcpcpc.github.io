@@ -4,6 +4,9 @@ title: X Server and VNC on a Linode VM
 description: How to configuring a minimal VNC and X server on a Linode virtual machine.
 ---
 
+X Server and VNC on a Linode VM
+===============================
+
 As part of my recent efforts to expand xwm [0] to other distribution
 platforms, I decided to purchase a Linode [1] virtual machine (VM). The sole
 purpose of this VM is to host Docker, along with various other operating
