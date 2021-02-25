@@ -11,13 +11,9 @@ A collection of my frequently used utilitiy aliases.
 Overview
 --------
 
-As a person that uses `vim` and `vi` on a daily basis, I find a custom .vimrc 
-absolutely essential to my workflow (kudos to those that survive without it). 
-I do feel, however, that most ~/.vimrc files are bloated and overly complex, 
-defeating the purpose of using a minimalistic text editor like `vim` in the 
-first place. It has taken me almost a year, but I think I have refined my 
-configuration file to the "absolute minimum" number of custom settings that I 
-can comfortably live with:
+It has taken me almost a year, but I think I have refined my configuration
+file to the "absolute minimum" number of custom settings that I can 
+comfortably live with:
 
 {% gist c6a62e3313df2618e1be62884ce9e677 .vimrc %}
 
