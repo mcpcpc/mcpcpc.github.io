@@ -72,4 +72,5 @@ transcripts of tty sessions.
 Credit
 ------
 
-Special thanks to aarng (for showing we the ways of `-e`) and all the users on the *#kisslinux* IRC channel for the continuous feedback and suggestions.
+Special thanks to aarng (for showing we the ways of `-e`) and all the users
+on the *#kisslinux* IRC channel for the continuous feedback and suggestions.
