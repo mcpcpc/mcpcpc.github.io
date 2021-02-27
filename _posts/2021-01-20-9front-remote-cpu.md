@@ -16,7 +16,7 @@ If you were following along with my previous
 installation of 9front OS on a Linode virtual machine that you can access through a 
 LISH pseudoterminal. In the following article, I will attempt to walk through the 
 process of creating a cpu, auth and fs server, which will allow you to spawn a virtual 
-desktop from any non-9front OS using drawterm. [1] 
+desktop from any non-9front OS using drawterm.
 
 For the purpose of this installation, I will assume that 9front was installed with
 the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
@@ -55,7 +55,7 @@ example below.
 Step 3: Auth Server
 -------------------
 
-Configure the auth server non-volitile ram host owner, name and password key [^2].
+Configure the auth server non-volitile ram host owner, name and password key [0].
 
     term% auth/wrkey
     authid: [glenda]
@@ -126,7 +126,7 @@ Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs
 standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and
 helped create this article.
 
-[^2]: The `secstore key` and `password` are secret passwords of eight characters
+[0]: The `secstore key` and `password` are secret passwords of eight characters
       or more in length. The `password` is the password belonging to the authid 
       user on the auth server responsible for the authdom entered above. The  
       `secstore key` is the password of the user on the secure-store server 
