@@ -59,7 +59,9 @@ The philosophy behind xwm is fairly straight forward:
 
 **Less Is More**. From a sheer dependency standpoint, xwm has fewer than the
 rest. There are obvious drawbacks to this, but I intentionally left xwm as
-"barebones" as possible, to allow the community to expand, patch, tweak andmodify. This is consistent with the Suckless Philosophy of programming [3].
+"barebones" as possible, to allow the community to expand, patch, tweak
+andmodify. This is consistent with the Suckless Philosophy of programming.
+[3]
 
 **No Configuration File Clutter**. I have opted not to have a run-time
 configuration file in xwm. Everyone seems to have a configuration file these
