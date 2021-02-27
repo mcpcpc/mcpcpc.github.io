@@ -52,7 +52,7 @@ created, press the *Boot* button.
 Start a new LISH console (Glish). At this point, you should be able to follow
 the general [9front Installation Guide](http://fqa.9front.org/fqa4.html#4.3)
 for installing 9front OS to the boot disk. At the conclusion of the
-nstallation the VM should automatically restart.
+installation the VM should automatically restart.
     
 First Boot
 ----------
