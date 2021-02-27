@@ -22,9 +22,9 @@ breeze.
 At some point I decided that it would be a good idea to run GUI-based 
 applications on my shiny new VM. While the process for getting a minimal Xorg 
 server up and running was fairly straight forward, I encounter a few "snags" 
-that I figured would be worth sharing. Also, if it any point I decide to repeat 
-this process on a different VM, I at least won't waste any time figuring out 
-what went wrong.
+that I figured would be worth sharing. Also, if it any point I decide to
+repeat this process on a different VM, I at least won't waste any time
+figuring out what went wrong.
 
 Prerequisites
 -------------
@@ -36,18 +36,19 @@ the preconfigured Docker image (which uses Debian).
 X Server
 --------
 
-To begin, let's make sure that we have an SSH session going and are logged in as 
-a regular user (a.k.a non-root). This regular user should (1) be part of the 
-sudoers group and (2) be a member of the audio and video groups. If you are not 
-sure which groups your regular user belongs to, you can always confirm with the 
-`groups` command. If you are missing a group you can add one or multiple with the 
-following command, replacing <username> with your regular user name:
+To begin, let's make sure that we have an SSH session going and are logged in
+as a regular user (a.k.a non-root). This regular user should (1) be part of
+the sudoers group and (2) be a member of the audio and video groups. If you
+are not sure which groups your regular user belongs to, you can always
+confirm with the `groups` command. If you are missing a group you can add one
+or multiple with the following command, replacing <username> with your
+regular user name:
 
     usermod -a -G audio video mcpcpc
 
-We then need to verify that we have all of the prerequisite packages installed. 
-Note that I specify `xwm` in the application list below, but this will also work 
-with many other window managers (e.g. cwm, dwm, evilwm, etc.):
+We then need to verify that we have all of the prerequisite packages
+installed. Note that I specify `xwm` in the application list below, but this
+will also work with many other window managers (e.g. cwm, dwm, evilwm, etc.):
 
     sudo apt update
     sudo apt upgrade
@@ -59,17 +60,18 @@ window manager to run when starting the server. For this, we will create an
 
     echo "exec xwm" > ~/.xinitrc
 
-At this point, we are almost there. We could try to start the Xorg server as a 
-regular user, but the server will most likely complain and throw off multiple 
-errors. To fix these errors, we need to to change some of the server's default
-permissions. Begin by opening the Xwrapper.config file for editting:
+At this point, we are almost there. We could try to start the Xorg server as
+a regular user, but the server will most likely complain and throw off
+multiple errors. To fix these errors, we need to to change some of the
+server's default permissions. Begin by opening the Xwrapper.config file for
+editting:
 
     sudo vim /etc/X11/Xwrapper.config
 
-Once opened, change the `allowed_users=` value from "console" to "anybody". This
-will allow a regular user from a non-TTY (e.g. over SSH) to start the Xorg 
-server. Once changed, you'r config file should like something like the one
-below:
+Once opened, change the `allowed_users=` value from "console" to "anybody".
+This will allow a regular user from a non-TTY (e.g. over SSH) to start the
+Xorg server. Once changed, you'r config file should like something like the
+one below:
 
     # Xwrapper.config (Debian X Window System server wrapper configuration file)
     #
@@ -90,14 +92,14 @@ below:
     needs_root_rights=yes
 
 
-Remember to save and close the modified Xwrapper.config file mentioned above. At 
-this point we, can test the Xorg server:
+Remember to save and close the modified Xwrapper.config file mentioned above.
+At this point we, can test the Xorg server:
 
     startx
 
-If all goes well, the server should start right away.  If it fails, inspect the 
-log file, typically located in the ~/.local/share/xorg/ directory. If it starts
-successfully, we can force it to shutdown with `Ctrl+C`.
+If all goes well, the server should start right away.  If it fails, inspect
+the log file, typically located in the ~/.local/share/xorg/ directory. If it
+starts successfully, we can force it to shutdown with `Ctrl+C`.
 
 Automating the X Server Start
 -----------------------------
@@ -151,13 +153,13 @@ Conclusions
 At this point, we should have both Xorg and VNC servers running. Some closing
 remarks:
 
-1.  There are far more secure ways to go about protecting your VNC session. **If
-    privacy is important to you, then do not use the proposed passwordmethod
-    mentioned above**.
-2.  Running x11vnc in the background is nice, but I would not advise leaving it 
-    running 24 hours, 7 days a week. A better solution is to start the VNC
-    server on-demand and drop the `--loop` flag. For this, I like to create an
-    alias:
+1.  There are far more secure ways to go about protecting your VNC session.
+    **If privacy is important to you, then do not use the proposed password
+    method mentioned above**.
+2.  Running x11vnc in the background is nice, but I would not advise leaving
+    it running 24 hours, 7 days a week. A better solution is to start the VNC
+    server on-demand and drop the `--loop` flag. For this, I like to create
+    an alias:
 
         echo 'alias svnc="x11vnc -usepw --bg"' > ~/.bashrc
 
