@@ -20,15 +20,15 @@ Preparing the Linode VM
 *   Click the **Configurations** tab and press *Add a Configuration*. Specify a
     Label name and the following recommended parameters and press *Submit*.
 
-    |parameter              |value                                             |
-    |-----------------------|--------------------------------------------------|
-    |VM Mode                |Paravirtualization                                |
-    |Boot Settings          |Direct Disk                                       |
-    |Run Level              |Run Default Level                                 |
-    |Memory Limit           |Do not set any limits on memory usage             |
-    |Block Device Assignment|"/dev/sda" matches the *Storage* tab Label name.  |
-    |Root Device            |/dev/sda                                          |
-    |Filesystem/Boot Helpers|All options disabled                              |
+    |parameter              |value                                         |
+    |-----------------------|----------------------------------------------|
+    |VM Mode                |Paravirtualization                            |
+    |Boot Settings          |Direct Disk                                   |
+    |Run Level              |Run Default Level                             |
+    |Memory Limit           |Do not set any limits on memory usage         |
+    |Block Device Assignment|"/dev/sda" matches the *Storage* Label name.  |
+    |Root Device            |/dev/sda                                      |
+    |Filesystem/Boot Helpers|All options disabled                          |
 
 *   Click the *Settings* tab, and disable the Shutdown Watchdog.
 
@@ -37,12 +37,10 @@ Installation
 
 *   With the VM powered off, start Rescue mode.
 *   Open a new LISH console window. Once in Rescue mode, download your
-    installation media and copy it to your boot disk. Refer to one of the 9front 
-    mirrors for the latest [image](http://9front.org/iso/).
+    installation media and copy it to your boot disk. Refer to one of the
+    9front mirrors for the latest [image](http://9front.org/iso/).
 
-    ```shell
-    wget http://9front.org/iso/9front-8013.d9e940a768d1.amd64.iso.gz -q -O -| funzip | dd of=/dev/sda
-    ```
+        wget http://9front.org/iso/9front-8013.d9e940a768d1.amd64.iso.gz -q -O -| funzip | dd of=/dev/sda
 
 *   Close the LISH console window and press the *Power Off* button.
 *   Press the **Configurations** tab and, under the configuration previously
@@ -50,8 +48,8 @@ Installation
 *   Start a new LISH console (Glish). At this point, you should be able to 
     follow the general 
     [9front Installation Guide](http://fqa.9front.org/fqa4.html#4.3) for 
-    installing 9front OS to the boot disk. At the conclusion of the installation
-    the VM should automatically restart.
+    installing 9front OS to the boot disk. At the conclusion of the
+    installation the VM should automatically restart.
     
 First Boot
 ----------
