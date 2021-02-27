@@ -33,12 +33,8 @@ I will save you the headaches and research and just share the wrapper script I h
 
 In ~39 cloc, we have a script that checks all of the boxes on my list and works on 99% of POSIX-compliant shells.  Nifty, eh?
 
-Next Steps
-----------
-
-So what can we do with this script? Well, that's entirely up to the user. Here are a few to get you started.
-
-### Chat History Logging
+Chat History Logging
+--------------------
 
 There are a couple of ways of going about this, but one that i recently discovered is the built-in `script` function, which is meant for creating transcripts of tty sessions.
 
