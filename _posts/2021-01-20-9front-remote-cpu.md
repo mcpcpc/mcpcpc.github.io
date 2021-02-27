@@ -122,6 +122,6 @@ those lines right below `fn cpu% { $* }`.
 Credit
 ------
 
-Special thanks to Youtuber C0tl43 and his video [Setting up a 9front cpu+auth+fs 
-standalone server](https://www.youtube.com/watch?v=PjVpB3SpAfQ), which inspired and
-helped create this article.
+Special thanks to Youtuber C0tl43 and his video "Setting up a 9front
+cpu+auth+fs standalone server", which inspired and helped create this
+article: <https://www.youtube.com/watch?v=PjVpB3SpAfQ>
