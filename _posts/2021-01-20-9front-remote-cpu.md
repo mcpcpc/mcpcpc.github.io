@@ -6,26 +6,30 @@ title: "9front OS: Remote CPU"
 9front OS: Remote CPU
 =====================
 
-How to connect to your plan9 operating system on a Linode virtual machine using a cpu, auth and fs server.
+How to connect to your plan9 operating system on a Linode virtual machine
+using a cpu, auth and fs server.
 
 Overview
 --------
 
 If you were following along with my previous 
-[article]({% post_url 2021-01-04-linode-9front %}), then you probably have a working 
-installation of 9front OS on a Linode virtual machine that you can access through a 
-LISH pseudoterminal. In the following article, I will attempt to walk through the 
-process of creating a cpu, auth and fs server, which will allow you to spawn a virtual 
-desktop from any non-9front OS using drawterm.
+[article]({% post_url 2021-01-04-linode-9front %}), then you probably have a
+working installation of 9front OS on a Linode virtual machine that you can
+access through a LISH pseudoterminal. In the following article, I will
+attempt to walk through the process of creating a cpu, auth and fs server,
+which will allow you to spawn a virtual desktop from any non-9front OS using
+drawterm.
 
-For the purpose of this installation, I will assume that 9front was installed with
-the device drive name of `sd00`, sysname of `cirno` and the `hjfs` filesystem.
+For the purpose of this installation, I will assume that 9front was installed
+with the device drive name of `sd00`, sysname of `cirno` and the `hjfs`
+filesystem.
 
 Step 1: Gather System Information
 ---------------------------------
 
 Invoke the DHCPCD server. Print the configured network database information, 
-noting the values for `ip=`, `ipmask=` and `ipgw=` (these will be used later).
+noting the values for `ip=`, `ipmask=` and `ipgw=` (these will be used
+later).
     
     term% ip/ipconfig
     term% cat /net/ndb
@@ -40,9 +44,9 @@ Mount `9fat` file.
 
     term% 9fs 9fat
     
-Open the plan9.ini file using `sam /n/9fat/plan9.ini` or your preferred editor 
-(i.e. acme, sam, etc). Add the `service=cpu` and `nobootprompt=` lines per the
-example below.
+Open the plan9.ini file using `sam /n/9fat/plan9.ini` or your preferred
+editor (i.e. acme, sam, etc). Add the `service=cpu` and `nobootprompt=` lines
+per the example below.
 
     bootfile=9pc64
     bootargs=local!/dev/sd00/fs -m 147
@@ -106,18 +110,18 @@ Now it's time to reboot your system.
 Step 5: Profit
 --------------
 
-Now comes the fun part.  From a non-plan9 OS, download and install the cpu client 
-application, [drawterm](http://drawterm.9front.org). Note that the version linked is 
-a fork of Russ CoX's drawterm. Once installed, launch the application, specify the 
-server cpu IP address, user (glenda) and password.
+Now comes the fun part.  From a non-plan9 OS, download and install the cpu
+client application, <http://drawterm.9front.org>. Note that the version
+linked is a fork of Russ CoX's drawterm. Once installed, launch the
+application, specify the server cpu IP address, user (glenda) and password.
 
 Once connected, mount the web file system and start the rio window manager.
 
     webfs
     rio -i riostart
 
-Optionally, we can edit the host user's profile via `sam $home/lib/profile` and add
-those lines right below `fn cpu% { $* }`.
+Optionally, we can edit the host user's profile via `sam $home/lib/profile`
+and add those lines right below `fn cpu% { $* }`.
 
 Credit
 ------
