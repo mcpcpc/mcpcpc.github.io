@@ -2,3 +2,4 @@ url: "https://mcpcpc.com"
 
 gems:
   - jekyll-sitemap
+  - jekyll-feed
