@@ -23,17 +23,17 @@ The Competition
 Let's begin by comparing high-level features for several actively developed 
 (and frequently referred to as "minimal") window manager solutions:
 
-|feature                 |cwm     |tinywm  |xwm     |evilwm  |dwm     |bspwm   |
-|:-----------------------|:------:|:------:|:------:|:------:|:------:|:------:|
-|cloc                    |6328    |115     |339     |3257    |2505    |11909   |
-|protocol                |Xlib    |Xlib    |XCB     |Xlib    |Xlib    |XCB     |
-|license                 |ISC     |Public  |MIT     |MIT     |MIT     |BSD     |
-|language                |C       |C       |C       |C       |C       |C       |
-|release year            |2004    |2005    |2020    |2000    |2006    |2013    |
-|type                    |stacking|floating|floating|stacking|dynamic |tiling  |
-|themeable               |yes     |no      |yes     |yes     |yes     |no      |
-|virtual desktops        |no      |no      |no      |yes     |yes     |yes     |
-|window switching panel  |no      |no      |no      |no      |yes     |no      |
+|feature               |cwm     |tinywm  |xwm     |evilwm  |dwm     |bspwm |
+|:---------------------|:------:|:------:|:------:|:------:|:------:|:----:|
+|cloc                  |6328    |115     |339     |3257    |2505    |11909 |
+|protocol              |Xlib    |Xlib    |XCB     |Xlib    |Xlib    |XCB   |
+|license               |ISC     |Public  |MIT     |MIT     |MIT     |BSD   |
+|language              |C       |C       |C       |C       |C       |C     |
+|release year          |2004    |2005    |2020    |2000    |2006    |2013  |
+|type                  |stacking|floating|floating|stacking|dynamic |tiling|
+|themeable             |yes     |no      |yes     |yes     |yes     |no    |
+|virtual desktops      |no      |no      |no      |yes     |yes     |yes   |
+|window switching panel|no      |no      |no      |no      |yes     |no    |
 
 This information provided above is pretty generic, but there are some key
 takeaways:
