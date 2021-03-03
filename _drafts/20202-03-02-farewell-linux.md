@@ -9,7 +9,7 @@ Farewell Linux, Maybe Someday Soon
 For the past several weeks, I have toyed with the notion of abandoning
 Linux entirely. My reasons are as follows:
 
-1.  Linux feels increasingly bloated and broken.
+1.  The Linux kernel feels increasingly bloated and broken.
 2.  My desktop PC useage has become highly focused over the past several
     months and mostly limited to software development, checking email
     and writing articles.
