@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My Thought On Using XWM
+title: My Thought On Using xwm
 ---
 
 My Thoughts On Using xwm
