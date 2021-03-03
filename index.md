@@ -6,10 +6,9 @@ title: home
 mcpcpc's buffer
 ===============
 
-My name is Michael Czigler and sometimes I write programs in the C programming
-language. This site is intended to be a "buffer", a temporary medium for sharing
-my thoughts and ideas, with the hope that someone may one day finds these musings
-helpful.
+My name is Michael Czigler and sometimes I program in C. This site is intended to 
+be a "buffer", a temporary medium for sharing my thoughts and ideas, with the hope
+that someone may one day finds these musings helpful.
 
 Projects
 --------
