@@ -24,7 +24,7 @@ Let's begin by comparing high-level features for several actively developed
 (and frequently referred to as "minimal") window manager solutions:
 
 |feature                 |cwm     |tinywm  |xwm     |evilwm  |dwm     |bspwm   |
-|------------------------|--------|--------|--------|--------|--------|--------|
+|:-----------------------|:------:|:------:|:------:|:------:|:------:|:------:|
 |cloc                    |6328    |115     |339     |3257    |2505    |11909   |
 |protocol                |Xlib    |Xlib    |XCB     |Xlib    |Xlib    |XCB     |
 |license                 |ISC     |Public  |MIT     |MIT     |MIT     |BSD     |
