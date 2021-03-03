@@ -70,7 +70,7 @@ editting:
 
 Once opened, change the `allowed_users=` value from "console" to "anybody".
 This will allow a regular user from a non-TTY (e.g. over SSH) to start the
-Xorg server. Once changed, you'r config file should like something like the
+Xorg server. Once changed, your config file should like something like the
 one below:
 
     # Xwrapper.config (Debian X Window System server wrapper configuration file)
@@ -90,7 +90,6 @@ one below:
     #allowed_users=console
     allowed_users=anybody
     needs_root_rights=yes
-
 
 Remember to save and close the modified Xwrapper.config file mentioned above.
 At this point we, can test the Xorg server:
